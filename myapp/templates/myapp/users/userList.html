@@ -1,0 +1,103 @@
+<!--pip install django-widget-tweaks-->
+{% extends 'myapp/index.html' %}
+
+ {% block content %}
+ <div class="page-titles">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="javascript:void(0)">کاربران </a></li>
+        <li class="breadcrumb-item active"><a href="javascript:void(0)">لیست کاربران</a></li>
+    </ol>
+</div>
+ <div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            
+            <div class="card-body">
+                <div class="bootstrap-badge">
+                    <button type="button" class="btn btn-primary js-create-user">کاربر جدید<span class="btn-icon-right"><i class="fa fa-shopping-cart"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-sm mb-0 table-responsive-lg text-black">
+                        <thead>
+                        <tr>
+                            <th class="align-middle">
+                                <div class="custom-control custom-checkbox ml-1">
+                                    <input type="checkbox" class="custom-control-input" id="checkAll">
+                                    <label class="custom-control-label" for="checkAll"></label>
+                                </div>
+                            </th>
+                            <th class="align-middle">سفارش</th>
+                            <th class="align-middle pr-7">تاریخ</th>
+                            <th class="align-middle minw200">ادرس</th>
+                            <th class="align-middle">وضعیت</th>
+                            <th class="align-middle">مبلغ</th>
+                            <th class="no-sort"></th>
+                        </tr>
+                        </thead>
+                        <tbody id="users">
+                            {% include 'myapp/users/partialUserList.html' %}
+                        </tbody>
+                    </table>
+                    <div class="modal fade" id="modal-company">
+                        <div class="modal-dialog modal-dialog-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title">عنوان</h5>
+                                    <button type="button" class="close" data-dismiss="modal">
+                                        <span>&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                        لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-danger light" data-dismiss="modal">
+                                        بستن
+                                    </button>
+                                    <button type="button" class="btn btn-primary">دخیره</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-12">
+        <div class="card">
+           
+            <div class="card-body">
+                <div class="bootstrap-badge">
+                    <a href="javascript:void()" class="badge badge-circle badge-primary">1</a>
+                    <a href="javascript:void()" class="badge badge-circle badge-secondary">2</a>
+                    <a href="javascript:void()" class="badge badge-circle badge-success">3</a>
+                    <a href="javascript:void()" class="badge badge-circle badge-danger">4</a>
+                    <a href="javascript:void()" class="badge badge-circle badge-warning">5</a>
+                    <a href="javascript:void()" class="badge badge-circle badge-info">6</a>
+                    <a href="javascript:void()" class="badge badge-circle badge-light">7</a>
+                    <a href="javascript:void()" class="badge badge-circle badge-dark">8</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% load static %}
+
+{% block javascript %}
+
+  <script src="{% static '/js/project/user.js' %}"></script>
+
+
+
+{% endblock %}
+{% endblock %}
