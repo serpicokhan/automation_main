@@ -3,30 +3,28 @@ $(function () {
 
 
   var loadForm =function (btn1) {
-    // $("#modal-company").show();
-    // $("#modal-company").modal({backdrop: 'static', keyboard: false});
-    // alert("123");
+   
     
-    // return $.ajax({
-    //   url: btn.attr("data-url"),
-    //   type: 'get',
-    //   dataType: 'json',
-    //   beforeSend: function () {
+    return $.ajax({
+      url: $(this).attr("data-url"),
+      type: 'get',
+      dataType: 'json',
+      beforeSend: function () {
 
-    //     $("#modal-company").modal({backdrop: 'static', keyboard: false});
+        $("#modal-company").modal({backdrop: 'static', keyboard: false});
 
-    //   },
-    //   success: function (data) {
+      },
+      success: function (data) {
 
-    //     $("#modal-company .modal-content").html(data.html_user_form);
-    //     var elem = document.querySelector('.js-switch');
-    //     var init = new Switchery(elem);
-    //     $("#id_userStatus").change(function(){
-    //       js_switch_change();
-    //     });
-    //   }
+        $("#modal-company .modal-content").html(data.html_user_form);
+        // var elem = document.querySelector('.js-switch');
+        // var init = new Switchery(elem);
+        // $("#id_userStatus").change(function(){
+        //   js_switch_change();
+        // });
+      }
 
-    // });
+    });
 };
 
 
@@ -47,9 +45,10 @@ var saveForm= function (e) {
      processData: false,
      success: function (data) {
        if (data.form_is_valid) {
-         $("#tbody_company").empty();
-         $("#tbody_company").html(data.html_user_list);
-         $("#modal-company").modal("hide");
+        //  $("#tbody_company").empty();
+        //  $("#tbody_company").html(data.html_user_list);
+        //  $("#modal-company").modal("hide");
+        console.log(data.html_user_list);
 
 
        }
@@ -66,7 +65,7 @@ var saveForm= function (e) {
    return false;
  };
  var saveForm2= function () {
-    var form = $(this);
+    var form = $(this); 
     $.ajax({
       url: form.attr("action"),
       data: form.serialize(),
@@ -80,8 +79,7 @@ var saveForm= function (e) {
 
         }
         else {
-          $("#company-table tbody").html(data.html_user_list);
-          $("#modal-company .modal-content").html(data.html_user_form);
+          $("#tbody_company").empty();
         }
       },
       error:function(x,y,z)
@@ -136,11 +134,11 @@ var saveForm= function (e) {
 
 
 $(".js-create-user").click(loadForm);
-$("#modal-company").on("submit", ".js-user-create-form", saveForm);
+$("#modal-company").on("submit", ".js-user-create-form", saveForm2);
 
 // Update book
-$("#company-table").on("click", ".js-update-user", myWoLoader);
-$("#modal-company").on("submit", ".js-user-update-form", saveForm);
+$("#company-table").on("click", ".js-update-user", loadForm);
+$("#modal-company").on("submit", ".js-user-update-form", saveForm2);
 // Delete book
 $("#company-table").on("click", ".js-delete-user", loadForm);
 $("#modal-company").on("submit", ".js-user-delete-form", saveForm2);

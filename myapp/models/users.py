@@ -21,9 +21,9 @@ class SysUser(models.Model):
         return "{}".format(self.fullName)
     def get_userStatus(self):
                  if(self.userStatus==True):
-                     return "<i class='fa fa-play'></i>								"
+                     return "<span class='badge badge-success'><span class='mr-1 fa fa-check'></span>کامل شد</span>"
                  else:
-                     return "<i class='fa fa-stop'></i>"
+                     return "<span class='badge badge-success'><span class='mr-1 fa fa-check'></span>کامل شد</span>"
     def getName(self):
 
         xxxx=UserGroups.objects.filter(userUserGroups=self.id)

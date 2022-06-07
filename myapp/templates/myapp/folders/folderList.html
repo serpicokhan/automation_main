@@ -1,0 +1,70 @@
+{% extends 'myapp/index.html' %}
+
+{% load static %}
+
+ {% block content %}
+ <div class="page-titles">
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="javascript:void(0)">پوشه ها </a></li>
+        <li class="breadcrumb-item active"><a href="javascript:void(0)">لیست پوشه ها</a></li>
+    </ol>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            
+            <div class="card-body">
+                <div class="bootstrap-badge">
+                    <button type="button" class="btn btn-primary js-create-user" data-url="{% url 'user_create' %}">پوشه جدید<span class="btn-icon-right"><i class="fa fa-folder"></i></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-xl-3 col-xxl-6 col-sm-6">
+        <div class="card bg-success">
+            <div class="card-body">
+                <div class="media align-items-center">
+
+                    <div class="media-body text-left">
+                        <p class="fs-18 text-white mb-2">نام پوشه</p>
+                        <span class="fs-48 text-white font-w600">86</span>
+                    </div>
+                    <span class="p-3 ml-3 feature-icon rounded">
+                        <i class="fa fa-folder"></i>
+                        </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <div class="card">
+            <div class="card-body">
+                
+                <div class="email-right-box ml-0 ml-sm-4 ml-sm-0">
+                    
+                    <div class="compose-content">
+                        
+                        <h5 class="mb-4"><i class="fa fa-paperclip"></i> فایل پیوست</h5>
+                        <form action="#" class="dropzone dz-clickable">
+                            
+                        <div class="dz-default dz-message"><button class="dz-button" type="button">Drop files here to upload</button></div></form>
+                    </div>
+                    <div class="text-left mt-4">
+                        <button class="btn btn-primary btn-sl-sm mr-2" type="button"><span class="mr-2"><i class="fa fa-paper-plane"></i></span>ارسال
+                        </button>
+                        <button class="btn btn-danger light btn-sl-sm" type="button"><span class="mr-2"><i class="fa fa-times" aria-hidden="true"></i></span>کنسل
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="{% static 'vendor/dropzone/dist/dropzone.js' %}" type="text/javascript"></script>
+{% endblock %}

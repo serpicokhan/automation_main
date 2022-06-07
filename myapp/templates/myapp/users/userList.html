@@ -14,7 +14,7 @@
             
             <div class="card-body">
                 <div class="bootstrap-badge">
-                    <button type="button" class="btn btn-primary js-create-user">کاربر جدید<span class="btn-icon-right"><i class="fa fa-shopping-cart"></i></span>
+                    <button type="button" class="btn btn-primary js-create-user" data-url="{% url 'user_create' %}">کاربر جدید<span class="btn-icon-right"><i class="fa fa-shopping-cart"></i></span>
                     </button>
                 </div>
             </div>
@@ -24,7 +24,7 @@
         <div class="card">
             <div class="card-body">
                 <div class="table-responsive">
-                    <table class="table table-sm mb-0 table-responsive-lg text-black">
+                    <table class="table table-sm mb-0 table-responsive-lg text-black" id="company-table">
                         <thead>
                         <tr>
                             <th class="align-middle">
@@ -33,15 +33,15 @@
                                     <label class="custom-control-label" for="checkAll"></label>
                                 </div>
                             </th>
-                            <th class="align-middle">سفارش</th>
-                            <th class="align-middle pr-7">تاریخ</th>
-                            <th class="align-middle minw200">ادرس</th>
+                            <th class="align-middle">نام کاربر</th>
+                            <th class="align-middle pr-7">عنوان</th>
+                            <th class="align-middle minw200">کد پرسنلی</th>
                             <th class="align-middle">وضعیت</th>
-                            <th class="align-middle">مبلغ</th>
-                            <th class="no-sort"></th>
+                            <th class="align-middle"></th>
+                            
                         </tr>
                         </thead>
-                        <tbody id="users">
+                        <tbody id="tbody_company">
                             {% include 'myapp/users/partialUserList.html' %}
                         </tbody>
                     </table>

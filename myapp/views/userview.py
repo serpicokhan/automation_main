@@ -21,7 +21,7 @@ from myapp.models.users import *
 from django.views import View
 import json
 from django.forms.models import model_to_dict
-# from myapp.forms import SysUserForm
+from myapp.forms import SysUserForm
 # from myapp.forms import SysUserImageForm
 from django.urls import reverse_lazy
 from django.db import transaction
@@ -49,8 +49,8 @@ def list_user(request,id=None):
     books=[]
     userGroups=[]
 
-    if(request.user.username=="admin"):
-        books = SysUser.objects.filter(userStatus=True)
+    # if(request.user.username=="moein"):
+    books = SysUser.objects.filter(userStatus=True)
 
 
     #paging
@@ -95,7 +95,7 @@ def save_user_form(request, form, template_name,id=None,NewUser=None):
             books = SysUser.objects.filter(userStatus=True)
             page=request.GET.get('page',1)
             users=UserUtility.doPaging(request,books)
-            data['html_user_list'] = render_to_string('cmms/user/partialUserList.html', {
+            data['html_user_list'] = render_to_string('myapp/users/partialUserList.html', {
                 'user': users
             })
         else:
@@ -125,12 +125,12 @@ def user_delete(request, id):
         page=request.GET.get('page',1)
         users=UserUtility.doPaging(request,companies)
         #Tasks.objects.filter(userId=id).update(userrkorder=id)
-        data['html_user_list'] = render_to_string('cmms/user/partialUserList.html', {
+        data['html_user_list'] = render_to_string('myapp/users/partialUserList.html', {
             'user': users
         })
     else:
         context = {'user': comp1}
-        data['html_user_form'] = render_to_string('cmms/user/partialUserDelete.html',
+        data['html_user_form'] = render_to_string('myapp/users/partialUserDelete.html',
             context,
             request=request,
         )
@@ -140,7 +140,7 @@ def user_delete(request, id):
 def user_create(request):
     if (request.method == 'POST'):
         form = SysUserForm(request.POST, files=request.FILES)
-        return save_user_form(request, form, 'cmms/user/partialUserCreate.html')
+        return save_user_form(request, form, 'myapp/users/partialUserCreate.html',NewUser=True)
     else:
         # hashStr=hashlib.sha1(str(random.random()).encode('utf-8')).hexdigest()
         # user = User.objects.create_user(username=hashStr,
@@ -149,7 +149,7 @@ def user_create(request):
         # userInstance=SysUser.objects.create(userStatus=True,userId=user)
         form = SysUserForm()
         # form=SysUserForm()
-        return save_user_form(request, form, 'cmms/user/partialUserCreate.html')
+        return save_user_form(request, form, 'myapp/users/partialUserCreate.html')
 ############# create django user object#############
 def createDjangoUser(user):
     djangoUser = User.objects.create_user(username=user.fullName,
@@ -169,7 +169,7 @@ def user_update(request, id):
     else:
         form = SysUserForm(instance=company)
 
-    return save_user_form(request, form,'cmms/user/partialUserUpdate.html',id)
+    return save_user_form(request, form,'myapp/users/partialUserUpdate.html',id)
 #############################################################
 def changeUserStatus(request,UserId):
     try:
