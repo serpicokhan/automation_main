@@ -45,10 +45,9 @@ var saveForm= function (e) {
      processData: false,
      success: function (data) {
        if (data.form_is_valid) {
-        //  $("#tbody_company").empty();
-        //  $("#tbody_company").html(data.html_user_list);
-        //  $("#modal-company").modal("hide");
-        console.log(data.html_user_list);
+        $("#tbody_company").empty();
+        $("#tbody_company").html(data.html_user_list);
+        $("#modal-company").modal("hide");
 
 
        }
@@ -66,9 +65,10 @@ var saveForm= function (e) {
  };
  var saveForm2= function () {
     var form = $(this); 
+    console.log(form.serialize());
     $.ajax({
       url: form.attr("action"),
-      data: form.serialize(),
+      data: form,
       type: form.attr("method"),
       dataType: 'json',
       success: function (data) {
@@ -134,13 +134,13 @@ var saveForm= function (e) {
 
 
 $(".js-create-user").click(loadForm);
-$("#modal-company").on("submit", ".js-user-create-form", saveForm2);
+$("#modal-company").on("submit", ".js-user-create-form", saveForm);
 
 // Update book
 $("#company-table").on("click", ".js-update-user", loadForm);
-$("#modal-company").on("submit", ".js-user-update-form", saveForm2);
+$("#modal-company").on("submit", ".js-user-update-form", saveForm);
 // Delete book
 $("#company-table").on("click", ".js-delete-user", loadForm);
-$("#modal-company").on("submit", ".js-user-delete-form", saveForm2);
+$("#modal-company").on("submit", ".js-user-delete-form", saveForm);
 //$("#company-table").on("click", ".js-update-user", initxLoad);
 });

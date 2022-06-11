@@ -165,6 +165,7 @@ def user_update(request, id):
     company= get_object_or_404(SysUser, id=id)
 
     if (request.method == 'POST'):
+        print(request.FILES)
         form = SysUserForm(request.POST,request.FILES, instance=company)
     else:
         form = SysUserForm(instance=company)
