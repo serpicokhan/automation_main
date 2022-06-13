@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-ris*yq*cnb4%e#or96(&lw_24fg63$nn3ehdzc0@avgg!=4h=&
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.2.27','127.0.0.1']
+ALLOWED_HOSTS = ['192.168.2.27','192.168.2.60','127.0.0.1']
 
 
 # Application definition
@@ -39,7 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'myapp',
-    'widget_tweaks'
+    'widget_tweaks',
+    'mathfilters',
+    'channels'
 
 ]
 
@@ -133,3 +135,15 @@ STATIC_URL = '/static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+####################
+ASGI_APPLICATION = "automation.asgi.application"
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels_redis.core.RedisChannelLayer',
+        'CONFIG': {
+            "hosts": [('127.0.0.1', 6379)],
+        },
+    },
+}
+LOGIN_URL='login'

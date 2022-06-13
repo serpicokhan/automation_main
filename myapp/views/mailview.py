@@ -42,7 +42,7 @@ def doPaging(request,books):
 @login_required
 def list_mail(request,id=None):
     #
-    books = Message.objects.filter(toUser__userId=request.user).order_by('-id')
+    books = Message.objects.filter().order_by('-id')
     wos=doPaging(request,(books))
 
     return render(request, 'myapp/mail/mailList.html', {'mails': wos,'title':'صندوق دریافت','section':'list_mail'})
@@ -119,8 +119,9 @@ def mail_create(request):
     else:
 
         form = MessageForm({'fromUser':request.user.id,'messageStatus':2})
-        form.isupdated=False
-        return save_mail_form(request, form, 'myapp/mail/partialMailCreate.html')
+        # form.isupdated=False
+        # return save_mail_form(request, form, 'myapp/mail/partialMailCreate.html')
+        return render(request, 'myapp/mail/partialMailCreate.html', {'form':form})
 
 
 
@@ -142,8 +143,8 @@ def mail_update(request, id):
 
 
 
-
-    return save_mail_form(request, form,"myapp/mail/partialMailUpdate.html")
+        return render(request, 'myapp/mail/partialMailUpdate.html', {'form':form})
+    # return save_mail_form(request, form,"myapp/mail/partialMailUpdate.html")
 ####################list unread mail for status bar ######################################
 def list_unread_mail(request):
     data = dict()

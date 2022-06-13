@@ -6,13 +6,14 @@ from django.forms import ModelForm, inlineformset_factory
 
 class SysUserForm(forms.ModelForm):
     #CustomerId = forms.ModelChoiceField(queryset=Customer.objects.all())
+   
 
 
     class Meta:
         model = SysUser
         fields = '__all__'
 class MessageForm(forms.ModelForm):
-    toUser = forms.ModelChoiceField(label="مخاطب",queryset=SysUser.objects.filter(userStatus=True))
+    toUser = forms.ModelChoiceField(label="مخاطب",queryset=SysUser.objects.all(),empty_label='به کی')
     def clean_messageStatus(self):
         if(self.isupdated):
             messageStatus=3

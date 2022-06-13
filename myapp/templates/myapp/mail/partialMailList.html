@@ -1,0 +1,54 @@
+{% for c in mails %}
+<div class="email-list mt-3">
+  <div class="message">
+      <div>
+          <div class="d-flex message-single">
+              <div class="pl-1 align-self-center">
+                  <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="checkbox{{c.id}}">
+                      <label class="custom-control-label" for="checkbox{{c.id}}"></label>
+                  </div>
+              </div>
+              <div class="ml-2">
+                  <button class="border-0 bg-transparent align-middle p-0"><i class="fa fa-star" aria-hidden="true"></i></button>
+              </div>
+          </div>
+          <a href="{% url 'mail_update' c.id %}" class="col-mail col-mail-2">
+              <div class="subject">
+                {{c.subject}}
+              </div>
+              <div class="date">{{c.sentTime}}</div>
+          </a>
+      </div>
+  </div>
+  
+</div>
+
+{% empty %}
+<div class="email-list mt-3">
+  <div class="message">
+      <div>
+          <div class="d-flex message-single">
+              <div class="pl-1 align-self-center">
+                  <div class="custom-control custom-checkbox">
+                      <input type="checkbox" class="custom-control-input" id="checkbox">
+                      <label class="custom-control-label" for="checkbox"></label>
+                  </div>
+              </div>
+              <div class="ml-2">
+                  <button class="border-0 bg-transparent align-middle p-0"><i class="fa fa-star" aria-hidden="true"></i></button>
+              </div>
+          </div>
+          <a href="#" class="col-mail col-mail-2">
+              <div class="subject">
+                اینباکس خالی است
+              </div>
+              <div class="date"></div>
+          </a>
+      </div>
+  </div>
+  
+</div>
+
+
+{% endfor %}

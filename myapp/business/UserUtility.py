@@ -22,3 +22,8 @@ class UserUtility:
     def is_manager(uid):
         user1=SysUser.objects.get(userId=uid)
         return (user1.userId.groups.filter(name= 'manager').exists())
+    @staticmethod
+    def get_user_list(request):
+        users=SysUser.objects.values_list("fullName", "id")
+        request.session['users'] = list(users)
+        request.session['my_id']=request.user.id
