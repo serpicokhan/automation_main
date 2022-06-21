@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^Mail/Sent/$', list_sentmail, name='list_sentmail'),
     url(r'^Mail/Status/$', list_unread_mail, name='list_unread_mail'),
     url(r'^Mail/System/$', list_sysmail, name='list_sysmail'),
+    url(r'^MailFile/$', file_upload, name='file_upload'),
 ]

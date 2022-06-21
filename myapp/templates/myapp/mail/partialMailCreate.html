@@ -95,9 +95,10 @@
                        
                     </form>
                     <h5 class="mb-4"><i class="fa fa-paperclip"></i> فایل پیوست</h5>
-                    <form action="#" class="dropzone dz-clickable">
+                    <form action="{% url 'file_upload'  %}" class="dropzone dz-clickable">
+                        {% csrf_token %}
                         
-                    <div class="dz-default dz-message"><button class="dz-button" type="button">Drop files here to upload</button></div>
+                    <div class="dz-default dz-message" id="myfiles"><button class="dz-button" type="button">Drop files here to upload</button></div>
                 </form>
                 </div>
                   
@@ -119,6 +120,7 @@
 
 {% block javascript %}
 <script src="{% static '/js/project/mail.js' %}"></script>
+
 
  
 {% endblock %}
