@@ -143,7 +143,7 @@ def mail_update(request, id):
     else:
         form = MessageForm(instance=company)
         company.messageStatus=3
-        company.save()
+        # company.save()
 
 
 
