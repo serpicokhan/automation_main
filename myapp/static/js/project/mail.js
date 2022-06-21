@@ -107,6 +107,9 @@ $(function () {
   
      //initLoad();
    }
+   var save_msg=function(){
+    document.getElementById('msg_form').submit();
+   }
   
   
   
@@ -117,7 +120,7 @@ $(function () {
   $("#company-table").on("click", ".js-update-mail", myWoLoader);
   $("#modal-company").on("submit", ".js-mail-update-form", saveForm);
   // Delete book
-  $("#company-table").on("click", ".js-delete-mail", loadForm);
+  $(".sub_mail").on("click",  save_msg);
   $("#modal-company").on("submit", ".js-mail-delete-form", saveForm);
   //$("#company-table").on("click", ".js-update-wo", initxLoad);
   });

@@ -23,7 +23,7 @@ from myapp.models.message import *
 import json
 from django.forms.models import model_to_dict
 from myapp.forms import MessageForm
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy,reverse
 from django.db import transaction
 from django.contrib.auth.decorators import login_required
 from django.core.paginator import *
@@ -114,11 +114,15 @@ def mail_create(request):
     if (request.method == 'POST'):
         form = MessageForm(request.POST)
         form.isupdated=False
+        if form.is_valid():
+            form.save()
+        else:
+            print(form.errors)
 
-        return save_mail_form(request, form, 'myapp/mail/partialMailCreate.html')
+        return HttpResponseRedirect(reverse('list_mail'))
     else:
 
-        form = MessageForm({'fromUser':request.user.id,'messageStatus':2})
+        form = MessageForm({'fromUser':SysUser.objects.get(userId=request.user.id),'messageStatus':2})
         # form.isupdated=False
         # return save_mail_form(request, form, 'myapp/mail/partialMailCreate.html')
         return render(request, 'myapp/mail/partialMailCreate.html', {'form':form})
