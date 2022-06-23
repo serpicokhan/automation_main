@@ -79,7 +79,7 @@
                         {% csrf_token %}
                         {{ form.fromUser.as_hidden }}
                         {{ form.messageStatus.as_hidden }}
-                        <input type="hidden" name="file_id" value="-1" id='file_id'>
+                        <input type="hidden" name="file_id" value='-1' id='file_id'>
 
                         <div class="form-group">
 
@@ -96,7 +96,7 @@
 
                     </form>
                     <h5 class="mb-4"><i class="fa fa-paperclip"></i> فایل پیوست</h5>
-                    <form action="{% url 'file_upload'  %}" class="dropzone dz-clickable">
+                    <form action="{% url 'file_upload'  %}" class="dropzone dz-clickable" id="mydrop">
                         {% csrf_token %}
 
                     <div class="dz-default dz-message" id="myfiles"><button class="dz-button" type="button">Drop files here to upload</button></div>
@@ -121,6 +121,30 @@
 
 {% block javascript %}
 <script src="{% static '/js/project/mail.js' %}"></script>
+<script >
+//"myAwesomeDropzone" is the camelized version of the HTML element's ID
+
+$(document).ready(function () {
+
+       Dropzone.options.mydrop = {
+
+           maxFilesize: 10,
+           init: function () {
+
+
+              this.on("complete", file => {
+              var aval=[];
+               if($("#file_id").val()!="-1")
+               aval.push($("#file_id").val());
+               aval.push(JSON.parse(file.xhr.response).id)
+               $("#file_id").val(aval);
+
+  });
+           }
+
+       };
+   });
+</script>
 
 
 

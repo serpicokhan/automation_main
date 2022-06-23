@@ -42,9 +42,11 @@ def file_upload(request):
     if request.method == 'POST':
         print("here!!!",request.FILES)
         my_file=request.FILES.get('file')
-        MessageFile.objects.create(msgFile=my_file)
-        # return jsonresponse??????
-        return HttpResponse('')
+        msg=MessageFile.objects.create(msgFile=my_file)
+        data=dict()
+        data["id"]=msg.id
+        return JsonResponse(data)
+        # return HttpResponse('')
     return JsonResponse({'post':'fasle'})
 class MessageUploadView(View):
     def get(self, request):

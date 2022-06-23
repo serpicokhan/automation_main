@@ -87,9 +87,9 @@
                               <div class="read-content">
                                   <div class="media pt-3 d-sm-flex d-block justify-content-between">
                                       <div class="clearfix mb-3 d-flex">
-                                          <img class="mr-3 rounded" width="50" alt="image" src="{% static 'images/avatar/1.jpg' %}">
+                                          <img class="mr-3 rounded" width="50" alt="image" src="{% get_media_prefix %}{{instance.fromUser.profileImage}}">
                                           <div class="media-body mr-2">
-                                              <h5 class="text-primary mb-0 mt-1">محمد حسینی</h5>
+                                              <h5 class="text-primary mb-0 mt-1"><span>{{instance.fromUser}}</span></h5>
                                               <p class="mb-0">9 شهریور</p>
                                           </div>
                                       </div>
@@ -105,7 +105,7 @@
                                           <h5 class="my-1 text-primary">{{form.subject.value}}</h5>
                                           <p class="read-content-email">
                                               به
-                                          {{form.toUser}}</p>
+                                          {{instance.toUser}}</p>
                                       </div>
                                   </div>
                                   <div class="read-content-body">
@@ -113,17 +113,14 @@
                                   </div>
                                   <div class="read-content-attachment">
                                       <h6><i class="fa fa-download mb-2"></i> پیوست ها
-                                          <span>(3)</span></h6>
+                                          <span>({{counts}})</span></h6>
                                       <div class="row attachment">
-                                          <div class="col-auto">
-                                              <a href="javascript:void()" class="text-muted">My-Photo.png</a>
-                                          </div>
-                                          <div class="col-auto">
-                                              <a href="javascript:void()" class="text-muted">My-File.docx</a>
-                                          </div>
-                                          <div class="col-auto">
-                                              <a href="javascript:void()" class="text-muted">My-Resume.pdf</a>
-                                          </div>
+                                        {% for c in files %}
+                                        <div class="col-auto">
+                                            <a href="{% get_media_prefix %}{{c.msgFile}}" class="text-muted">{{c.get_name}}</a>
+                                        </div>
+                                        {% endfor %}
+
                                       </div>
                                   </div>
                                   <hr>
@@ -146,6 +143,6 @@
 
 {% block javascript %}
 
-  
+
 {% endblock %}
 {% endblock %}

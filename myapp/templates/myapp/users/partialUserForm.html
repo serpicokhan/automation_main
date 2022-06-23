@@ -5,13 +5,13 @@
     {% if form.profileImage.value %}
 
 
-    <img src="{{ MEDIA_URL }}{{form.profileImage.value}}"  width="128" height="128" class="js-upload-photos"/>
-    
+    <img src="{% get_media_prefix %}{{form.profileImage.value}}"  width="128" height="128" class="js-upload-photos"/>
+
 
     {% else %}
     <img src="{% static 'img/_blank_profile.png' %}"  width="128" height="128" class="js-upload-photos" />
     {% endif %}
-    
+
 
     <input type=hidden name='lastUserId' id='lastUserId' value='{{lId}}'/>
     {{ form.visibile.as_hidden }}
@@ -56,5 +56,5 @@
   </div>
 </div>
 
- 
+
   </div>

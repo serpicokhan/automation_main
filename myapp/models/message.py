@@ -3,6 +3,7 @@ from myapp.models import SysUser
 from datetime import datetime
 from django.utils.timezone import now
 import jdatetime
+import os
 class Message(models.Model):
     read=3
     unread=2
@@ -41,6 +42,8 @@ class MessageFile(models.Model):
     def get_ext(self):
         v=os.path.splitext(self.woFile.name)
         return v[len(v)-1]
+    def get_name(self):
+        return os.path.basename(str(self.msgFile))
     def get_size(self):
         return " MB {0:.2f}".format(self.woFile.size/1048576)
 

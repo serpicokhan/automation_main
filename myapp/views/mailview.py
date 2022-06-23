@@ -114,8 +114,15 @@ def mail_create(request):
     if (request.method == 'POST'):
         form = MessageForm(request.POST)
         form.isupdated=False
+        file_ids=request.POST.get("file_id",False)
         if form.is_valid():
-            form.save()
+            frm=form.save()
+            if(file_ids):
+                files=MessageFile.objects.filter(id__in=file_ids.split(','))
+                for i in files:
+                    i.msgFileworkorder=frm
+                    i.save()
+
         else:
             print(form.errors)
 
@@ -143,11 +150,13 @@ def mail_update(request, id):
     else:
         form = MessageForm(instance=company)
         company.messageStatus=3
+        files=MessageFile.objects.filter(msgFileworkorder=company)
+        counts=files.count()
         # company.save()
 
 
 
-        return render(request, 'myapp/mail/partialMailUpdate.html', {'form':form})
+        return render(request, 'myapp/mail/partialMailUpdate.html', {'form':form,'files':files,'counts':counts,'instance':company})
     # return save_mail_form(request, form,"myapp/mail/partialMailUpdate.html")
 ####################list unread mail for status bar ######################################
 def list_unread_mail(request):
