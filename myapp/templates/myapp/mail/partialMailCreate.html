@@ -1,6 +1,7 @@
 <!--pip install django-widget-tweaks-->
 {% extends 'myapp/index.html' %}
 
+
  {% block content %}
 {% load static %}
 {% load widget_tweaks %}
@@ -91,6 +92,63 @@
                         </div>
                         <div class="form-group">
                             {% render_field form.Message class="textarea_editor form-control bg-transparent" placeholder=" موضوع : " placeholder="متن را بنویس ..." %}
+                            <script>
+   // These styles are used to provide the "page view" display style like in the demo and matching styles for export to PDF.
+   CKEDITOR.addCss(
+     'body.document-editor { margin: 0.5cm auto; border: 1px #D3D3D3 solid; border-radius: 5px; background: white; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); }' +
+     'body.document-editor, div.cke_editable { width: 700px; padding: 1cm 2cm 2cm; } ' +
+     'body.document-editor table td > p, div.cke_editable table td > p { margin-top: 0; margin-bottom: 0; padding: 4px 0 3px 5px;} ' +
+     'blockquote { font-family: sans-serif, Arial, Verdana, "Trebuchet MS", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; } ');
+
+   var editor = CKEDITOR.replace('id_Message', {
+
+     extraPlugins: 'colorbutton,font,justify,print,tableresize,liststyle,pagebreak,exportpdf',
+     toolbar: [{
+         name: 'various',
+         items: ['ExportPdf', '-', 'Undo', 'Redo']
+       },
+       {
+         name: 'basicstyles',
+         items: ['Bold', 'Italic', 'Underline', 'Strike', 'RemoveFormat', 'Subscript', 'Superscript']
+       },
+       {
+         name: 'links',
+         items: ['Link', 'Unlink']
+       },
+       {
+         name: 'paragraph',
+         items: ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote']
+       },
+       {
+         name: 'insert',
+         items: ['Image', 'Table']
+       },
+       {
+         name: 'editing',
+         items: ['Scayt']
+       },
+       '/',
+       {
+         name: 'styles',
+         items: ['Format', 'Font', 'FontSize']
+       },
+       {
+         name: 'colors',
+         items: ['TextColor', 'BGColor', 'CopyFormatting']
+       },
+       {
+         name: 'align',
+         items: ['JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock']
+       },
+       {
+         name: 'document',
+         items: ['PageBreak', 'Source']
+       }
+     ],
+     bodyClass: 'document-editor',
+     removeButtons: 'PasteFromWord'
+   });
+ </script>
 
                         </div>
 
