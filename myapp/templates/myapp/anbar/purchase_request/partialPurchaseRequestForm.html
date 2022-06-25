@@ -1,0 +1,128 @@
+{% load widget_tweaks %}
+<div class="row">
+
+<div class="col-sm-12 b-r">
+  <div class="row">
+    <div class="col-sm-2 b-r">
+      {% load static %}
+      <img src="{% static 'img/pr.png' %}" width="50%" height="50%" / >
+      <input type=hidden name='lastPurchaseRequestid' id='lastPurchaseRequestid' />
+
+
+
+
+
+    </div>
+    <div class="col-sm-6">
+      <div class="form-group">
+
+      <label>{{form.PurchaseRequestPartName.label}}</label>
+      {{form.PurchaseRequestPartName.as_hidden }}
+      {% render_field form.mypart class='form-control advanced2AutoComplete' placeholder='جستجو کنید' autocomplete='off'  %}
+      </div>
+      {% if is_manager %}
+      <div class="form-group">
+
+      <label>{{form.PurchaseRequestStatus.label}}</label>
+
+      {{form.PurchaseRequestStatus | add_class:"form-control"}}
+
+      </div>
+      {% endif %}
+    </div>
+    <div class="col-sm-4">
+      <div class="form-group">
+      <label>{{form.PurchaseRequestAssetQty.label}}</label>
+      {{form.PurchaseRequestAssetQty| add_class:"form-control" }}
+      </div>
+
+    </div>
+
+  </div>
+  <hr>
+  <div class="row exist">
+    <div class="col-sm-12">
+      <div class="form-group">
+
+
+      <label>اطلاعات بیشتر</label>
+      {{form.PurchaseRequestMoreInfo| add_class:"form-control" }}
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="panel-body">
+        <div class='row'>
+          <div class='col-lg-12'>
+            <div class="panel panel-info">
+                 <div class="panel-heading">
+                     <i class="fa fa-info-circle"></i> اطلاعات مکانی
+                 </div>
+                 <div class="panel-body">
+                     <div class="row">
+                       <div class="col-lg-6">
+                                           <div class="form-group">
+                                             {{form.PurchaseRequestAssetNot }}
+                                             <label>{{form.PurchaseRequestAssetNot.label}}</label>
+
+
+                                           </div>
+                                           <div class="form-group">
+                                             <label>{{form.PurchaseRequestWO.label}}</label>
+                                             {{form.PurchaseRequestWO.as_hidden }}
+                                             {{form.mywo| add_class:"form-control" }}
+                                           </div>
+                                           <div class="form-group">
+                                             <label>{{form.PurchaseRequestWO.label}}</label>
+                                             {% render_field form.PurchaseRequestRequestedUser class="form-control selectpicker" data-show-subtext="true" data-live-search="true"  %}
+                                           </div>
+
+
+
+
+                       </div>
+                       <div class="col-lg-6">
+
+                         <div class="form-group">
+                           <label>{{form.PurchaseRequestAssetMakan.label}}</label>
+                            {% render_field form.PurchaseRequestAssetMakan class="form-control selectpicker" data-show-subtext="true" data-live-search="true"  %}
+                         </div>
+                         <div class="form-group">
+                           <label>{{form.PurchaseRequestAsset.label}}</label>
+                             {% render_field form.PurchaseRequestAsset class="form-control selectpicker" data-show-subtext="true" data-live-search="true"  %}
+                         </div>
+                         <div class="form-group">
+                           <label>{{form.PurchaseRequestDateTo.label}}</label>
+                           {{form.PurchaseRequestDateTo| add_class:"form-control" }}
+                         </div>
+
+
+                       </div>
+
+                     </div>
+                 </div>
+
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+         </div>
+
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+</div>

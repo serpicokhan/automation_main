@@ -1,0 +1,39 @@
+{% for c in rfq %}
+
+<tr>
+<td></td>
+<td>{{c.id}}</td>
+<td>{{c.PurchaseRequestAsset}}</td>
+<td>{{c.PurchaseRequestPartName}}</td>
+
+<td>{{c.PurchaseRequestAssetQty}}</td>
+ <td>{% autoescape off %}{{c.get_pstatus}}{% endautoescape %}</td>
+ <td>{{c.get_PurchaseRequestStatus_display}}</td>
+
+ <td>{{c.PurchaseRequestRequestedUser}}</td>
+ <td>{{c.get_dateCreated_jalali}}</td>
+
+
+
+
+
+
+
+ <td><button type="button"
+              class="btn btn-warning btn-sm js-update-purchaseRequest"
+              data-url="{% url 'purchaseRequest_update' c.id %}">
+        <span class="glyphicon glyphicon-pencil"></span> ویرایش
+      </button>
+      <button type="button"
+                   class="btn btn-danger btn-sm js-delete-purchaseRequest"
+                   data-url="{% url 'purchaseRequest_delete' c.id %}">
+             <span class="glyphicon glyphicon-trash"></span> حذف
+           </button>
+    </td>
+</tr>
+{% empty %}
+<tr>
+ <td colspan="10" class="text-center bg-warning">هیچ موردی یافت نشد</td>
+</tr>
+
+{% endfor %}

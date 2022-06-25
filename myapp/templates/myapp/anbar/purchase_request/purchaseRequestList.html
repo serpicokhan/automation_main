@@ -1,0 +1,142 @@
+<!--pip install django-widget-tweaks-->
+{% extends 'cmms/mainTheme.html' %}
+
+ {% block content %}
+
+<div class="row">
+  <div class="col-lg-12">
+                    <div class="ibox float-e-margins">
+                        <div class="ibox-title">
+                            <h5>درخواست خرید </h5>
+                            <div class="ibox-tools">
+                                <a class="collapse-link">
+                                    <i class="fa fa-chevron-up"></i>
+                                </a>
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    <i class="fa fa-wrench"></i>
+                                </a>
+                                <ul class="dropdown-menu dropdown-user">
+                                    <li><a href="#">گزینه 1</a>
+                                    </li>
+                                    <li><a href="#">گزینه 2</a>
+                                    </li>
+                                </ul>
+                                <a class="close-link">
+                                    <i class="fa fa-times"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="ibox-content">
+                            <div class="row">
+                                <div class="col-sm-5 m-b-xs">
+                                  <select class="input-sm form-control input-s-sm inline p-status" id='p-status'>
+                                    {% for i in status %}
+                                    {% if i.0 == selected %}
+                                    <option value="{{i.0}}" selected>{{i.1}}</option>
+                                    {% else %}
+                                    <option value="{{i.0}}">{{i.1}}</option>
+                                    {% endif %}
+                                    {% endfor %}
+
+                                </select>
+                                </div>
+                                <div class="col-sm-4 m-b-xs">
+
+                                </div>
+                                <div class="col-sm-3">
+                                    <div class="input-group"><input type="text" placeholder="جستجو" class="input-sm form-control"> <span class="input-group-btn">
+                                        <button type="button" class="btn btn-sm btn-primary"> برو!</button> </span></div>
+                                </div>
+                            </div>
+                            <div class="table-responsive">
+                                <table class="table table-striped" id="purchaseRequest-table">
+                                    <thead>
+                                    <tr>
+                                      <th></th>
+
+                                      <th>کد درخواست</th>
+                                      <th>تجهیز</th>
+                                      <th>نام قطعه</th>
+                                      <th>تعداد</th>
+                                      <th>ایجاد وقفه</th>
+                                      <th>وضعیت</th>
+                                      <th>درخواست کننده</th>
+
+                                      <th>تاریخ درخواست</th>
+
+
+
+
+
+
+                                        <th></th>
+
+                                    </tr>
+
+                                    </thead>
+                                    <tbody id='tbody_purchaseRequest'>
+                                            {% include 'cmms/purchase_request/partialPurchaseRequestList.html' %}
+                                    </tbody>
+                                </table>
+                                <div class="woPaging" >
+                                  {% if purchaseRequest.has_other_pages %}
+                                  <ul class="pagination">
+                                  {% if purchaseRequest.has_previous %}
+                                  <li><a href="?page={{ purchaseRequest.previous_page_number }}">&laquo;</a></li>
+                                  {% else %}
+                                  <li class="disabled"><span>&laquo;</span></li>
+                                  {% endif %}
+                                  {% for i in purchaseRequest.paginator.page_range %}
+                                  {% if users.number == i %}
+                                  <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
+                                  {% else %}
+                                  <li><a href="?page={{ i }}">{{ i }}</a></li>
+                                  {% endif %}
+                                  {% endfor %}
+                                  {% if purchaseRequest.has_next %}
+                                  <li><a href="?page={{ purchaseRequest.next_page_number }}">&raquo;</a></li>
+                                  {% else %}
+                                  <li class="disabled"><span>&raquo;</span></li>
+                                  {% endif %}
+                                  </ul>
+                                  {% endif %}
+
+                                </div>
+                                <!-- BUTTON TO TRIGGER THE ACTION -->
+                                <p>
+                                  <button type="button" class="btn btn-primary js-create-purchaseRequest"
+                                  data-url="{% url 'purchaseRequest_create' %}"                                  >
+                                    <span class="glyphicon glyphicon-plus"
+
+
+
+                                    ></span>
+                                  جدید
+                                  </button>
+                                </p>
+                            </div>
+                          </div>
+
+                    </div>
+                </div>
+                <div class="modal fade" id="modal-purchaseRequest" style="overflow-y: scroll">
+                 <div class="modal-dialog  modal-lg ">
+
+                   <div class="modal-content ">
+                   </div>
+                 </div>
+                </div>
+
+
+
+
+</div>
+
+
+{% load static %}
+
+{% block javascript %}
+
+  <script src="{% static '/js/project/purchaserequest.js' %}"></script>
+{% endblock %}
+{% endblock %}
