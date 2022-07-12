@@ -41,7 +41,7 @@ $(function () {
             search: function (qry, callback) {
               // let's do a custom ajax call
               $.ajax(
-                '/WoPart/GetParts',
+                '/Part/Get/',
                 {
                   data: { 'qry': qry}
                 }
@@ -57,22 +57,13 @@ $(function () {
           $('#id_PurchaseRequestPartName').val(item.id).trigger('change');
           // $('.basicAutoCompleteCustom').html('');
         });
+        $('#id_PurchaseRequestDateTo').bootstrapMaterialDatePicker({
+            weekStart: 0,
+            time: false
+        });
 
 
-        $('#id_PurchaseRequestDateTo').pDatepicker({
-          format: 'YYYY-MM-DD',
-          initialValueType: 'gregorian',
-          autoClose:true
 
-
-      });
-        $('#id_PurchaseRequestDateFrom').pDatepicker({
-          format: 'YYYY-MM-DD',
-          initialValueType: 'gregorian',
-          autoClose:true
-
-
-      });
 
 
       }
@@ -169,6 +160,7 @@ return false;
 
  var myprLoader= function(){
    btn=$(this);
+   // console.log("1");
 
 
 

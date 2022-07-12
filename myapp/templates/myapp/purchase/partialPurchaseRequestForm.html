@@ -1,0 +1,98 @@
+{% load widget_tweaks %}
+
+<div class="row">
+  {% load static %}
+  <input type=hidden name='lastPurchaseRequestid' id='lastPurchaseRequestid' />
+
+<div class="col-sm-12 b-r">
+  <div class="row">
+
+    <div class="col-sm-6">
+      <div class="form-row">
+                                        <div class="form-group col-md-12">
+                                              <label>{{form.PurchaseRequestPartName.label}}</label>
+                                            {{form.PurchaseRequestPartName.as_hidden }}
+                                              {% render_field form.mypart class='form-control advanced2AutoComplete' placeholder='جستجو کنید' autocomplete='off'  %}
+                                        </div>
+
+
+                                    </div>
+
+
+    </div>
+    <div class="col-sm-6">
+      <div class="form-row">
+
+      <div class="form-group col-md-12">
+      <label>{{form.PurchaseRequestAssetQty.label}}</label>
+      {{form.PurchaseRequestAssetQty| add_class:"form-control" }}
+      </div>
+      </div>
+
+    </div>
+
+  </div>
+  <hr>
+
+
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="row">
+        <div class="col-lg-6">
+
+                            <div class="form-group">
+                              <label>{{form.PurchaseRequestAssetMakan.label}}</label>
+                               {% render_field form.PurchaseRequestAssetMakan class="form-control selectpicker" data-show-subtext="true" data-live-search="true"  %}
+                            </div>
+                            <div class="form-group">
+                              <label>{{form.PurchaseRequestAsset.label}}</label>
+                                {% render_field form.PurchaseRequestAsset class="form-control selectpicker" data-show-subtext="true" data-live-search="true"  %}
+                            </div>
+
+
+
+
+
+
+        </div>
+        <div class="col-lg-6">
+
+
+          <div class="form-group">
+            <label>{{form.PurchaseRequestDateTo.label}}</label>
+              {% render_field form.PurchaseRequestDateTo class="form-control"   %}
+
+          </div>
+          <div class="form-group">
+            <label>{{form.PurchaseRequestDateFrom.label}}</label>
+              {% render_field form.PurchaseRequestDateFrom class="form-control"   %}
+
+          </div>
+
+
+        </div>
+        <div class="row exist">
+          <div class="col-sm-12">
+            <div class="form-group">
+
+
+            <label>اطلاعات بیشتر</label>
+            {{form.PurchaseRequestMoreInfo| add_class:"form-control" }}
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+</div>
+
+</div>

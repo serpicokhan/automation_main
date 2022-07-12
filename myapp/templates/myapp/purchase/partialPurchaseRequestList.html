@@ -3,11 +3,15 @@
 <tr>
 <td></td>
 <td>{{c.id}}</td>
+<td>{{c.PurchaseRequestAsset}}</td>
+<td>{{c.PurchaseRequestPartName}}</td>
 
- <td>{{c.get_PurchaseStatus_display}}</td>
+<td>{{c.PurchaseRequestAssetQty}}</td>
+ <td>{% autoescape off %}{{c.get_pstatus}}{% endautoescape %}</td>
+ <td>{{c.get_PurchaseRequestStatus_display}}</td>
 
- <td>{{c.PurchaseRequestedUser}}</td>
- <td>{{c.PurchaseDateTo}}</td>
+ <td>{{c.PurchaseRequestRequestedUser}}</td>
+ <td>{{c.get_dateCreated_jalali}}</td>
 
 
 

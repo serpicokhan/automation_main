@@ -3,6 +3,7 @@ from myapp.models import *
 from django.conf import settings
 import logging
 from django.forms import ModelForm, inlineformset_factory
+from myapp.business.DateJob import *
 
 class SysUserForm(forms.ModelForm):
     #CustomerId = forms.ModelChoiceField(queryset=Customer.objects.all())
@@ -27,6 +28,30 @@ class MessageForm(forms.ModelForm):
     class Meta:
         model = Message
         fields = '__all__'
+class PurchaseForm(forms.ModelForm):
+    def clean_PurchaseDateTo(self):
+        if(self.cleaned_data['PurchaseDateTo']):
+             # print(self.cleaned_data['PurchaseRequestDateTo'],'datecompleted')
+             value=DateJob.getDate2( self.cleaned_data['PurchaseDateTo'])
+             return value
+        else:
+            return None
+    def clean_PurchaseDateFrom(self):
+        if(self.cleaned_data['PurchaseDateFrom']):
+             # print(self.cleaned_data['PurchaseRequestDateTo'],'datecompleted')
+             value=DateJob.getDate2( self.cleaned_data['PurchaseDateFrom'])
+             return value
+        else:
+            return None
+    # toUser = forms.ModelChoiceField(label="مخاطب",queryset=SysUser.objects.all(),empty_label='به کی')
+
+
+
+
+    class Meta:
+        model = Purchase
+        fields = '__all__'
+
 class PurchaseRequestForm(forms.ModelForm):
     def __init__(self,userid=None,*args,**kwargs):
 

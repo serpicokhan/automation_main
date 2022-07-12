@@ -24,7 +24,8 @@ from myapp.models.users import *
 import json
 from django.forms.models import model_to_dict
 from myapp.forms import PurchaseRequestForm
-from django.urls import reverse_lazy
+from myapp.forms import PurchaseForm
+from django.urls import reverse_lazy,reverse
 from django.db import transaction
 from django.core.paginator import *
 from myapp.business.UserUtility import *
@@ -36,9 +37,9 @@ from myapp.utils import *
 
 def filter_user(request):
     if(request.user.username=="admin"):
-        return PurchaseRequest.objects.all().order_by('-id')
+        return Purchase.objects.all().order_by('-id')
     else:
-        return PurchaseRequest.objects.filter(PurchaseRequestRequestedUser__userId=request.user).order_by('-id')
+        return Purchase.objects.filter(PurchaseRequestRequestedUser__userId=request.user).order_by('-id')
 ##########################################################
 def list_purchaseRequest(request,id=None):
     #
@@ -70,8 +71,8 @@ def save_purchaseRequest_form(request, form, template_name,id=None):
         else:
             data['form_is_valid'] = False
     title=None
-    if(form.instance.PurchaseRequestRequestedUser):
-            title=form.instance.PurchaseRequestRequestedUser
+    # if(form.instance.PurchaseRequestRequestedUser):
+    #         title=form.instance.PurchaseRequestRequestedUser
 
     context = {'form': form,'title':title,'is_manager':UserUtility.is_manager(request.user)}
 
@@ -107,26 +108,55 @@ def purchaseRequest_delete(request, id):
 ##########################################################
 def purchaseRequest_create(request):
     if (request.method == 'POST'):
-        form = PurchaseRequestForm(request.user,request.POST)
-        return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
+        form = PurchaseForm(request.POST)
+        if(form.is_valid()):
+            form.save()
+            # print("form is saved!!!!!!!!!!!!")
+
+            return HttpResponseRedirect(reverse('list_purchaseRequest'))
+
+        else:
+            print(form.errors)
+        # return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
+    else:
+        form = PurchaseForm()
+        # return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
+        return render(request, 'myapp/purchase_request/partialPurchaseRequestCreate.html', {'form': form})
+
+def purchase_item_create(request):
+    if (request.method == 'POST'):
+        form = PurchaseRequestForm(request.POST)
+        if(form.is_valid()):
+            form.save()
+            return HttpResponseRedirect(reverse('list_mail'))
+        # return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
+
     else:
         form = PurchaseRequestForm(userid=request.user)
-        return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
+        return save_purchaseRequest_form(request, form, 'myapp/purchase/partialPurchaseRequestCreate.html')
+        # return render(request, 'myapp/purchase_request/partialPurchaseRequestCreate.html', {'form': form})
 
 
 
 
 ##########################################################
 def purchaseRequest_update(request, id):
-    company= get_object_or_404(PurchaseRequest, id=id)
+    company= get_object_or_404(Purchase, id=id)
     template=""
     if (request.method == 'POST'):
-        form = PurchaseRequestForm(request.user,request.POST, instance=company)
+        form = PurchaseForm(request.POST)
+        if(form.is_valid()):
+            form.save()
+            # print("form is saved!!!!!!!!!!!!")
+
+            return HttpResponseRedirect(reverse('list_purchaseRequest'))
     else:
-        form = PurchaseRequestForm(instance=company,userid=request.user,initial={'mypart':company.PurchaseRequestPartName.partName})
+        form = PurchaseForm(instance=company)
+        return render(request, 'myapp/purchase_request/partialPurchaseRequestUpdate.html', {'form': form,'lid':id})
 
 
-    return save_purchaseRequest_form(request, form,"myapp/purchase_request/partialPurchaseRequestUpdate.html",id)
+
+    # return save_purchaseRequest_form(request, form,"myapp/purchase_request/partialPurchaseRequestUpdate.html",id)
 ##########################################################
 
 ##########################################################

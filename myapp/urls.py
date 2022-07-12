@@ -25,8 +25,11 @@ urlpatterns = [
     url(r'^MailFile/$', file_upload, name='file_upload'),
     url(r'^PurchaseRequest/$',list_purchaseRequest,name='list_purchaseRequest'),
     url(r'^PurchaseRequest/create/$', purchaseRequest_create, name='purchaseRequest_create'),
+    # url(r'^PurchaseRequest/(?P<id>\d+)/update/$', purchaseRequest_update, name='purchaseRequest_update'),
+    url(r'^PurchaseItem/create/$', purchase_item_create, name='purchase_item_create'),
     url(r'^PurchaseRequest/(?P<id>\d+)/update/$', purchaseRequest_update, name='purchaseRequest_update'),
     # url(r'^PurchaseRequest/(?P<name>[-\w]+)/Search/$', searchPurchaseRequest, name='searchPurchaseRequest'),
     url(r'^PurchaseRequest/(?P<id>\d+)/delete/$', purchaseRequest_delete, name='purchaseRequest_delete'),
     url(r'^PurchaseRequest/filter/$', purchaseRequest_filter, name='purchaseRequest_filter'),
+    url(r'^Part/Get/$', get_parts, name='get_parts'),
 ]
