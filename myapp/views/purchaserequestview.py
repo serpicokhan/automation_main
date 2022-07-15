@@ -144,12 +144,17 @@ def purchaseRequest_update(request, id):
     company= get_object_or_404(Purchase, id=id)
     template=""
     if (request.method == 'POST'):
-        form = PurchaseForm(request.POST)
+        print(request.POST)
+        form = PurchaseForm(request.POST,instance=company)
         if(form.is_valid()):
             form.save()
             # print("form is saved!!!!!!!!!!!!")
 
             return HttpResponseRedirect(reverse('list_purchaseRequest'))
+        else:
+            print(form.errors)
+            return HttpResponseRedirect(reverse('list_purchaseRequest'))
+
     else:
         form = PurchaseForm(instance=company)
         return render(request, 'myapp/purchase_request/partialPurchaseRequestUpdate.html', {'form': form,'lid':id})

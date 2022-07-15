@@ -1,8 +1,20 @@
 $(function(){
-  $('.dtpicker').bootstrapMaterialDatePicker({
-        weekStart: 0,
-        time: false
+
+  // $('.dtpicker').bootstrapMaterialDatePicker({
+  //       weekStart: 0,
+  //       time: false,
+  //       nowButton : true,
+  //       initialValue: true,
+  //       initialValueType: 'gregorian',
+  //   });
+    $("#id_PurchaseDateTo").pDatepicker({
+
+            format: 'YYYY-MM-DD',
+            initialValueType: 'gregorian',
+            autoClose:true
+
     });
+
     var save_msg=function(){
      document.getElementById('purchaseform').submit();
     }
