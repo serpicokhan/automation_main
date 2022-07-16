@@ -5,6 +5,7 @@
 
 
 {% load static %}
+  <form method="post" action="{% url 'purchase_item_create'   %}" class="js-purchaseRequest-create-form" autocomplete="off" id="purchaseitem">
 <div class="modal-header ">
   <h5 class="modal-title">درخواست جدید</h5>
   <button type="button" class="close" data-dismiss="modal">
@@ -25,13 +26,13 @@
 
 
 
-            <form method="post" action="{% url 'purchaseRequest_create'   %}" class="js-purchaseRequest-create-form" autocomplete="off">
+
               {% csrf_token %}
 
 
               {% include 'myapp/purchase/partialPurchaseRequestForm.html' %}
 
-            </form>
+
 
 
 
@@ -50,12 +51,6 @@
   <button type="button" class="btn btn-danger light" data-dismiss="modal">
     بستن
   </button>
-  <button type="button" class="btn btn-primary">ذخیره</button>
+  <button type="submit" class="btn btn-primary js-purchaseRequest-create-form">ذخیره</button>
 </div>
-
-{% load static %}
-
-{% block javascript %}
-
-<script src="{% static '/js/project/purchaserequest.js' %}"></script>
-{% endblock %}
+</form>

@@ -5,3 +5,4 @@ from myapp.views.mailview import *
 from myapp.views.mailfileview import *
 from myapp.views.purchaserequestview import *
 from myapp.views.partview import *
+from myapp.views.assetview import *

@@ -17,7 +17,7 @@ from django.views.decorators import csrf
 import django.core.serializers
 import logging
 from django.conf import settings
-
+from django.contrib.auth.context_processors import PermWrapper
 from myapp.models.purchaserequest import *
 from myapp.models.users import *
 #from django.core import serializers
@@ -108,8 +108,10 @@ def purchaseRequest_delete(request, id):
 ##########################################################
 def purchaseRequest_create(request):
     if (request.method == 'POST'):
+
         form = PurchaseForm(request.POST)
         if(form.is_valid()):
+            print(request.POST)
             form.save()
             # print("form is saved!!!!!!!!!!!!")
 
@@ -125,14 +127,27 @@ def purchaseRequest_create(request):
 
 def purchase_item_create(request):
     if (request.method == 'POST'):
+        print(request.user.id)
         form = PurchaseRequestForm(request.POST)
+        print(request.POST)
         if(form.is_valid()):
-            form.save()
-            return HttpResponseRedirect(reverse('list_mail'))
+            data=dict()
+            instance=form.save()
+            data['id']=instance.id
+
+            books=PurchaseRequest.objects.all()
+            data['form_is_valid']=True
+            data['result']=render_to_string('myapp/purchase/partialPurchaseRequestList.html', {               'rfq': books            })
+            print("here!!!")
+            return JsonResponse(data)
+        else:
+            print("error")
+            print(form.errors)
+            return HttpResponseRedirect(reverse('list_purchaseRequest'))
         # return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
 
     else:
-        form = PurchaseRequestForm(userid=request.user)
+        form = PurchaseRequestForm()
         return save_purchaseRequest_form(request, form, 'myapp/purchase/partialPurchaseRequestCreate.html')
         # return render(request, 'myapp/purchase_request/partialPurchaseRequestCreate.html', {'form': form})
 

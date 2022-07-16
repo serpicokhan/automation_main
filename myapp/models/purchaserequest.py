@@ -35,7 +35,7 @@ class PurchaseRequest(models.Model):
     PurchaseRequestAsset = models.ForeignKey('Asset',on_delete=models.CASCADE,null=True,blank=True,related_name="ImpactedAsset",verbose_name="تجهیز")
     PurchaseRequestAssetMakan = models.ForeignKey('Asset',on_delete=models.CASCADE,null=True,blank=True,related_name="ImpactedLocation")
     PurchaseRequestDateTo = models.DateField("مهلت تا تاریخ", blank=True,null=True)
-    PurchaseRequestDateFrom = models.DateField("تاریخ درخواست")
+    PurchaseRequestDateFrom = models.DateField("تاریخ درخواست",blank=True,null=True)
     # PurchaseRequestDate2 = models.DateField("مهلت تا تاریخ",default=datetime.now, blank=True,null=True)
     settingTimestamp=models.DateTimeField(auto_now_add=True)
 
@@ -78,7 +78,8 @@ class Purchase(models.Model):
     PurchaseRequestedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر درخواست کننده",null=True,related_name="PurchaseRequestdUser")
     PurchaseTayeedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر تایید کننده",null=True,related_name="PurchaseAdmitter")
     PurchaseDateTo = models.DateField("مهلت تا تاریخ", blank=True,null=True)
-    PurchaseDateFrom = models.DateField("تاریخ درخواست")
+    PurchaseDateFrom = models.DateField("تاریخ درخواست",default=datetime.now)
+
 
 
     class Meta:

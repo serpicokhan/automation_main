@@ -9,7 +9,7 @@
 
               <div class=" ml-0 ml-sm-4 ml-sm-0">
 
-                  <div class="table-responsive">
+                  <div class="table-responsive" style="height: 400px;overflow: scroll;">
                       <table class="table table-striped" id="purchaseRequest-table">
                           <thead>
                           <tr>
@@ -38,11 +38,16 @@
                           <tbody id='tbody_purchaseRequest'>
                                   {% include 'myapp/purchase/partialPurchaseRequestList.html' %}
                           </tbody>
+
                       </table>
 
                       <!-- BUTTON TO TRIGGER THE ACTION -->
 
+
                   </div>
+                  <button type="button" class="btn btn-rounded btn-primary btn-xs js-create-purchaseRequest" data-url="{% url 'purchase_item_create' %}"><span class="btn-icon-left text-info"><i class="fa fa-plus color-info"></i>
+                                        </span>جدید
+                                </button>
                   <div class="modal fade" id="modal-purchaseRequest" style="overflow-y: scroll">
 
                <div class="modal-dialog  modal-lg ">
@@ -52,9 +57,7 @@
                  </div>
                </div>
               </div>
-              <button type="button" class="btn btn-rounded btn-primary btn-xs js-create-purchaseRequest" data-url="{% url 'purchase_item_create' %}"><span class="btn-icon-left text-info"><i class="fa fa-plus color-info"></i>
-                                    </span>جدید
-                            </button>
+
 
                   <!-- panel -->
 

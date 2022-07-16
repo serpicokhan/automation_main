@@ -57,10 +57,33 @@ $(function () {
           $('#id_PurchaseRequestPartName').val(item.id).trigger('change');
           // $('.basicAutoCompleteCustom').html('');
         });
-        $('#id_PurchaseRequestDateTo').bootstrapMaterialDatePicker({
-            weekStart: 0,
-            time: false
-        });
+        if($("#id_PurchaseRequestDateTo").val().length>0)
+          $("#id_PurchaseRequestDateTo").pDatepicker({
+            format: 'YYYY-MM-DD',
+            initialValueType: 'gregorian',
+            autoClose:true
+          });
+        else{
+          $("#id_PurchaseRequestDateTo").pDatepicker({
+            format: 'YYYY-MM-DD',
+
+            autoClose:true
+          }).val('');
+
+        }
+        if($("#id_PurchaseRequestDateFrom").val().length>0)
+          $("#id_PurchaseRequestDateFrom").pDatepicker({
+            format: 'YYYY-MM-DD',
+            initialValueType: 'gregorian',
+            autoClose:true
+          });
+          else {
+            $("#id_PurchaseRequestDateFrom").pDatepicker({
+              format: 'YYYY-MM-DD',
+
+              autoClose:true
+            }).val('');
+          }
 
 
 
@@ -103,6 +126,7 @@ var cancelForm=function(){
 };
 //$("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-create-form",
 var saveForm= function () {
+    // alert("!23");
    var form = $(this);
 
    $.ajax({
@@ -110,13 +134,18 @@ var saveForm= function () {
      data: form.serialize(),
      type: form.attr("method"),
      dataType: 'json',
+     error:function(x,y,z){
+       console.log(x.responseText);
+       alert("error");
+     },
      success: function (data) {
+       console.log(data);
        if (data.form_is_valid) {
          //alert("Company created!");  // <-- This is just a placeholder for now for testing
          $("#tbody_purchaseRequest").empty();
-         $("#tbody_purchaseRequest").html(data.html_purchaseRequest_list);
+         $("#tbody_purchaseRequest").html(data.result);
          $("#modal-purchaseRequest").modal("hide");
-        toastr.success("درخواست با موفقیت ذخیره شد");
+        toastr.success("درخواست با موفقیت ذخیره شد","",{ positionClass: "toast-top-left"});
        }
        else {
 
@@ -209,8 +238,49 @@ var filter=function(){
   // alert("!23");
   window.location.replace("/PurchaseRequest/filter/"+"?q="+$("#p-status").val());
 }
+var loadRelatedAsset=function(){
+  asset_id=$("#id_PurchaseRequestAssetMakan").val();
+  if(asset_id)
+  {
+    $.ajax({
+
+      url: '/Asset/'+asset_id+'/listRelatedAsset',
+      error:function(x,y,z){
+        // console.log(x,y,z)
+
+      },
 
 
+      success: function (data) {
+          //alert($("#lastWorkOrderid").val());
+        if (data.form_is_valid) {
+
+          $("#id_PurchaseRequestAsset").empty();
+          $("#id_PurchaseRequestAsset").html(data.pval);
+
+          // $("#id_PurchaseRequestAsset").selectpicker();
+            $('#id_PurchaseRequestAsset').selectpicker('refresh');
+
+        }
+        else {
+
+
+        }
+      }
+    });
+ return false;
+  };
+
+}
+
+$('#modal-purchaseRequest').on('keyup', function (event) {
+
+  var keycode = (event.keyCode ? event.keyCode : event.which);
+  if(keycode == '13'){
+    alert("AFTER ENTER clicked");
+    // $('#getDataBt').click();
+  }
+});
 $("#p-status").on("change",filter);
 $(".js-create-purchaseRequest").click(myprLoader);
 $("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-create-form", saveForm);
@@ -222,6 +292,7 @@ $("#modal-purchaseRequest").on("change", "#id_PurchaseRequestAssetMakan",loadRel
 // Delete book
 $("#purchaseRequest-table").on("click", ".js-delete-purchaseRequest", loadForm);
 $("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-delete-form", saveForm);
+$("#modal-purchaseRequest").on("change", "#id_PurchaseRequestAssetMakan",loadRelatedAsset);
 // $('#modal-purchaseRequest').on('hidden.bs.modal',cancelForm);
 //$("#purchaseRequest-table").on("click", ".js-update-wo", initxLoad);
 });
