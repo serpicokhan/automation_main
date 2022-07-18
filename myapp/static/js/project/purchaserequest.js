@@ -138,14 +138,20 @@ var saveForm= function () {
        console.log(x.responseText);
        alert("error");
      },
+     beforeSend:function(xhr){
+       if($("#id_PurchaseRequestPartName").val()==0)
+       {
+         toastr.error("نام قطعه معتبر نیست","",{positionClass: "toast-top-full-width",});
+         xhr.abort();
+       }
+     },
      success: function (data) {
-       console.log(data);
        if (data.form_is_valid) {
          //alert("Company created!");  // <-- This is just a placeholder for now for testing
          $("#tbody_purchaseRequest").empty();
          $("#tbody_purchaseRequest").html(data.result);
          $("#modal-purchaseRequest").modal("hide");
-        toastr.success("درخواست با موفقیت ذخیره شد","",{ positionClass: "toast-top-left"});
+        toastr.success("درخواست با موفقیت ذخیره شد","",{ positionClass: "toast-top-full-width"});
        }
        else {
 

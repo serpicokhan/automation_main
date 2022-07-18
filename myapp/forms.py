@@ -29,20 +29,20 @@ class MessageForm(forms.ModelForm):
         model = Message
         fields = '__all__'
 class PurchaseForm(forms.ModelForm):
-    def clean_PurchaseDateTo(self):
-        if(self.cleaned_data['PurchaseDateTo']):
-             # print(self.cleaned_data['PurchaseRequestDateTo'],'datecompleted')
-             value=DateJob.getDate2( self.cleaned_data['PurchaseDateTo'])
-             return value
-        else:
-            return None
-    def clean_PurchaseDateFrom(self):
-        if(self.cleaned_data['PurchaseDateFrom']):
-             # print(self.cleaned_data['PurchaseRequestDateTo'],'datecompleted')
-             value=DateJob.getDate2( self.cleaned_data['PurchaseDateFrom'])
-             return value
-        else:
-            return None
+    # def clean_PurchaseDateTo(self):
+    #     if(self.cleaned_data['PurchaseDateTo']):
+    #          # print(self.cleaned_data['PurchaseRequestDateTo'],'datecompleted')
+    #          value=DateJob.getDate2( self.cleaned_data['PurchaseDateTo'])
+    #          return value
+    #     else:
+    #         return None
+    # def clean_PurchaseDateFrom(self):
+    #     if(self.cleaned_data['PurchaseDateFrom']):
+    #          # print(self.cleaned_data['PurchaseRequestDateTo'],'datecompleted')
+    #          value=DateJob.getDate2( self.cleaned_data['PurchaseDateFrom'])
+    #          return value
+    #     else:
+    #         return None
     # toUser = forms.ModelChoiceField(label="مخاطب",queryset=SysUser.objects.all(),empty_label='به کی')
 
 

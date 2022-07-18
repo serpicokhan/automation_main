@@ -39,7 +39,7 @@ def filter_user(request):
     if(request.user.username=="admin"):
         return Purchase.objects.all().order_by('-id')
     else:
-        return Purchase.objects.filter(PurchaseRequestRequestedUser__userId=request.user).order_by('-id')
+        return Purchase.objects.filter(PurchaseRequestedUser__userId=request.user).order_by('-id')
 ##########################################################
 def list_purchaseRequest(request,id=None):
     #
@@ -121,7 +121,10 @@ def purchaseRequest_create(request):
             print(form.errors)
         # return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
     else:
-        form = PurchaseForm()
+        user_id=SysUser.objects.get(userId=request.user)
+        # form = PurchaseRequestForm()
+
+        form = PurchaseForm(initial={'PurchaseRequestedUser':user_id.id,'PurchaseStatus':1})
         # return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
         return render(request, 'myapp/purchase_request/partialPurchaseRequestCreate.html', {'form': form})
 
@@ -147,6 +150,7 @@ def purchase_item_create(request):
         # return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
 
     else:
+
         form = PurchaseRequestForm()
         return save_purchaseRequest_form(request, form, 'myapp/purchase/partialPurchaseRequestCreate.html')
         # return render(request, 'myapp/purchase_request/partialPurchaseRequestCreate.html', {'form': form})
