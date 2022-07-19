@@ -2,15 +2,13 @@
 
 <tr>
 <td></td>
-<td>{{c.id}}</td>
+
 <td>{{c.PurchaseRequestAsset}}</td>
 <td>{{c.PurchaseRequestPartName}}</td>
 
 <td>{{c.PurchaseRequestAssetQty}}</td>
  <td>{% autoescape off %}{{c.get_pstatus}}{% endautoescape %}</td>
- <td>{{c.get_PurchaseRequestStatus_display}}</td>
 
- <td>{{c.PurchaseRequestRequestedUser}}</td>
 
 
 
@@ -26,7 +24,7 @@
        <a href="#" class="btn btn-danger shadow btn-xs sharp js-delete-purchaseRequest"  data-url="{% url 'purchaseRequest_delete' c.id %}"><i class="fa fa-trash"></i></a>
    </div>
 
-   
+
     </td>
 </tr>
 {% empty %}

@@ -108,11 +108,17 @@ def purchaseRequest_delete(request, id):
 ##########################################################
 def purchaseRequest_create(request):
     if (request.method == 'POST'):
+        print(request.POST)
 
         form = PurchaseForm(request.POST)
         if(form.is_valid()):
-            print(request.POST)
-            form.save()
+
+
+
+            instance=form.save()
+            item_ids=request.POST.get('lastPurchaseRequestid',False)
+            if(item_ids):
+                print(item_ids)
             # print("form is saved!!!!!!!!!!!!")
 
             return HttpResponseRedirect(reverse('list_purchaseRequest'))
@@ -155,6 +161,13 @@ def purchase_item_create(request):
         return save_purchaseRequest_form(request, form, 'myapp/purchase/partialPurchaseRequestCreate.html')
         # return render(request, 'myapp/purchase_request/partialPurchaseRequestCreate.html', {'form': form})
 
+def purchase_item_get(request,id):
+    data=dict()
+    books=PurchaseRequest.objects.all()
+    data['form_is_valid']=True
+    data['rows']=render_to_string('myapp/purchase/partialPurchaseRequestList.html', {               'rfq': books            })
+    print("here!!!")
+    return JsonResponse(data)
 
 
 

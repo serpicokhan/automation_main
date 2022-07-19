@@ -27,6 +27,7 @@ urlpatterns = [
     url(r'^PurchaseRequest/create/$', purchaseRequest_create, name='purchaseRequest_create'),
     # url(r'^PurchaseRequest/(?P<id>\d+)/update/$', purchaseRequest_update, name='purchaseRequest_update'),
     url(r'^PurchaseItem/create/$', purchase_item_create, name='purchase_item_create'),
+    url(r'^Purchase/items/(?P<id>\d+)$', purchase_item_get, name='purchase_item_get'),
     url(r'^PurchaseRequest/(?P<id>\d+)/update/$', purchaseRequest_update, name='purchaseRequest_update'),
     # url(r'^PurchaseRequest/(?P<name>[-\w]+)/Search/$', searchPurchaseRequest, name='searchPurchaseRequest'),
     url(r'^PurchaseRequest/(?P<id>\d+)/delete/$', purchaseRequest_delete, name='purchaseRequest_delete'),

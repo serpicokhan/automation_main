@@ -9,21 +9,29 @@
 
               <div class=" ml-0 ml-sm-4 ml-sm-0">
 
-                  <div class="table-responsive" style="height: 400px;overflow: scroll;">
+                  <div class="table-responsive example" style="height: 400px;overflow: scroll;">
+                    <style media="screen">
+                      .example::-webkit-scrollbar {
+                            display: none;
+                          }
+
+                          /* Hide scrollbar for IE, Edge and Firefox */
+                          .example {
+                            -ms-overflow-style: none;  /* IE and Edge */
+                            scrollbar-width: none;  /* Firefox */
+                          }
+                    </style>
                       <table class="table table-striped" id="purchaseRequest-table">
                           <thead>
                           <tr>
                             <th></th>
 
-                            <th>کد درخواست</th>
+
                             <th>تجهیز</th>
                             <th>نام قطعه</th>
                             <th>تعداد</th>
                             <th>ایجاد وقفه</th>
-                            <th>وضعیت</th>
-                            <th>درخواست کننده</th>
 
-                            <th>تاریخ درخواست</th>
 
 
 

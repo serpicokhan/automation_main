@@ -124,10 +124,18 @@ var cancelForm=function(){
 
 
 };
+var ids=[];
+var tbl_purchase_content="";
 //$("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-create-form",
 var saveForm= function () {
     // alert("!23");
    var form = $(this);
+   var tbody=$("#tbody_purchaseRequest");
+   var part_name=$("#id_mypart").val();
+   var part_qty=$("#id_PurchaseRequestAssetQty").val();
+   var tajhiz=$( "#id_PurchaseRequestAsset option:selected" ).text();
+
+
 
    $.ajax({
      url: form.attr("action"),
@@ -149,7 +157,18 @@ var saveForm= function () {
        if (data.form_is_valid) {
          //alert("Company created!");  // <-- This is just a placeholder for now for testing
          $("#tbody_purchaseRequest").empty();
-         $("#tbody_purchaseRequest").html(data.result);
+         var row=`<tr><td></td><td>${part_name}</td><td>${part_qty}</td><td>${tajhiz}</td><td></td><td> <div class="d-flex">
+              <a href="#" class="btn btn-primary shadow btn-xs sharp mr-1 btn-sm js-update-purchaseRequest"   data-url="{% url 'purchaseRequest_update' ${data.id} %}"><i class="fa fa-pencil"></i></a>
+              <a href="#" class="btn btn-danger shadow btn-xs sharp js-delete-purchaseRequest"  data-url="{% url 'purchaseRequest_delete' ${data.id} %}"><i class="fa fa-trash"></i></a>
+          </div></td></tr>`;
+
+         tbl_purchase_content+=row;
+         $("#tbody_purchaseRequest").append(tbl_purchase_content);
+
+         ids.push(data.id);
+         $("#lastPurchaseRequestid").val(ids);
+         // $("#tbody_purchaseRequest").html(data.result);
+
          $("#modal-purchaseRequest").modal("hide");
         toastr.success("درخواست با موفقیت ذخیره شد","",{ positionClass: "toast-top-full-width"});
        }
