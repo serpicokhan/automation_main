@@ -102,6 +102,30 @@ def purchaseRequest_delete(request, id):
             request=request,
         )
     return JsonResponse(data)
+def purchase_item_delete(request, id):
+    comp1 = get_object_or_404(PurchaseRequest, id=id)
+
+    data = dict()
+    if (request.method == 'POST'):
+
+        comp1.delete()
+        data['form_is_valid'] = True  # This is just to play along with the existing code
+        data['delete']=True
+        data['id']=id
+        # companies =  PurchaseRequest.objects.all().order_by('-id')
+        # books1 =filter_user(request)
+
+        #Tasks.objects.filter(purchaseRequestId=id).update(purchaseRequest=id)
+        # data['html_purchaseRequest_list'] = render_to_string('myapp/purchase/partialPurchaseRequestList.html', {
+        #     'rfq': books
+        # })
+    else:
+        context = {'purchaseRequest': comp1}
+        data['html_purchaseRequest_form'] = render_to_string('myapp/purchase/partialPurchaseRequestDelete.html',
+            context,
+            request=request,
+        )
+    return JsonResponse(data)
 
 ##########################################################
 
@@ -109,18 +133,16 @@ def purchaseRequest_delete(request, id):
 def purchaseRequest_create(request):
     if (request.method == 'POST'):
         print(request.POST)
-
         form = PurchaseForm(request.POST)
         if(form.is_valid()):
-
-
-
             instance=form.save()
             item_ids=request.POST.get('lastPurchaseRequestid',False)
             if(item_ids):
-                print(item_ids)
-            # print("form is saved!!!!!!!!!!!!")
-
+                items=item_ids.split(',')
+                for i in items:
+                    obj=PurchaseRequest.objects.get(id=i)
+                    obj.PurchaseRequestPurchase=Purchase.objects.get(id=instance.id)
+                    obj.save()
             return HttpResponseRedirect(reverse('list_purchaseRequest'))
 
         else:
@@ -136,34 +158,61 @@ def purchaseRequest_create(request):
 
 def purchase_item_create(request):
     if (request.method == 'POST'):
-        print(request.user.id)
+        # print(request.user.id)
         form = PurchaseRequestForm(request.POST)
-        print(request.POST)
+        # print(request.POST)
         if(form.is_valid()):
             data=dict()
+            # pid=request.GET.get('lid',False)
+            # if(pid):
+            #     form.save(commit=False)
+            #     form.instance.PurchaseRequestPurchase=Purchase.objects.get(id=pid)
             instance=form.save()
             data['id']=instance.id
-
-            books=PurchaseRequest.objects.all()
             data['form_is_valid']=True
-            data['result']=render_to_string('myapp/purchase/partialPurchaseRequestList.html', {               'rfq': books            })
-            print("here!!!")
             return JsonResponse(data)
         else:
             print("error")
             print(form.errors)
             return HttpResponseRedirect(reverse('list_purchaseRequest'))
-        # return save_purchaseRequest_form(request, form, 'myapp/purchase_request/partialPurchaseRequestCreate.html')
 
     else:
 
         form = PurchaseRequestForm()
         return save_purchaseRequest_form(request, form, 'myapp/purchase/partialPurchaseRequestCreate.html')
-        # return render(request, 'myapp/purchase_request/partialPurchaseRequestCreate.html', {'form': form})
+def purchase_item_update(request,id):
+    company=get_object_or_404(PurchaseRequest,id=id)
+    if (request.method == 'POST'):
+        form = PurchaseRequestForm(request.POST,instance=company)
+        # print(request.POST)
+        if(form.is_valid()):
+            data=dict()
+            instance=form.save()
+            # if(not instance.PurchaseRequestPurchase):
+
+            data['id']=instance.id
+            data['update']=True
+            books=PurchaseRequest.objects.filter(PurchaseRequestPurchase=instance.PurchaseRequestPurchase)
+            data['result']=render_to_string('myapp/purchase/partialPurchaseRequestList.html', {               'rfq': books            })
+            data['form_is_valid']=True
+            return JsonResponse(data)
+        else:
+            print("error")
+            print(form.errors)
+            return HttpResponseRedirect(reverse('list_purchaseRequest'))
+    else:
+
+        form = PurchaseRequestForm(instance=company,initial={'mypart':company.PurchaseRequestPartName.partName})
+        data=dict()
+
+        context = {'form': form}
+        template_name="myapp/purchase/partialPurchaseRequestUpdate.html"
+        data['html_purchaseRequest_form'] = render_to_string(template_name, context, request=request)
+        return JsonResponse(data)
 
 def purchase_item_get(request,id):
     data=dict()
-    books=PurchaseRequest.objects.all()
+    books=PurchaseRequest.objects.filter(PurchaseRequestPurchase=id)
     data['form_is_valid']=True
     data['rows']=render_to_string('myapp/purchase/partialPurchaseRequestList.html', {               'rfq': books            })
     print("here!!!")
@@ -179,8 +228,18 @@ def purchaseRequest_update(request, id):
         print(request.POST)
         form = PurchaseForm(request.POST,instance=company)
         if(form.is_valid()):
-            form.save()
+            instance=form.save()
+            item_ids=request.POST.get('lastPurchaseRequestid',False)
+
+            if(item_ids):
+                items=item_ids.split(',')
+                for i in items:
+                    obj=PurchaseRequest.objects.get(id=i)
+                    obj.PurchaseRequestPurchase=Purchase.objects.get(id=instance.id)
+                    obj.save()
+            # print(item_ids.split(','),'!!!!!!!!!!!!!!!!!!!!!')
             # print("form is saved!!!!!!!!!!!!")
+
 
             return HttpResponseRedirect(reverse('list_purchaseRequest'))
         else:
@@ -197,10 +256,7 @@ def purchaseRequest_update(request, id):
 ##########################################################
 
 ##########################################################
-def purchaseRequestCancel(request,id):
-    data=dict()
 
-    return JsonResponse(data)
 
 def doPaging(request,books):
     page=request.GET.get('page',1)

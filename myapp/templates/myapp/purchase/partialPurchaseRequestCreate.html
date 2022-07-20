@@ -28,6 +28,8 @@
 
 
               {% csrf_token %}
+              
+              <input type="hidden" name="parent_id"  value={{lid}}>
 
 
               {% include 'myapp/purchase/partialPurchaseRequestForm.html' %}

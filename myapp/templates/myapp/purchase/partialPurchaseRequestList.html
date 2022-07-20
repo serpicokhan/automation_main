@@ -1,6 +1,6 @@
 {% for c in rfq %}
 
-<tr>
+<tr data-url="{{c.id}}">
 <td></td>
 
 <td>{{c.PurchaseRequestAsset}}</td>
@@ -20,8 +20,8 @@
  <td>
 
    <div class="d-flex">
-       <a href="#" class="btn btn-primary shadow btn-xs sharp mr-1 btn-sm js-update-purchaseRequest"   data-url="{% url 'purchaseRequest_update' c.id %}"><i class="fa fa-pencil"></i></a>
-       <a href="#" class="btn btn-danger shadow btn-xs sharp js-delete-purchaseRequest"  data-url="{% url 'purchaseRequest_delete' c.id %}"><i class="fa fa-trash"></i></a>
+       <a href="#" class="btn btn-primary shadow btn-xs sharp mr-1 btn-sm js-update-purchaseRequestItem"   data-url="{% url 'purchase_item_update' c.id %}"><i class="fa fa-pencil"></i></a>
+       <a href="#" class="btn btn-danger shadow btn-xs sharp js-delete-purchase-item"  data-url="{% url 'purchase_item_delete' c.id %}"><i class="fa fa-trash"></i></a>
    </div>
 
 

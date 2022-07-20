@@ -2,6 +2,7 @@
 
 <div class="row">
   {% load static %}
+    {{form.PurchaseRequestPurchase.as_hidden   }}
 
 
 <div class="col-sm-12 b-r">
@@ -73,7 +74,7 @@
             <div class="form-group">
 
 
-              <input type="checkbox" class="form-check-input" id="id_PurchaseRequestAssetNot" name='PurchaseRequestAssetNot' value="">
+              <input type="checkbox" class="form-check-input" id="id_PurchaseRequestAssetNot" name='PurchaseRequestAssetNot' >
               <label class="form-check-label" for="check2">{{form.PurchaseRequestAssetNot.label}}</label>
 
             </div>

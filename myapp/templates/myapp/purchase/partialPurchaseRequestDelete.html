@@ -1,4 +1,4 @@
-<form method="post" action="{% url 'purchaseRequest_delete' purchaseRequest.id %}" class="js-purchaseRequest-delete-form">
+<form method="post" action="{% url 'purchase_item_delete' purchaseRequest.id %}" class="js-purchaseRequest-delete-form">
   {% csrf_token %}
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -7,7 +7,7 @@
     <h4 class="modal-title">حذف</h4>
   </div>
   <div class="modal-body">
-    <p class="lead">از عمل حذف مطمین هستید؟  <strong>{{ rfq.id }}</strong>?</p>
+    <p class="lead">از عمل حذف مطمین هستید؟  <strong>{{ purchaseRequest.id }}</strong>?</p>
   </div>
   <div class="modal-footer">
     <button type="submit" class="btn btn-danger"> حذف</button>

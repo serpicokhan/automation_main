@@ -10,16 +10,19 @@ $(function () {
     else {
       btn=btn1;
     }
-    //console.log($(btn).attr("type"));
-    //console.log($(btn).attr("data-url"));
+    // alert($(btn).attr("type"));
+    // btn=$(this);
+    console.log($(btn).attr("data-url"));
     return $.ajax({
       url: btn.attr("data-url"),
       type: 'get',
       dataType: 'json',
-      beforeSend: function () {
+      beforeSend: function (x,z) {
         // $("#modal-purchaseRequest").html('');
+        // console.log($(btn).attr("data-url"));
 
         $("#modal-purchaseRequest").modal({backdrop: 'static', keyboard: false});
+        // x.abort();
       },
       success: function (data) {
 
@@ -57,33 +60,8 @@ $(function () {
           $('#id_PurchaseRequestPartName').val(item.id).trigger('change');
           // $('.basicAutoCompleteCustom').html('');
         });
-        if($("#id_PurchaseRequestDateTo").val().length>0)
-          $("#id_PurchaseRequestDateTo").pDatepicker({
-            format: 'YYYY-MM-DD',
-            initialValueType: 'gregorian',
-            autoClose:true
-          });
-        else{
-          $("#id_PurchaseRequestDateTo").pDatepicker({
-            format: 'YYYY-MM-DD',
 
-            autoClose:true
-          }).val('');
 
-        }
-        if($("#id_PurchaseRequestDateFrom").val().length>0)
-          $("#id_PurchaseRequestDateFrom").pDatepicker({
-            format: 'YYYY-MM-DD',
-            initialValueType: 'gregorian',
-            autoClose:true
-          });
-          else {
-            $("#id_PurchaseRequestDateFrom").pDatepicker({
-              format: 'YYYY-MM-DD',
-
-              autoClose:true
-            }).val('');
-          }
 
 
 
@@ -95,35 +73,7 @@ $(function () {
 
 
 };
-var cancelForm=function(){
 
-  $.ajax({
-    url: '/PurchaseRequest/'+$("#lastPurchaseRequestid").val()+'/Cancel/',
-
-    type: 'get',
-    dataType: 'json',
-    success: function (data) {
-      if (data.form_is_valid) {
-        //alert("taskGroup created!");  // <-- This is just a placeholder for now for testing
-
-        $("#tbody_purchaseRequest").empty();
-        $("#tbody_purchaseRequest").html(data.html_purchaseRequest_list);
-
-
-        // $("#modal-taskGroup").modal("hide");
-       // console.log(data.html_taskGroup_list);
-      }
-      else {
-
-        // $("#purchaseRequest-table tbody").html(data.html_part_list);
-        // $("#modal-purchaseRequest .modal-content").html(data.html_part_form);
-      }
-    }
-  });
-  return false;
-
-
-};
 var ids=[];
 var tbl_purchase_content="";
 //$("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-create-form",
@@ -134,6 +84,7 @@ var saveForm= function () {
    var part_name=$("#id_mypart").val();
    var part_qty=$("#id_PurchaseRequestAssetQty").val();
    var tajhiz=$( "#id_PurchaseRequestAsset option:selected" ).text();
+   // var ijade_vaghfe=$("#checkkBoxId").attr("checked")?"<i class="fa fa-close"></i>":"";
 
 
 
@@ -143,7 +94,7 @@ var saveForm= function () {
      type: form.attr("method"),
      dataType: 'json',
      error:function(x,y,z){
-       console.log(x.responseText);
+       // console.log(x.responseText);
        alert("error");
      },
      beforeSend:function(xhr){
@@ -155,18 +106,34 @@ var saveForm= function () {
      },
      success: function (data) {
        if (data.form_is_valid) {
+         if(data.update)
+         {
+           // alert("here")
+           $("#tbody_purchaseRequest").html(data.result);
+         }
+         else if (data.delete) {
+
+
+         }
+         else {
+           tbl_purchase_content= $("#tbody_purchaseRequest").html();
+           $("#tbody_purchaseRequest").empty();
+           var row=`<tr data-url=${data.id}><td></td><td>${tajhiz}</td><td>${part_name}</td><td>${part_qty}</td><td><i class="fa fa-close"></i></td><td> <div class="d-flex">
+             <a href="#" class="btn btn-primary shadow btn-xs sharp mr-1 btn-sm js-update-purchaseRequestItem"   data-url="/PurchaseItem/${data.id}/update/"><i class="fa fa-pencil"></i></a>
+              <a href="#" class="btn btn-danger shadow btn-xs sharp js-delete-purchase-item"  data-url="/PurchaseItem/${data.id}/delete/"><i class="fa fa-trash"></i></a>
+        </div></td></tr>`;
+
+           tbl_purchase_content+=row;
+           // console.log(tbl_purchase_content);
+           $("#tbody_purchaseRequest").html(tbl_purchase_content);
+           ids.push(data.id);
+           $("#lastPurchaseRequestid").val(ids);
+
+         }
          //alert("Company created!");  // <-- This is just a placeholder for now for testing
-         $("#tbody_purchaseRequest").empty();
-         var row=`<tr><td></td><td>${part_name}</td><td>${part_qty}</td><td>${tajhiz}</td><td></td><td> <div class="d-flex">
-              <a href="#" class="btn btn-primary shadow btn-xs sharp mr-1 btn-sm js-update-purchaseRequest"   data-url="{% url 'purchaseRequest_update' ${data.id} %}"><i class="fa fa-pencil"></i></a>
-              <a href="#" class="btn btn-danger shadow btn-xs sharp js-delete-purchaseRequest"  data-url="{% url 'purchaseRequest_delete' ${data.id} %}"><i class="fa fa-trash"></i></a>
-          </div></td></tr>`;
 
-         tbl_purchase_content+=row;
-         $("#tbody_purchaseRequest").append(tbl_purchase_content);
 
-         ids.push(data.id);
-         $("#lastPurchaseRequestid").val(ids);
+
          // $("#tbody_purchaseRequest").html(data.result);
 
          $("#modal-purchaseRequest").modal("hide");
@@ -176,6 +143,50 @@ var saveForm= function () {
 
 
        }
+     }
+   });
+   return false;
+ };
+var deleteForm= function () {
+    // alert("!23");
+   var form = $(this);
+
+
+   // var ijade_vaghfe=$("#checkkBoxId").attr("checked")?"<i class="fa fa-close"></i>":"";
+
+
+
+   $.ajax({
+     url: form.attr("action"),
+     data: form.serialize(),
+     type: form.attr("method"),
+     dataType: 'json',
+     error:function(x,y,z){
+       // console.log(x.responseText);
+       alert("error");
+     },
+     beforeSend:function(xhr){
+       if($("#id_PurchaseRequestPartName").val()==0)
+       {
+         toastr.error("نام قطعه معتبر نیست","",{positionClass: "toast-top-full-width",});
+         xhr.abort();
+       }
+     },
+     success: function (data) {
+       // console.log(form.parent());
+       // form.parent().remove();
+       tb=$("#purchaseRequest-table");
+       tb.find("tr").each(function(index, element) {
+         var colSize = $(element).attr('data-url');
+         if(colSize==data.id)
+            element.remove()
+
+       });
+      $("#modal-purchaseRequest").modal("hide");
+
+         // $("#tbody_purchaseRequest").html(data.result);
+
+
      }
    });
    return false;
@@ -311,12 +322,12 @@ $(".js-create-purchaseRequest").click(myprLoader);
 $("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-create-form", saveForm);
 
 // Update book
-$("#purchaseRequest-table").on("click", ".js-update-purchaseRequest", myprLoader);
+$("#purchaseRequest-table").on("click", ".js-update-purchaseRequestItem", myprLoader);
 $("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-update-form", saveForm);
 $("#modal-purchaseRequest").on("change", "#id_PurchaseRequestAssetMakan",loadRelatedAsset);
 // Delete book
-$("#purchaseRequest-table").on("click", ".js-delete-purchaseRequest", loadForm);
-$("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-delete-form", saveForm);
+$("#purchaseRequest-table").on("click", ".js-delete-purchase-item", loadForm);
+$("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-delete-form", deleteForm);
 $("#modal-purchaseRequest").on("change", "#id_PurchaseRequestAssetMakan",loadRelatedAsset);
 // $('#modal-purchaseRequest').on('hidden.bs.modal',cancelForm);
 //$("#purchaseRequest-table").on("click", ".js-update-wo", initxLoad);
