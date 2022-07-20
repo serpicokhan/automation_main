@@ -108,8 +108,25 @@ var saveForm= function () {
        if (data.form_is_valid) {
          if(data.update)
          {
-           // alert("here")
-           $("#tbody_purchaseRequest").html(data.result);
+           alert("here")
+           // $("#tbody_purchaseRequest").html(data.result);
+           tb=$("#purchaseRequest-table");
+           tb.find("tr").each(function(index, element) {
+             var colSize = $(element).attr('data-url');
+             if(colSize==data.id)
+                element.remove()
+
+           });
+           tbl_purchase_content= $("#tbody_purchaseRequest").html();
+           $("#tbody_purchaseRequest").empty();
+           var row=`<tr data-url=${data.id}><td></td><td>${tajhiz}</td><td>${part_name}</td><td>${part_qty}</td><td><i class="fa fa-close"></i></td><td> <div class="d-flex">
+             <a href="#" class="btn btn-primary shadow btn-xs sharp mr-1 btn-sm js-update-purchaseRequestItem"   data-url="/PurchaseItem/${data.id}/update/"><i class="fa fa-pencil"></i></a>
+              <a href="#" class="btn btn-danger shadow btn-xs sharp js-delete-purchase-item"  data-url="/PurchaseItem/${data.id}/delete/"><i class="fa fa-trash"></i></a>
+        </div></td></tr>`;
+        tbl_purchase_content+=row;
+        // console.log(tbl_purchase_content);
+        $("#tbody_purchaseRequest").html(tbl_purchase_content);
+
          }
          else if (data.delete) {
 
