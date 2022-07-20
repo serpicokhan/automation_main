@@ -15,6 +15,13 @@ $(function(){
     //
     // });
 
+    $(".dt-picker").pDatepicker({ format: 'YYYY-MM-DD',
+            initialValueType: 'gregorian',
+            autoClose:true});
+            xxxDate1=new persianDate();
+            dt1=xxxDate1.pDate.year.toString()+"-"+("0" + xxxDate1.pDate.month).slice(-2)+"-01";
+            $("#date_from").val(dt1);
+
     var save_msg=function(){
      document.getElementById('purchaseform').submit();
     }

@@ -17,7 +17,9 @@
                   </div>
                   <div class="mail-list mt-4">
                       <a href="email-inbox.html" class="list-group-item active"><i class="fa fa-inbox font-18 align-middle mr-2"></i> صندوق <span class="badge badge-primary badge-sm float-right">198</span> </a>
-                      <a href="javascript:void()" class="list-group-item"><i class="fa fa-paper-plane font-18 align-middle mr-2"></i>ارسال شده</a> <a href="javascript:void()" class="list-group-item"><i class="fa fa-star font-18 align-middle mr-2"></i>مهم <span class="badge badge-danger text-white badge-sm float-right">47</span>
+                      <a href="javascript:void()" class="list-group-item"><i class="fa fa-paper-plane font-18 align-middle mr-2"></i><input type="text" id="date_from" value="" class="form-control dt-picker"></a>
+                      <a href="javascript:void()" class="list-group-item"><input type="text" name="date_to" value="" class="form-control dt-picker"></a>
+                      <a href="javascript:void()" class="list-group-item"><i class="fa fa-star font-18 align-middle mr-2"></i>مهم <span class="badge badge-danger text-white badge-sm float-right">47</span>
                   </a>
                       <a href="#" class="list-group-item">
 
@@ -47,8 +49,7 @@
                           </div>
                       </div>
                       <div class="btn-group mb-1">
-                          <button class="btn btn-primary light px-3" type="button"><i class="ti-reload"></i>
-                          </button>
+
                       </div>
 
                   </div>
@@ -79,45 +80,29 @@
                                   {% include 'myapp/purchase_request/partialPurchaseRequestList.html' %}
                           </tbody>
                       </table>
-                      <div class="woPaging" >
-                        {% if purchaseRequest.has_other_pages %}
-                        <ul class="pagination">
-                        {% if purchaseRequest.has_previous %}
-                        <li><a href="?page={{ purchaseRequest.previous_page_number }}">&laquo;</a></li>
-                        {% else %}
-                        <li class="disabled"><span>&laquo;</span></li>
-                        {% endif %}
-                        {% for i in purchaseRequest.paginator.page_range %}
-                        {% if users.number == i %}
-                        <li class="active"><span>{{ i }} <span class="sr-only">(current)</span></span></li>
-                        {% else %}
-                        <li><a href="?page={{ i }}">{{ i }}</a></li>
-                        {% endif %}
-                        {% endfor %}
-                        {% if purchaseRequest.has_next %}
-                        <li><a href="?page={{ purchaseRequest.next_page_number }}">&raquo;</a></li>
-                        {% else %}
-                        <li class="disabled"><span>&raquo;</span></li>
-                        {% endif %}
-                        </ul>
-                        {% endif %}
 
-                      </div>
                       <!-- BUTTON TO TRIGGER THE ACTION -->
 
                   </div>
-              
+
                   <!-- panel -->
                   <div class="row mt-4">
                       <div class="col-12 pl-3">
                           <nav>
                               <ul class="pagination pagination-gutter pagination-primary pagination-sm no-bg">
-                                  <li class="page-item page-indicator"><a class="page-link" href="javascript:void()"><i class="la la-angle-left"></i></a></li>
-                                  <li class="page-item "><a class="page-link" href="javascript:void()">1</a></li>
-                                  <li class="page-item active"><a class="page-link" href="javascript:void()">2</a></li>
-                                  <li class="page-item"><a class="page-link" href="javascript:void()">3</a></li>
-                                  <li class="page-item"><a class="page-link" href="javascript:void()">4</a></li>
-                                  <li class="page-item page-indicator"><a class="page-link" href="javascript:void()"><i class="la la-angle-right"></i></a></li>
+                                  {% if rfq.has_previous %}
+                                <li class="page-item page-indicator"><a class="page-link" href="?page={{ rfq.previous_page_number }}"><i class="la la-angle-left"></i></a></li>
+                                {% endif %}
+                                  {% for i in rfq.paginator.page_range %}
+                                    {% if  rfq.number  ==  i %}
+                                  <li class="page-item active"><a class="page-link" href="javascript:void()">{{i}}</a></li>
+                                  {% else %}
+                                  <li class="page-item"><a class="page-link" href="?page={{ i }}"">{{i}}</a></li>
+                                  {% endif %}
+                                  {% endfor  %}
+                                    {% if rfq.has_next %}
+                                  <li class="page-item page-indicator"><a class="page-link" href="?page={{ rfq.next_page_number }}"><i class="la la-angle-right"></i></a></li>
+                                  {% endif %}
                               </ul>
                           </nav>
                       </div>
