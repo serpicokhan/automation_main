@@ -27,7 +27,7 @@ $(function(){
         dataType: 'json',
         error:function(x,y,z){
           console.log(x.responseText);
-          alert("error");
+          // alert("error");
         },
         beforeSend:function(xhr){
 
