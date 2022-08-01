@@ -6,3 +6,7 @@ from myapp.views.mailfileview import *
 from myapp.views.purchaserequestview import *
 from myapp.views.partview import *
 from myapp.views.assetview import *
+from cmms.views.businessview import *
+from cmms.views.businessfileview import *
+from cmms.views.businessassetview import *
+from cmms.views.businesspartview import *

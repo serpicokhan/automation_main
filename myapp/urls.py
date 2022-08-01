@@ -37,4 +37,30 @@ urlpatterns = [
     url(r'^Part/Get/$', get_parts, name='get_parts'),
 
     url(r'^Asset/(?P<id>\d+)/listRelatedAsset/$', getRelatedAsset, name='getRelatedAsset'),
+     url(r'^Business/$',list_business,name='list_business'),
+     url(r'^Business/create/$', business_create, name='business_create'),
+     url(r'^Business/(?P<id>\d+)/delete/$', business_delete, name='business_delete'),
+     url(r'^Business/(?P<id>\d+)/update/$', business_update, name='business_update'),
+     url(r'^Business/(?P<id>\d+)/Cancel/$', businessCancel, name='businessCancel'),
+     url(r'^Business/Search/$', business_search, name='business_search'),
+       url(r'^BusinessFile/$',list_businessFile,name='list_businessFile'),
+      url(r'^BusinessFile/create/$', businessFile_create, name='businessFile_create'),
+      url(r'^BusinessFile/(?P<id>\d+)/delete/$', businessFile_delete, name='businessFile_delete'),
+      url(r'^BusinessFile/(?P<id>\d+)/update/$', businessFile_update, name='businessFile_update'),
+      url(r'^BusinessFile/(?P<woId>\d+)/listBusinessFile/$', js_list_businessFile, name='js_list_businessFile'),
+      url(r'^BusinessFile/(?P<Id>\d+)/basic-upload/$', BusinessFileUploadView.as_view(), name='business_upload'),
+
+      url(r'^BusinessAsset/$',list_businessAsset,name='list_businessAsset'),
+      url(r'^BusinessAsset/create/$', businessAsset_create, name='businessAsset_create'),
+      url(r'^BusinessAsset/(?P<id>\d+)/delete/$', businessAsset_delete, name='businessAsset_delete'),
+      url(r'^BusinessAsset/(?P<id>\d+)/update/$', businessAsset_update, name='businessAsset_update'),
+      url(r'^BusinessAsset/(?P<woId>\d+)/listBusinessAsset/$', js_list_businessAsset, name='js_list_businessAsset'),
+
+      url(r'^BusinessPart/$',list_businessPart,name='list_businessPart'),
+      url(r'^BusinessPart/create/$', businessPart_create, name='businessPart_create'),
+      url(r'^BusinessPart/(?P<pid>\d+)/create/$', businessPart_create, name='businessPart_create'),
+      url(r'^BusinessPart/(?P<id>\d+)/delete/$', businessPart_delete, name='businessPart_delete'),
+      url(r'^BusinessPart/(?P<id>\d+)/update/$', businessPart_update, name='businessPart_update'),
+      url(r'^BusinessPart/(?P<woId>\d+)/listBusinessPart/$', js_list_businessPart, name='js_list_businessPart'),
+
 ]
