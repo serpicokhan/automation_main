@@ -18,21 +18,21 @@ from django.views.decorators import csrf
 import django.core.serializers
 import logging
 from django.conf import settings
-from cmms.models.business import *
+from myapp.models.business import *
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from django.views import View
 #from django.core import serializers
 import json
 from django.forms.models import model_to_dict
-from cmms.forms import BusinessFileForm
+from myapp.forms import BusinessFileForm
 from django.views.decorators.http import require_POST
 from django.core.files.storage import default_storage
 
 ###################################################################
 def list_businessFile(request,id=None):
     books = BusinessFile.objects.all()
-    return render(request, 'cmms/business_file/businessFileList.html', {'businessFiles': books})
+    return render(request, 'myapp/business_file/businessFileList.html', {'businessFiles': books})
 
 
 ###################################################################
@@ -40,7 +40,7 @@ def js_list_businessFile(request,woId):
     data=dict()
     books=BusinessFile.objects.filter(businessFileBusinessId=woId)
 
-    data['html_businessFile_list']= render_to_string('cmms/business_file/partialBusinessFileList.html', {
+    data['html_businessFile_list']= render_to_string('myapp/business_file/partialBusinessFileList.html', {
         'businessFiles': books
     })
     data['form_is_valid']=True
@@ -60,7 +60,7 @@ def save_businessFile_form(request, form, template_name,woId=None):
             logging.basicConfig(format=fmt, level=lvl)
             logging.debug( woId)
             books = WorkorderFile.objects.filter(businessFileBusinessId=woId)
-            data['html_businessFile_list'] = render_to_string('cmms/workorder_file/partialBusinessFilelist.html', {
+            data['html_businessFile_list'] = render_to_string('myapp/workorder_file/partialBusinessFilelist.html', {
                 'businessFiles': books
             })
           else:
@@ -83,12 +83,12 @@ def businessFile_delete(request, id):
         comp1.delete()
         data['form_is_valid'] = True  # This is just to play along with the existing code
         companies = WorkorderFile.objects.all()
-        data['html_businessFile_list'] = render_to_string('cmms/workorder_file/partialBusinessFilelist.html', {
+        data['html_businessFile_list'] = render_to_string('myapp/workorder_file/partialBusinessFilelist.html', {
             'businessFile': companies
         })
     else:
         context = {'businessFile': comp1}
-        data['html_businessFile_form'] = render_to_string('cmms/workorder_file/partialBusinessFileDelete.html',
+        data['html_businessFile_form'] = render_to_string('myapp/workorder_file/partialBusinessFileDelete.html',
             context,
             request=request,
         )
@@ -122,7 +122,7 @@ def businessFile_create(request):
 
     else:
         form = BusinessFileForm()
-    return save_businessFile_form(request, form, 'cmms/workorder_file/partialBusinessFileCreate.html',woId)
+    return save_businessFile_form(request, form, 'myapp/workorder_file/partialBusinessFileCreate.html',woId)
 ###################################################################
 
 @csrf_exempt
@@ -148,13 +148,13 @@ def businessFile_update(request, id):
         form = BusinessFileForm(data, instance=company)
     else:
         form = BusinessFileForm(instance=company)
-    return save_businessFile_form(request, form, 'cmms/workorder_file/partialBusinessFileUpdate.html',woId)
+    return save_businessFile_form(request, form, 'myapp/workorder_file/partialBusinessFileUpdate.html',woId)
 
 
 class BusinessFileUploadView(View):
     def get(self, request):
         books = BusinessFile.objects.all()
-        return render(request, 'cmms/business_file/businessFileList.html', {'businessFiles': books})
+        return render(request, 'myapp/business_file/businessFileList.html', {'businessFiles': books})
 
     def post(self, request,Id=None):
         from django.core.exceptions import ValidationError
@@ -174,7 +174,7 @@ class BusinessFileUploadView(View):
             document = BusinessFile.objects.create(businessFile=r'documents/'+request.FILES['businessFile'].name, businessFileBusinessId=company)
             #data = {'is_valid': True, 'name': document.businessFile.name, 'url': document.businessFile.url,'ext':ext,'size':" MB {0:.2f}".format(document.businessFile.size/1048576)}
             books = BusinessFile.objects.filter(businessFileBusinessId=Id)
-            data['html_businessFile_list'] = render_to_string('cmms/business_file/partialBusinessFilelist.html', {
+            data['html_businessFile_list'] = render_to_string('myapp/business_file/partialBusinessFilelist.html', {
                   'businessFiles': books})
             data['is_valid']=True
 

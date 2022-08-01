@@ -1,16 +1,16 @@
-<form method="post" action="{% url 'business_update' form.instance.id %}" class="js-business-update-form" autocomplete="off">
-  {% csrf_token %}
+<div  data-url="{% url 'businessFile_delete' businessFile.id %}" class="js-businessFile-delete-form">
+
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
       <span aria-hidden="true">&times;</span>
     </button>
-    <h4 class="modal-title">ویرایش</h4>
+    <h4 class="modal-title">حذف</h4>
   </div>
   <div class="modal-body">
-    {% include 'cmms/business/partialBusinessForm.html' %}
+    <p class="lead">از عمل حذف مطمین هستید؟  <strong>{{ businessFile.id }}</strong>?</p>
   </div>
   <div class="modal-footer">
+    <button type="button" class="btn btn-danger"> حذف</button>
     <button type="button" class="btn btn-default" data-dismiss="modal">بستن</button>
-    <button type="submit" class="btn btn-primary">ویرایش</button>
   </div>
-</form>
+</div>

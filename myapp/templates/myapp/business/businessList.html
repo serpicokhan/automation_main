@@ -1,5 +1,5 @@
 <!--pip install django-widget-tweaks-->
-{% extends 'cmms/mainTheme.html' %}
+{% extends 'myapp/index.html' %}
 
  {% block content %}
 
@@ -59,7 +59,7 @@
 
                                     </thead>
                                     <tbody id='tbody_company'>
-                                            {% include 'cmms/business/partialBusinessList.html' %}
+                                            {% include 'myapp/business/partialBusinessList.html' %}
                                     </tbody>
                                 </table>
                                 <div class="woPaging" >
@@ -80,7 +80,7 @@
                                   {% endif %}
 
                                 </div>
-                                  {% if perms.cmms.add_business %}
+
                                 <!-- BUTTON TO TRIGGER THE ACTION -->
                                 <p>
                                   <button type="button" class="btn btn-primary js-create-business"
@@ -93,7 +93,7 @@
                                   جدید
                                   </button>
                                 </p>
-                                  {% endif %}
+                                
                             </div>
                           </div>
 

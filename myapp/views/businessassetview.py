@@ -18,20 +18,20 @@ import django.core.serializers
 import logging
 from django.conf import settings
 
-from cmms.models.Asset import *
-from cmms.models.waranty import *
+from myapp.models.Asset import *
+from myapp.models.waranty import *
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 
 #from django.core import serializers
 import json
 from django.forms.models import model_to_dict
-from cmms.forms import BusinessAssetForm
+from myapp.forms import BusinessAssetForm
 
 ###################################################################
 def list_businessAsset(request,id=None):
     books = BusinessAsset.objects.all()
-    return render(request, 'cmms/business_asset/businessAssetList.html', {'businessAssets': books})
+    return render(request, 'myapp/business_asset/businessAssetList.html', {'businessAssets': books})
 
 
 ###################################################################
@@ -39,7 +39,7 @@ def js_list_businessAsset(request,woId):
     data=dict()
     books=BusinessAsset.objects.filter(businessAssetBusiness=woId)
 
-    data['html_businessAsset_list']= render_to_string('cmms/business_asset/partialBusinessAssetList.html', {
+    data['html_businessAsset_list']= render_to_string('myapp/business_asset/partialBusinessAssetList.html', {
         'businessAssets': books
     })
     data['form_is_valid']=True
@@ -65,7 +65,7 @@ def save_businessAsset_form(request, form, template_name,woId=None):
                 logging.basicConfig(format=fmt, level=lvl)
                 logging.debug( woId)
                 books = BusinessAsset.objects.filter(businessAssetBusiness=woId)
-                data['html_businessAsset_list'] = render_to_string('cmms/business_asset/partialBusinessAssetList.html', {
+                data['html_businessAsset_list'] = render_to_string('myapp/business_asset/partialBusinessAssetList.html', {
                     'businessAssets': books
                 })
               else:
@@ -89,12 +89,12 @@ def businessAsset_delete(request, id):
         comp1.delete()
         data['form_is_valid'] = True  # This is just to play along with the existing code
         companies = BusinessAsset.objects.all()
-        data['html_businessAsset_list'] = render_to_string('cmms/business_asset/partialBusinessAssetList.html', {
+        data['html_businessAsset_list'] = render_to_string('myapp/business_asset/partialBusinessAssetList.html', {
             'businessAsset': companies
         })
     else:
         context = {'businessAsset': comp1}
-        data['html_businessAsset_form'] = render_to_string('cmms/business_asset/partialBusinessAssetDelete.html',
+        data['html_businessAsset_form'] = render_to_string('myapp/business_asset/partialBusinessAssetDelete.html',
             context,
             request=request,
         )
@@ -133,7 +133,7 @@ def businessAsset_create(request):
     else:
         form = BusinessAssetForm()
     # print(form)
-    return save_businessAsset_form(request, form, 'cmms/business_asset/partialBusinessAssetCreate.html',woId)
+    return save_businessAsset_form(request, form, 'myapp/business_asset/partialBusinessAssetCreate.html',woId)
 ###################################################################
 
 @csrf_exempt
@@ -159,4 +159,4 @@ def businessAsset_update(request, id):
         form = BusinessAssetForm(data, instance=company)
     else:
         form = BusinessAssetForm(instance=company)
-    return save_businessAsset_form(request, form, 'cmms/business_asset/partialBusinessAssetUpdate.html',woId)
+    return save_businessAsset_form(request, form, 'myapp/business_asset/partialBusinessAssetUpdate.html',woId)
