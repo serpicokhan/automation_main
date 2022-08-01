@@ -5,6 +5,64 @@ import logging
 from django.forms import ModelForm, inlineformset_factory
 from myapp.business.DateJob import *
 
+
+
+class BusinessForm(forms.ModelForm):
+
+    class Meta:
+        model = Business
+        fields = '__all__'
+class BusinessPartForm(forms.ModelForm):
+    mypart = forms.CharField(label="نام قطعه",required=False,widget=forms.TextInput())
+
+    def clean(self):
+                self.is_valid()
+                cleaned_data=super(BusinessPartForm, self).clean()
+                BusinessPartPart=cleaned_data.get('BusinessPartPart','')
+                businessPartBusiness=cleaned_data.get('businessPartBusiness','')
+                businessPartBusinessType=cleaned_data.get('businessPartBusinessType','')
+                businessPartSupplierPartNumber=cleaned_data.get('businessPartSupplierPartNumber','')
+                businessPartCatalog=cleaned_data.get('businessPartCatalog','')
+                businessPartisDefault=cleaned_data.get('businessPartisDefault','')
+
+                return cleaned_data
+
+
+    class Meta:
+         model = BusinessPart
+         fields = '__all__'
+class BusinessAssetForm(forms.ModelForm):
+
+    def clean(self):
+
+
+                self.is_valid()
+                cleaned_data=super(BusinessAssetForm, self).clean()
+                BusinessAssetAsset=cleaned_data.get('BusinessAssetAsset','')
+                businessAssetBusiness=cleaned_data.get('businessAssetBusiness','')
+                businessAssetBusinessType=cleaned_data.get('businessAssetBusinessType','')
+                businessAssetSupplierPartNumber=cleaned_data.get('businessAssetSupplierPartNumber','')
+                businessAssetCatalog=cleaned_data.get('businessAssetCatalog','')
+                businessAssetisDefault=cleaned_data.get('businessAssetisDefault','')
+
+                return cleaned_data
+
+
+    class Meta:
+         model = BusinessAsset
+         fields = '__all__'
+class BusinessFileForm(forms.ModelForm):
+
+
+
+
+
+
+
+    class Meta:
+         model = BusinessFile
+         fields = ('businessFile',)
+
 class SysUserForm(forms.ModelForm):
     #CustomerId = forms.ModelChoiceField(queryset=Customer.objects.all())
 
