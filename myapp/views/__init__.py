@@ -10,3 +10,4 @@ from myapp.views.businessview import *
 from myapp.views.businessfileview import *
 from myapp.views.businessassetview import *
 from myapp.views.businesspartview import *
+from myapp.views.planningboardview import *

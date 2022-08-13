@@ -62,5 +62,7 @@ urlpatterns = [
       url(r'^BusinessPart/(?P<id>\d+)/delete/$', businessPart_delete, name='businessPart_delete'),
       url(r'^BusinessPart/(?P<id>\d+)/update/$', businessPart_update, name='businessPart_update'),
       url(r'^BusinessPart/(?P<woId>\d+)/listBusinessPart/$', js_list_businessPart, name='js_list_businessPart'),
+      url(r'^PlanningBoard/$', list_planning_board, name='list_planning_board'),
+
 
 ]
