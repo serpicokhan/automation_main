@@ -63,6 +63,12 @@ urlpatterns = [
       url(r'^BusinessPart/(?P<id>\d+)/update/$', businessPart_update, name='businessPart_update'),
       url(r'^BusinessPart/(?P<woId>\d+)/listBusinessPart/$', js_list_businessPart, name='js_list_businessPart'),
       url(r'^PlanningBoard/$', list_planning_board, name='list_planning_board'),
+      url(r'^Part/$',list_part,name='list_part'),
+      url(r'^Part/create/$', part_create, name='part_create'),
+      url(r'^Part/create2/$', part_create2, name='part_create2'),#for wopart modal form dynamic part creation
+      url(r'^Part/(?P<id>\d+)/delete/$', part_delete, name='part_delete'),
+      url(r'^Part/(?P<id>\d+)/update/$', part_update, name='part_update'),
+      url(r'^Part/(?P<searchStr>[-\w]+)/Search/$', part_searchPart, name='part_searchPart'),
 
 
 ]

@@ -1,6 +1,7 @@
 from myapp.models.users import *
 from myapp.models.parts import *
 from django.db.models import Q
+from django.core.paginator import *
 
 class PartUtility:
     @staticmethod
@@ -14,3 +15,15 @@ class PartUtility:
         result=result.extra(select={'length':'Length(partName)'}).order_by('length').values('id', 'partName','partCode')[:10]
 
         return result
+    @staticmethod
+    def doPaging(request,books):
+        page=request.GET.get('page',1)
+        paginator = Paginator(books, 10)
+        wos=None
+        try:
+            wos=paginator.page(page)
+        except PageNotAnInteger:
+            wos = paginator.page(1)
+        except EmptyPage:
+            wos = paginator.page(paginator.num_pages)
+        return wos

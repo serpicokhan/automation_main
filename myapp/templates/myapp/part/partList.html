@@ -1,0 +1,121 @@
+<!--pip install django-widget-tweaks-->
+<!--pip install django-widget-tweaks-->
+{% extends 'myapp/index.html' %}
+
+ {% block content %}
+{% load static %}
+<div class="row">
+
+  <div class="col-lg-12">
+      <div class="card">
+          <div class="card-body">
+              <div class="email-left-box px-0 mb-3">
+                  <div class="p-0">
+                    <a href='{% url 'part_create' %}' data-url="{% url 'part_create' %}" class="btn btn-primary btn-block js-create-part">ایجاد</a>
+                      <!-- <a  href='#' class="btn btn-primary js-create-purchaseRequest"
+                      data-url="{% url 'purchaseRequest_create' %}"      class="btn btn-primary btn-block">ایجاد </a> -->
+                  </div>
+                  <div class="mail-list mt-4">
+                      <a href="email-inbox.html" class="list-group-item active"><i class="fa fa-inbox font-18 align-middle mr-2"></i> صندوق <span class="badge badge-primary badge-sm float-right">198</span> </a>
+                      <a href="javascript:void()" class="list-group-item"><i class="fa fa-paper-plane font-18 align-middle mr-2"></i><input type="text" id="date_from" value="" class="form-control dt-picker"></a>
+                      <a href="javascript:void()" class="list-group-item"><input type="text" name="date_to" value="" class="form-control dt-picker"></a>
+                      <a href="javascript:void()" class="list-group-item"><i class="fa fa-star font-18 align-middle mr-2"></i>مهم <span class="badge badge-danger text-white badge-sm float-right">47</span>
+                  </a>
+                      <a href="#" class="list-group-item">
+
+                          <i class="mdi mdi-file-document-box font-18 align-middle mr-2"></i>پیش نویس ها</a>
+                      <a href="#" class="list-group-item"><i class="fa fa-trash font-18 align-middle mr-2"></i>سطل زباله</a>
+                  </div>
+                  <div class="intro-title d-flex justify-content-between">
+                      <h5>دسته بندی ها</h5>
+                      <i class="icon-arrow-down" aria-hidden="true"></i>
+                  </div>
+                  <div class="mail-list mt-4">
+                    {% for i in status %}
+
+                                    <a href="email-inbox.html" class="list-group-item"><span class="icon-warning"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                        {{i.1}} </a>
+
+                                    {% endfor %}
+
+                  </div>
+              </div>
+              <div class="email-right-box ml-0 ml-sm-4 ml-sm-0">
+                  <div role="toolbar" class="toolbar ml-1 ml-sm-0">
+                      <div class="btn-group mb-1">
+                          <div class="custom-control custom-checkbox pl-2">
+                              <input type="checkbox" class="custom-control-input" id="checkAll">
+                              <label class="custom-control-label" for="checkAll"></label>
+                          </div>
+                      </div>
+                      <div class="btn-group mb-1">
+
+                      </div>
+
+                  </div>
+                  <div class="table-responsive">
+                      <table class="table table-striped" id="purchaseRequest-table">
+                          <thead>
+                          <tr>
+                            <th class='col-md-1'>نام</th>
+                                        <th class='col-md-1'>کد</th>
+                                        <th class='col-md-1'>آخرین قیمت</th>
+                                        <th class='col-md-1'>مدل</th>
+
+
+
+
+
+
+
+                                          <th class='col-md-2'></th>
+
+                          </tr>
+
+                          </thead>
+                          <tbody id='tbody_purchaseRequest'>
+                                  {% include 'myapp/part/partialPartList.html' %}
+                          </tbody>
+                      </table>
+
+                      <!-- BUTTON TO TRIGGER THE ACTION -->
+
+                  </div>
+
+                  <!-- panel -->
+                  <div class="row mt-4">
+                      <div class="col-12 pl-3">
+                          <nav>
+                              <ul class="pagination pagination-gutter pagination-primary pagination-sm no-bg">
+                                  {% if part.has_previous %}
+                                <li class="page-item page-indicator"><a class="page-link" href="?page={{ part.previous_page_number }}"><i class="la la-angle-left"></i></a></li>
+                                {% endif %}
+                                  {% for i in part.paginator.page_range %}
+                                    {% if  part.number  ==  i %}
+                                  <li class="page-item active"><a class="page-link" href="javascript:void()">{{i}}</a></li>
+                                  {% else %}
+                                  <li class="page-item"><a class="page-link" href="{% url 'list_part' %}?page={{ i }}">{{i}}</a></li>
+                                  {% endif %}
+                                  {% endfor  %}
+                                    {% if part.has_next %}
+                                  <li class="page-item page-indicator"><a class="page-link" href="?page={{ part.next_page_number }}"><i class="la la-angle-right"></i></a></li>
+                                  {% endif %}
+                              </ul>
+                          </nav>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+
+
+{% load static %}
+
+{% block javascript %}
+
+  <script src="{% static '/js/project/part.js' %}"></script>
+{% endblock %}
+{% endblock %}
