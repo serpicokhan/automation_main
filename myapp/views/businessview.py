@@ -91,8 +91,8 @@ def business_create(request):
         form = BusinessForm(request.POST)
         return save_business_form(request, form, 'myapp/business/partialBusinessCreate.html')
     else:
-        businessInstance=Business.objects.create()
-        form = BusinessForm(instance=businessInstance)
+        # businessInstance=Business.objects.create()
+        form = BusinessForm()
         return save_business_form(request, form, 'myapp/business/partialBusinessCreate.html',businessInstance.id)
 
 

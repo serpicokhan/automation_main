@@ -1,16 +1,16 @@
-{% extends 'myapp/index.html' %}
-
- {% block content %}
-
-
-        <form method="post" action="{% url 'part_create'%}"  autocomplete="off">
-          {% csrf_token %}
-       {% include 'myapp/part/partialPartForm.html' %}
-         </form>
-
-
-
-
+<form method="post" action="{% url 'part_create' %}" class="js-part-create-form" autocomplete="off">
+  {% csrf_token %}
+  <div class="modal-header " style="background:#ccc">
+    <button type="button" class="close" data-dismiss="modal">
+                                                    <span>×</span>
+                                                </button>
+    <h4 class="modal-title">جدید</h4>
   </div>
-
-{% endblock %}
+  <div class="modal-body">
+   {% include 'myapp/part/partialPartForm.html' %}
+  </div>
+  <div class="modal-footer">
+    <button type="button" class="btn btn-default partClose" data-dismiss="modal">انصراف</button>
+    <button type="submit" class="btn btn-primary" >ذخیره</button>
+  </div>
+</form>

@@ -69,6 +69,11 @@ urlpatterns = [
       url(r'^Part/(?P<id>\d+)/delete/$', part_delete, name='part_delete'),
       url(r'^Part/(?P<id>\d+)/update/$', part_update, name='part_update'),
       url(r'^Part/(?P<searchStr>[-\w]+)/Search/$', part_searchPart, name='part_searchPart'),
+      url(r'^Part/Category/$', get_partCategory, name='get_partCategory'),
+      url(r'^PartCategory/$',list_partCategory,name='list_partCategory'),
+      url(r'^PartCategory/create/$', partCategory_create, name='partCategory_create'),
+      url(r'^PartCategory/(?P<id>\d+)/delete/$', partCategory_delete, name='partCategory_delete'),
+      url(r'^PartCategory/(?P<id>\d+)/update/$', partCategory_update, name='partCategory_update'),
 
 
 ]

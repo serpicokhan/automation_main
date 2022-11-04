@@ -1,0 +1,16 @@
+{% extends 'myapp/index.html' %}
+
+ {% block content %}
+
+
+        <form method="post" action="{% url 'part_create'%}"  autocomplete="off">
+          {% csrf_token %}
+       {% include 'myapp/part/partialPartForm.html' %}
+         </form>
+
+
+
+
+  </div>
+
+{% endblock %}

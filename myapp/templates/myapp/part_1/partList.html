@@ -11,7 +11,7 @@
           <div class="card-body">
               <div class="email-left-box px-0 mb-3">
                   <div class="p-0">
-                    <a href='#' data-url="{% url 'part_create' %}" class="btn btn-primary btn-block js-create-part">ایجاد</a>
+                    <a href='{% url 'part_create' %}' data-url="{% url 'part_create' %}" class="btn btn-primary btn-block js-create-part">ایجاد</a>
                     <a href='#' data-url="#" class="btn btn-outline-secondary btn-block">درون ریزی</a>
                     <a href='#' data-url="#" class="btn btn btn-outline-info btn-block">برون ریزی</a>
                       <!-- <a  href='#' class="btn btn-primary js-create-purchaseRequest"
@@ -56,7 +56,7 @@
 
                   </div>
                   <div class="table-responsive">
-                      <table class="table table-striped" id="company-table">
+                      <table class="table table-striped" id="purchaseRequest-table">
                           <thead>
                           <tr>
                             <th class='col-md-1'>نام</th>
@@ -75,7 +75,7 @@
                           </tr>
 
                           </thead>
-                          <tbody id='tbody_company'>
+                          <tbody id='tbody_purchaseRequest'>
                                   {% include 'myapp/part/partialPartList.html' %}
                           </tbody>
                       </table>
@@ -110,13 +110,6 @@
           </div>
       </div>
   </div>
-</div>
-<div class="modal fade" id="modal-company" style="overflow-y: scroll">
- <div class="modal-dialog  modal-lg">
-
-   <div class="modal-content ">
-   </div>
- </div>
 </div>
 
 

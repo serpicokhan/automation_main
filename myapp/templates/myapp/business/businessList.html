@@ -5,96 +5,117 @@
 
 <div class="row">
   <div class="col-lg-12">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
+                    <div class="card float-e-margins">
+                        <div class="card-header">
                             <h5>تامین کنندگان </h5>
-                            <div class="ibox-tools">
-                                <a class="collapse-link">
-                                    <i class="fa fa-chevron-up"></i>
-                                </a>
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                    <i class="fa fa-wrench"></i>
-                                </a>
-                                <ul class="dropdown-menu dropdown-user">
 
-                                </ul>
-                                <a class="close-link">
-                                    <i class="fa fa-times"></i>
-                                </a>
-                            </div>
                         </div>
-                        <div class="ibox-content">
-                            <div class="row">
-                                <div class="col-sm-5 m-b-xs">
+                        <div class="card-body">
+                          <div class="email-left-box px-0 mb-3">
+                              <div class="p-0">
+                                <a href='#' data-url="{% url 'business_create' %}" class="btn btn-primary btn-block js-create-business">ایجاد</a>
+                                <a href='#' data-url="#" class="btn btn-outline-secondary btn-block">درون ریزی</a>
+                                <a href='#' data-url="#" class="btn btn btn-outline-info btn-block">برون ریزی</a>
+                                  <!-- <a  href='#' class="btn btn-primary js-create-purchaseRequest"
+                                  data-url="{% url 'purchaseRequest_create' %}"      class="btn btn-primary btn-block">ایجاد </a> -->
+                              </div>
+                              <div class="mail-list mt-4">
+                                  <a href="email-inbox.html" class="list-group-item "><i class="fa fa-inbox font-18 align-middle mr-2"></i> صندوق <span class="badge badge-primary badge-sm float-right">198</span> </a>
+                                  <a href="javascript:void()" class="list-group-item"><i class="fa fa-paper-plane font-18 align-middle mr-2"></i><input type="text" id="date_from" value="" class="form-control dt-picker"></a>
+                                  <a href="javascript:void()" class="list-group-item"><input type="text" name="date_to" value="" class="form-control dt-picker"></a>
+                                  <a href="javascript:void()" class="list-group-item"><i class="fa fa-star font-18 align-middle mr-2"></i>مهم <span class="badge badge-danger text-white badge-sm float-right">47</span>
+                              </a>
+                                  <a href="#" class="list-group-item">
 
-                                </div>
-                                <div class="col-sm-4 m-b-xs">
+                                      <i class="mdi mdi-file-document-box font-18 align-middle mr-2"></i>پیش نویس ها</a>
+                                  <a href="#" class="list-group-item"><i class="fa fa-trash font-18 align-middle mr-2"></i>سطل زباله</a>
+                              </div>
+                              <div class="intro-title d-flex justify-content-between">
+                                  <h5>دسته بندی ها</h5>
+                                  <i class="icon-arrow-down" aria-hidden="true"></i>
+                              </div>
+                              <div class="mail-list mt-4">
+                                {% for i in status %}
 
-                                </div>
-                                <div class="col-sm-3">
-                                    <div class="input-group"><input type="text" placeholder="جستجو" class="input-sm form-control" id="businessSearch"> <span class="input-group-btn">
-                                        <button type="button" class="btn btn-sm btn-primary"> برو!</button> </span></div>
-                                </div>
-                            </div>
-                            <div class="table-responsive">
-                                <table class="table table-striped" id="company-table">
-                                    <thead>
-                                    <tr>
-                                      <th></th>
-                                      <th>کد</th>
+                                                <a href="email-inbox.html" class="list-group-item"><span class="icon-warning"><i class="fa fa-circle" aria-hidden="true"></i></span>
+                                                    {{i.1}} </a>
 
-                                      <th>نام</th>
+                                                {% endfor %}
 
-                                      <th>آدرس</th>
-                                    <th>تلفن</th>
+                              </div>
+                          </div>
+                          <div class="email-right-box ml-0 ml-sm-4 ml-sm-0">
+                              <div role="toolbar" class="toolbar ml-1 ml-sm-0">
+                                  <div class="btn-group mb-1">
+                                      <div class="custom-control custom-checkbox pl-2">
+                                          <input type="checkbox" class="custom-control-input" id="checkAll">
+                                          <label class="custom-control-label" for="checkAll"></label>
+                                      </div>
+                                  </div>
+                                  <div class="btn-group mb-1">
 
+                                  </div>
 
-
-
-
-
+                              </div>
+                              <div class="table-responsive">
+                                  <table class="table table-striped" id="company-table">
+                                      <thead>
+                                      <tr>
                                         <th></th>
+                                        <th>کد</th>
 
-                                    </tr>
+                                        <th>نام</th>
 
-                                    </thead>
-                                    <tbody id='tbody_company'>
-                                            {% include 'myapp/business/partialBusinessList.html' %}
-                                    </tbody>
-                                </table>
-                                <div class="woPaging" >
-                                  {% if business.has_other_pages %}
-                                  <ul class="pagination">
-                                  {% if business.has_previous %}
-                                  <li><a href="?page={{ business.previous_page_number }}">&laquo;</a></li>
-                                  {% else %}
-                                  <li class="disabled"><span>&laquo;</span></li>
-                                  {% endif %}
-                                <li ><span>{{ business.number }} از {{ business.paginator.num_pages }} <span class="sr-only">(current)</span></span></li>
-                                  {% if business.has_next %}
-                                  <li><a href="?page={{ business.next_page_number }}">&raquo;</a></li>
-                                  {% else %}
-                                  <li class="disabled"><span>&raquo;</span></li>
-                                  {% endif %}
-                                  </ul>
-                                  {% endif %}
-
-                                </div>
-
-                                <!-- BUTTON TO TRIGGER THE ACTION -->
-                                <p>
-                                  <button type="button" class="btn btn-primary js-create-business"
-                                  data-url="{% url 'business_create' %}"                                  >
-                                    <span class="glyphicon glyphicon-plus"
+                                        <th>آدرس</th>
+                                      <th>تلفن</th>
 
 
 
-                                    ></span>
-                                  جدید
-                                  </button>
-                                </p>
-                                
-                            </div>
+
+
+
+                                          <th></th>
+
+                                      </tr>
+
+                                      </thead>
+                                      <tbody id='tbody_company'>
+                                              {% include 'myapp/business/partialBusinessList.html' %}
+                                      </tbody>
+                                  </table>
+
+
+                                  <!-- BUTTON TO TRIGGER THE ACTION -->
+
+
+                              </div>
+
+                              <!-- panel -->
+                              <div class="row mt-4">
+                                  <div class="col-12 pl-3">
+                                      <nav>
+                                          <ul class="pagination pagination-gutter pagination-primary pagination-sm no-bg">
+                                              {% if business.has_previous %}
+                                            <li class="page-item page-indicator"><a class="page-link" href="?page={{ business.previous_page_number }}"><i class="la la-angle-left"></i></a></li>
+                                            {% endif %}
+                                              {% for i in business.paginator.page_range %}
+                                                {% if  business.number  ==  i %}
+                                              <li class="page-item active"><a class="page-link" href="javascript:void()">{{i}}</a></li>
+                                              {% else %}
+                                              <li class="page-item"><a class="page-link" href="{% url 'list_business' %}?page={{ i }}">{{i}}</a></li>
+                                              {% endif %}
+                                              {% endfor  %}
+                                                {% if business.has_next %}
+                                              <li class="page-item page-indicator"><a class="page-link" href="?page={{ business.next_page_number }}"><i class="la la-angle-right"></i></a></li>
+                                              {% endif %}
+                                          </ul>
+                                      </nav>
+                                  </div>
+                              </div>
+                          </div>
+
+
+
                           </div>
 
                     </div>

@@ -180,3 +180,9 @@ class PartForm(forms.ModelForm):
     class Meta:
         model = Part
         fields = '__all__'
+###############################################################
+class PartCategoryForm(forms.ModelForm):
+
+    class Meta:
+        model = PartCategory
+        fields = '__all__'

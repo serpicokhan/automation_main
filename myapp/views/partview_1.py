@@ -3,13 +3,14 @@
  lvl = getattr(settings, 'LOG_LEVEL', logging.DEBUG)
 
  logging.basicConfig(format=fmt, level=lvl)
- logging.debug(nepartbject.OrderId.id)
+ logging.debug(newobject.OrderId.id)
  '''
+
 from django.shortcuts import render
 from django.shortcuts import get_object_or_404
 from django.http import JsonResponse
 from django.template.loader import render_to_string
-from django.db.models import Sum
+import os
 import jdatetime
 from django.http import HttpResponseRedirect
 from django.http import HttpResponse
@@ -17,21 +18,24 @@ from django.views.decorators import csrf
 import django.core.serializers
 import logging
 from django.conf import settings
-from django.views.decorators.csrf import csrf_exempt
 from myapp.models.parts import *
+from django.views.decorators.csrf import csrf_exempt
+from django.utils.decorators import method_decorator
+from django.views import View
 #from django.core import serializers
 import json
 from django.forms.models import model_to_dict
 from myapp.forms import PartForm
-from django.urls import reverse_lazy
-from django.db import transaction
+from django.views.decorators.http import require_POST
+from django.core.files.storage import default_storage
+from django.contrib.auth.decorators import permission_required
+from django.contrib.auth.context_processors import PermWrapper
+from rest_framework.decorators import api_view
+# from myapp.api.WOSerializer import *
+from rest_framework.response import Response
 from myapp.business.partutility import *
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth.context_processors import PermWrapper
-from django.db.models import Sum
-from rest_framework.decorators import api_view
-
-from rest_framework.response import Response
+###################################################################
 
 @login_required
 def list_part(request,id=None):
@@ -65,6 +69,7 @@ def save_part_form(request, form, template_name,id=None):
                 'perms': PermWrapper(request.user)
 
             })
+            return render(request, 'myapp/part/partList.html', {'part': wos,'section':'list_part'})
         else:
             data['form_is_valid'] = False
 
@@ -132,7 +137,7 @@ def part_create(request):
     else:
         # partInstance=Part.objects.create()
         form = PartForm()
-        return save_part_form(request, form, 'myapp/part/partialPartCreate.html')
+        return render(request, 'myapp/part/partialPartCreate.html',{'form':form})
 
 @csrf_exempt
 def part_create2(request):
@@ -255,7 +260,7 @@ def getPartConsumedItem(request,id,num):
     data=dict()
     wos=PartUtility.getConsumeInfo(id,num)
     data['form_is_valid']=True
-    # data['html_stock_page']=render_to_string('myapp/stock/partialStocklist.html', {       '': q      })
+    # data['html_stock_page']=render_to_string('cmms/stock/partialStocklist.html', {       '': q      })
     data['html_stock_list'] =render_to_string('myapp/part/consumedpartresult.html', {
         'wos': wos
     })
@@ -265,7 +270,7 @@ def getPartPurchasedItem(request,id,num):
     data=dict()
     wos=PartUtility.getPurchasedInfo(id,num)
     data['form_is_valid']=True
-    # data['html_stock_page']=render_to_string('myapp/stock/partialStocklist.html', {       '': q      })
+    # data['html_stock_page']=render_to_string('cmms/stock/partialStocklist.html', {       '': q      })
     data['html_stock_list'] =render_to_string('myapp/part/purchasepartresult.html', {
         'wos': wos
     })
@@ -274,7 +279,7 @@ def getPartPurchasedItem(request,id,num):
 ##########################################
 def get_partCategory(request):
     data=dict()
-    '''render_to_string('myapp/asset/temp.txt')'''
+    '''render_to_string('cmms/asset/temp.txt')'''
     m=PartUtility.getCategory()
 
     m=m.replace('"',"'")
@@ -298,6 +303,8 @@ def part_detail_collection(request,id):
 
         return Response(serializer.data)
 ##############################
+
+###################################################################
 ###################################################################
 
 def get_parts(request):

@@ -1,15 +1,20 @@
 
 {% load widget_tweaks %}
-  {% load static %}
 
 <div class="card">
   <div class="card-body">
     <div class="row">
-
-    <div class="col-md-12 b-r">
+    <div class="col-sm-4 b-r">
+      {% load static %}
       <img src="{% static 'img/if_industry_50840.png' %}" / >
       <input type=hidden name='lastPartid' id='lastPartid' value='{{lId}}'/>
       <input type=hidden name='issavechanged' id='issavechanged' value='-1'/>
+
+
+
+
+    </div>
+    <div class="col-sm-8 b-r">
       <div class="form-group">
         {{ form.partCategory.as_hidden }}
 
@@ -89,15 +94,15 @@
                                                 <div class="row">
                                                 </div>
                                                 <div class="row">
-                                                  <div class="col-md-4">
+                                                  <div class="col-sm-4">
 
 
                                                   </div>
-                                                  <div class="col-md-4">
+                                                  <div class="col-sm-4">
 
 
                                                   </div>
-                                                  <div class="col-md-4">
+                                                  <div class="col-sm-4">
 
 
                                                   </div>
@@ -124,11 +129,11 @@
                                       <div class="col-lg-12">
                                         <div class="panel panel-info">
                                           <div class="panel-heading">
-
+                                          <i class="fa fa-info-circle"></i>   اطلاعات عمومی
                                           </div>
                                           <div class="panel-body">
                                             <div class="row">
-                                              <div class="col-md-6">
+                                              <div class="col-sm-6">
                                                 <div class="form-group">
                                                   <label>{{form.partAccount.label}}</label>
                                                   {{form.partAccount| add_class:"form-control" }}
@@ -150,7 +155,7 @@
                                                 </div>
 
                                               </div>
-                                              <div class="col-md-6">
+                                              <div class="col-sm-6">
                                                 <div class="form-group">
                                                   <label>{{form.partBarcode.label}}</label>
                                                   {{form.partBarcode| add_class:"form-control" }}
@@ -174,7 +179,7 @@
 
                                             </div>
                                             <div class="row">
-                                              <div class="col-md-12">
+                                              <div class="col-sm-12">
                                                 <div class="form-group">
                                                   <label>{{form.partNotes.label}}</label>
                                                   {{form.partNotes| add_class:"form-control" }}
@@ -209,7 +214,7 @@
                                         <div class='col-lg-12'>
                                           <div class="panel panel-info">
                                                <div class="panel-heading">
-
+                                                   <i class="fa fa-info-circle"></i> قطعات
                                                </div>
                                                <div class="panel-body">
                                                    <div class="row">
@@ -239,7 +244,7 @@
                                           <div class='col-lg-12'>
                                             <div class="panel panel-info">
                                                  <div class="panel-heading">
-
+                                                     <i class="fa fa-info-circle"></i> قرائت
                                                  </div>
                                                  <div class="panel-body">
                                                      <div class="row">
@@ -278,7 +283,7 @@
                                         <div class='col-lg-12'>
                                           <div class="panel panel-info">
                                                <div class="panel-heading">
-
+                                                   <i class="fa fa-info-circle"></i> گارانتی
                                                </div>
                                                <div class="panel-body">
                                                    <div class="row">
