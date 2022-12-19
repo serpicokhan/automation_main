@@ -12,7 +12,7 @@ $(function () {
     }
     // alert($(btn).attr("type"));
     // btn=$(this);
-    console.log($(btn).attr("data-url"));
+    // console.log($(btn).attr("data-url"));
     return $.ajax({
       url: btn.attr("data-url"),
       type: 'get',
@@ -28,6 +28,24 @@ $(function () {
 
         $("#modal-purchaseRequest .modal-content").html(data.html_purchaseRequest_form);
         $('.selectpicker').selectpicker();
+
+   //      Dropzone.options.mydrop = {
+   //
+   //          maxFilesize: 10,
+   //          init: function () {
+   //
+   //
+   //             this.on("complete", file => {
+   //             var aval=[];
+   //              if($("#file_id").val()!="-1")
+   //              aval.push($("#file_id").val());
+   //              aval.push(JSON.parse(file.xhr.response).id)
+   //              $("#file_id").val(aval);
+   //
+   // });
+   //          }
+   //
+   //      };
 
 
         $('.advanced2AutoComplete').autoComplete({
@@ -346,6 +364,48 @@ $("#modal-purchaseRequest").on("change", "#id_PurchaseRequestAssetMakan",loadRel
 $("#purchaseRequest-table").on("click", ".js-delete-purchase-item", loadForm);
 $("#modal-purchaseRequest").on("submit", ".js-purchaseRequest-delete-form", deleteForm);
 $("#modal-purchaseRequest").on("change", "#id_PurchaseRequestAssetMakan",loadRelatedAsset);
+// $('#modal-purchaseRequest').on('shown.bs.modal', function (e) {
+//   Dropzone.options.mydrop = {
+//
+//           maxFilesize: 10,
+//           init: function () {
+//
+//
+//              this.on("complete", file => {
+//              var aval=[];
+//               if($("#file_id").val()!="-1")
+//               aval.push($("#file_id").val());
+//               aval.push(JSON.parse(file.xhr.response).id)
+//               $("#file_id").val(aval);
+//
+//  });
+//           }
+//
+//       };
+//
+//   // Initialize Dropzone
+// });
+$("#modal-purchaseRequest").on('click','.dz-button',function(){
+  // alert("1");
+ var myDropzone = new Dropzone("#dzdz", { url: 'file_upload_route'});
+ // Dropzone.options.mydrop = {
+ //
+ //          maxFilesize: 10,
+ //          init: function () {
+ //
+ //
+ //             this.on("complete", file => {
+ //             var aval=[];
+ //              if($("#file_id").val()!="-1")
+ //              aval.push($("#file_id").val());
+ //              aval.push(JSON.parse(file.xhr.response).id)
+ //              $("#file_id").val(aval);
+ //
+ // });
+ //          }
+ //
+ //      };
+});
 // $('#modal-purchaseRequest').on('hidden.bs.modal',cancelForm);
 //$("#purchaseRequest-table").on("click", ".js-update-wo", initxLoad);
 });

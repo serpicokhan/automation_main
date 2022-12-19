@@ -28,11 +28,12 @@
 
 
               {% csrf_token %}
-              
+
               <input type="hidden" name="parent_id"  value={{lid}}>
 
 
               {% include 'myapp/purchase/partialPurchaseRequestForm.html' %}
+
 
 
 
@@ -56,3 +57,7 @@
   <button type="submit" class="btn btn-primary js-purchaseRequest-create-form">ذخیره</button>
 </div>
 </form>
+<h5 class="mb-4"><i class="fa fa-paperclip"></i> فایل پیوست</h5>
+<form action="#" class="dropzone dz-clickable" id='dzdz'>
+
+                                    <div class="dz-default dz-message"><button class="dz-button" type="button">Drop files here to upload</button></div></form>

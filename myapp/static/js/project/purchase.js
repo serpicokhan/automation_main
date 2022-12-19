@@ -33,7 +33,7 @@ $(function(){
         type: 'get',
         dataType: 'json',
         error:function(x,y,z){
-          console.log(x.responseText);
+          // console.log(x.responseText);
           // alert("error");
         },
         beforeSend:function(xhr){
