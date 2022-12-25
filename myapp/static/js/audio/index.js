@@ -1,4 +1,4 @@
-//Model 
+//Model
 //none
 
 //View
@@ -195,7 +195,7 @@ function cancelAudioRecording() {
 }
 
 /** Plays recorded audio using the audio element in the HTML document
- * @param {Blob} recorderAudioAsBlob - recorded audio as a Blob Object 
+ * @param {Blob} recorderAudioAsBlob - recorded audio as a Blob Object
 */
 function playAudio(recorderAudioAsBlob) {
 
@@ -250,7 +250,7 @@ function handleElapsedRecordingTime() {
 }
 
 /** Display elapsed time during audio recording
- * @param {String} elapsedTime - elapsed time in the format mm:ss or hh:mm:ss 
+ * @param {String} elapsedTime - elapsed time in the format mm:ss or hh:mm:ss
  */
 function displayElapsedTimeDuringAudioRecording(elapsedTime) {
     //1. display the passed elapsed time as the elapsed time in the elapsedTime HTML element
@@ -263,7 +263,7 @@ function displayElapsedTimeDuringAudioRecording(elapsedTime) {
 }
 
 /**
- * @param {String} elapsedTime - elapsed time in the format mm:ss or hh:mm:ss  
+ * @param {String} elapsedTime - elapsed time in the format mm:ss or hh:mm:ss
  * @returns {Boolean} whether the elapsed time reached the maximum number of hours or not
  */
 function elapsedTimeReachedMaximumNumberOfHours(elapsedTime) {

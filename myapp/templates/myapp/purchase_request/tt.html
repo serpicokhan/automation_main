@@ -1,15 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-{% load static %}
-<head>
-    <meta charset="utf-8">
-    <title>Audio Recording API Demo</title>
-    <link rel="stylesheet" href="{% static 'css/audio/reset.css' %}">
-    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
-    <link rel="stylesheet" href="{% static 'css/audio/style.css' %}">
-</head>
 
-<body>
+  {% load static %}
+  <link rel="stylesheet" href="{% static 'css/audio/reset.css' %}">
+  <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+  <link rel="stylesheet" href="{% static 'css/audio/style.css' %}">
     <div class="audio-recording-container">
         <h1 class="title">Audio Recording API Demo</h1>
         <i class="start-recording-button fa fa-microphone" aria-hidden="true"></i>
@@ -37,6 +30,3 @@
 
     <script src="{% static 'js/audio/audio-recording.js' %}"></script>
     <script src="{% static 'js/audio/index.js' %}"></script>
-</body>
-
-</html>
