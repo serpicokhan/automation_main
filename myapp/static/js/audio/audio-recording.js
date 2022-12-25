@@ -13,13 +13,13 @@ var audioRecorder = {
     start: function () {
         //Feature Detection
         // console.log(navigator);
-        // if (!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia)) {
-        //     //Feature is not supported in browser
-        //     //return a custom error
-        //     return Promise.reject(new Error('mediaDevices API or getUserMedia method is not supported in this browser.'));
-        // }
-        //
-        // else {
+        if (!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia)) {
+            //Feature is not supported in browser
+            //return a custom error
+            return Promise.reject(new Error('mediaDevices API or getUserMedia method is not supported in this browser.'));
+        }
+
+        else {
             //Feature is supported in browser
 
             //create an audio stream
@@ -48,7 +48,7 @@ var audioRecorder = {
                 });
 
             /* errors are not handled in the API because if its handled and the promise is chained, the .then after the catch will be executed*/
-        // }
+        }
     },
     /** Stop the started audio recording
      * @returns {Promise} - returns a promise that resolves to the audio as a blob file

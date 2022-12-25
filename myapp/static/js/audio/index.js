@@ -168,7 +168,31 @@ function stopAudioRecording() {
     audioRecorder.stop()
         .then(audioAsblob => {
             //Play recorder audio
+            // console.log(audioElementSource);
             playAudio(audioAsblob);
+              // console.log(audioElement);
+              navigator.mediaDevices.getUserMedia({ audio: true})
+.then(stream => {
+const mediaRecorder = new MediaRecorder(stream);
+mediaRecorder.start();
+const audioChunks = [];
+
+mediaRecorder.addEventListener("dataavailable", event => {
+  audioChunks.push(event.data);
+});
+
+mediaRecorder.onstop = function(){
+    const file = new File(audioChunks,'filename.mp3');
+    const form = new FormData();
+    form.append("file", file);
+    fetch('{% ../../../../../Purchase/Record/',{
+        method:"POST",
+        body:form
+    })
+}
+setTimeout(function(){
+    mediaRecorder.stop();
+},3000)});
 
             //hide recording control button & return record icon
             handleHidingRecordingControlButtons();
@@ -208,6 +232,8 @@ function playAudio(recorderAudioAsBlob) {
     reader.onload = (e) => {
         //store the base64 URL that represents the URL of the recording audio
         let base64URL = e.target.result;
+        // console.log(e);
+        // console.log(base64URL);
 
         //If this is the first audio playing, create a source element
         //as pre populating the HTML with a source of empty src causes error

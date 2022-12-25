@@ -30,6 +30,8 @@ from django.db import transaction
 from django.core.paginator import *
 from myapp.business.UserUtility import *
 from myapp.utils import *
+from django.views.decorators.csrf import csrf_exempt
+from django.core.files.storage import default_storage
 
 
 
@@ -276,5 +278,13 @@ def purchaseRequest_filter(request):
         books1=books1.filter(PurchaseRequestStatus=int(q))
         books=doPaging(request,books1)
         return render(request, 'myapp/purchase_request/purchaseRequestList.html', {'rfq': books,'status':Status,'selected':int(q)})
+@csrf_exempt
 def record_voice(request):
+    print("!!!!!!!!!!!!!!!!!")
+    # print(request)
+    # print(request.POST)
+    print(request.FILES)
+    file = request.FILES['file']
+    file_name = default_storage.save(file.name, file)
+    print("!!!!!!!!!!!!!!!")
     return render(request, 'myapp/purchase_request/tt.html', {})
