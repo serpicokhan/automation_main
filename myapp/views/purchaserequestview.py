@@ -276,3 +276,5 @@ def purchaseRequest_filter(request):
         books1=books1.filter(PurchaseRequestStatus=int(q))
         books=doPaging(request,books1)
         return render(request, 'myapp/purchase_request/purchaseRequestList.html', {'rfq': books,'status':Status,'selected':int(q)})
+def record_voice(request):
+    return render(request, 'myapp/purchase_request/tt.html', {})

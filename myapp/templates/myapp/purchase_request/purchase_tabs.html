@@ -23,7 +23,7 @@
                             </ul>
                             <div class="tab-content">
                                 <div class="tab-pane fade active show" id="home" role="tabpanel">
-                                
+
                                     {% include 'myapp/purchase/purchaseRequestList.html' %}
                                 </div>
                                 <div class="tab-pane fade" id="profile">
@@ -43,17 +43,45 @@
                                 </div>
                                 <div class="tab-pane fade" id="contact">
                                     <div class="pt-4">
-                                        <h4>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</h4>
-                                        <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                      <div class="col-lg-12">
+                  <div class="card text-center">
+                      <div class="card-header d-block">
+                          <h4 class="card-title">دکمه بدون رنگ و گوشه گرد</h4>
+                          <p class="mb-0 subtitle">کلاس <code>.btn-rounded</code> را اضافه کنید .</p>
+                      </div>
+                      <div class="card-body">
+                          <div class="rounded-button">
+                            <a type="button" class="btn btn-rounded btn-outline-success" href="{% url 'record_voice' %}">موفق (روشن)</a>
 
-                                        </p>
-                                        <p>
-                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
-                                        </p>
+                              <button type="button" class="btn btn-rounded btn-outline-success" data-toggle="modal"
+                                        data-target="#exampleModalCenter">موفق (روشن)</button>
+                                        <div class="modal fade" id="exampleModalCenter">
+                                   <div class="modal-dialog modal-dialog-centered" role="document">
+                                       <div class="modal-content">
+                                           <div class="modal-header">
+                                               <h5 class="modal-title">عنوان</h5>
+                                               <button type="button" class="close" data-dismiss="modal">
+                                                   <span>&times;</span>
+                                               </button>
+                                           </div>
+                                           <div class="modal-body">
+                                               <p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ
+                                                   لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ</p>
+                                           </div>
+                                           <div class="modal-footer">
+                                               <button type="button" class="btn btn-danger light" data-dismiss="modal">
+                                                   بستن
+                                               </button>
+                                               <button type="button" class="btn btn-primary">دخیره</button>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+
+                          </div>
+                      </div>
+                  </div>
+              </div>
                                     </div>
                                 </div>
                                 <div class="tab-pane fade" id="message">
