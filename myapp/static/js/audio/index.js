@@ -122,8 +122,10 @@ function startAudioRecording() {
             //No Browser Support Error
             if (error.message.includes("mediaDevices API or getUserMedia method is not supported in this browser.")) {
                 console.log("To record audio, use browsers like Chrome and Firefox.");
+
                 displayBrowserNotSupportedOverlay();
             }
+            alert(error.message);
 
             //Error handling structure
             switch (error.name) {

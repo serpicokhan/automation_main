@@ -1,4 +1,4 @@
-//API to handle audio recording 
+//API to handle audio recording
 
 var audioRecorder = {
     /** Stores the recorded audio as Blob objects of audio data as the recording continues*/
@@ -7,18 +7,19 @@ var audioRecorder = {
     mediaRecorder: null, /*of type MediaRecorder*/
     /** Stores the reference to the stream currently capturing the audio*/
     streamBeingCaptured: null, /*of type MediaStream*/
-    /** Start recording the audio 
+    /** Start recording the audio
      * @returns {Promise} - returns a promise that resolves if audio recording successfully started
      */
     start: function () {
         //Feature Detection
-        if (!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia)) {
-            //Feature is not supported in browser
-            //return a custom error
-            return Promise.reject(new Error('mediaDevices API or getUserMedia method is not supported in this browser.'));
-        }
-
-        else {
+        // console.log(navigator);
+        // if (!(navigator.mediaDevices && navigator.mediaDevices.getUserMedia)) {
+        //     //Feature is not supported in browser
+        //     //return a custom error
+        //     return Promise.reject(new Error('mediaDevices API or getUserMedia method is not supported in this browser.'));
+        // }
+        //
+        // else {
             //Feature is supported in browser
 
             //create an audio stream
@@ -47,7 +48,7 @@ var audioRecorder = {
                 });
 
             /* errors are not handled in the API because if its handled and the promise is chained, the .then after the catch will be executed*/
-        }
+        // }
     },
     /** Stop the started audio recording
      * @returns {Promise} - returns a promise that resolves to the audio as a blob file
@@ -62,7 +63,7 @@ var audioRecorder = {
             audioRecorder.mediaRecorder.addEventListener("stop", () => {
                 //create a single blob object, as we might have gathered a few Blob objects that needs to be joined as one
                 let audioBlob = new Blob(audioRecorder.audioBlobs, { type: mimeType });
-                
+
                 //resolve promise with the single audio blob representing the recorded audio
                 resolve(audioBlob);
             });
