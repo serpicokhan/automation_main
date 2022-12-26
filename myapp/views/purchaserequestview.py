@@ -250,7 +250,9 @@ def purchaseRequest_update(request, id):
 
     else:
         form = PurchaseForm(instance=company)
-        return render(request, 'myapp/purchase_request/partialPurchaseRequestUpdate.html', {'form': form,'lid':id})
+        file_attachment=RequestFile.objects.all()
+        voices=RequestVoice.objects.all()
+        return render(request, 'myapp/purchase_request/partialPurchaseRequestUpdate.html', {'form': form,'lid':id,'files':file_attachment,'voices':voices})
 
 
 
@@ -285,9 +287,12 @@ def record_voice(request):
     # print(request.POST)
     print(request.FILES)
     file = request.FILES['file']
-    file_name = default_storage.save(file.name, file)
+    # file_name = default_storage.save(file.name, file)
+    msg=RequestVoice.objects.create(msgFile=file)
+
     print("!!!!!!!!!!!!!!!")
-    return render(request, 'myapp/purchase_request/tt.html', {})
+    data=dict()
+    return JsonResponse(data)
 @csrf_exempt
 def file_upload(request):
     # def iter_rows(ws):

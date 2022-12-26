@@ -2,6 +2,7 @@ from django.urls import path
 from myapp.views import *
 from django.conf.urls import url
 from django.contrib.auth.views import LoginView,LogoutView
+from django.conf.urls.static import static
 
 from . import views
 
@@ -78,4 +79,4 @@ urlpatterns = [
       url(r'^Purchase/upload_file/$', file_upload, name='file_upload'),
 
 
-]
+]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
