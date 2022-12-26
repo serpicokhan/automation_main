@@ -75,6 +75,7 @@ urlpatterns = [
       url(r'^PartCategory/(?P<id>\d+)/delete/$', partCategory_delete, name='partCategory_delete'),
       url(r'^PartCategory/(?P<id>\d+)/update/$', partCategory_update, name='partCategory_update'),
       url(r'^Purchase/Record/$', record_voice, name='record_voice'),
+      url(r'^Purchase/upload_file/$', file_upload, name='file_upload'),
 
 
 ]

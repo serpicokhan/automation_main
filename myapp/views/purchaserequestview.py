@@ -288,3 +288,17 @@ def record_voice(request):
     file_name = default_storage.save(file.name, file)
     print("!!!!!!!!!!!!!!!")
     return render(request, 'myapp/purchase_request/tt.html', {})
+@csrf_exempt
+def file_upload(request):
+    # def iter_rows(ws):
+    #     for row in ws.iter_rows():
+    #         yield [cell.value for cell in row]
+
+    # msg=MessageFile.objects.create(msgFile=my_file)
+    #     workbook = load_workbook(filename='media/'+msg.msgFile.name)
+    if request.method == 'POST':
+        # print("here!!!",request.FILES)
+        my_file=request.FILES.get('file')
+        msg=RequestFile.objects.create(msgFile=my_file)
+    data=dict()
+    return JsonResponse(data)
