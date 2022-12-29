@@ -185,10 +185,19 @@ mediaRecorder.onstop = function(){
     const file = new File(audioChunks,'filename.mp3');
     const form = new FormData();
     form.append("file", file);
-    fetch('{% ../../../../../Purchase/Record/',{
+    fetch('{% ../../../../../Purchase/Record/'
+    ,{
         method:"POST",
         body:form
+    }
+  ).then(function (response) {
+      return response.text();
     })
+    .then(function (json) {
+      // console.log(json);
+      $(".myvoices").append(`<div class="col-auto"><a href=${json.html_response} class="text-muted">${json.html_name}</a></div>`);
+      $("#voice_id").val(json.html_id);
+    });
 }
 setTimeout(function(){
     mediaRecorder.stop();

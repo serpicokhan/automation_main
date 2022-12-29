@@ -32,6 +32,8 @@ ALLOWED_HOSTS = ['192.168.1.53','192.168.2.60','127.0.0.1','192.168.138.34']
 # Application definition
 #https://medium.com/@millienakiganda/creating-an-ssl-certificate-for-localhost-in-django-framework-45290d905b88
 #pip install django-sslserver
+#pip install openpyxl
+# python manage.py runsslserver --certificate cert.pem --key key.pem
 
 
 

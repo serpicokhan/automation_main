@@ -292,6 +292,9 @@ def record_voice(request):
 
     print("!!!!!!!!!!!!!!!")
     data=dict()
+    data["html_response"]=msg.msgFile.url
+    data["html_name"]=msg.get_name()
+    data["html_id"]=msg.id
     return JsonResponse(data)
 @csrf_exempt
 def file_upload(request):
