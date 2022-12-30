@@ -1,0 +1,1707 @@
+"id","partName","partDescription","partCode","partMake","partModel","partLastPrice","partAccount","partChargeDepartment","partNotes","partBarcode","partInventoryCode","partCategory_id"
+"1","۱ آبپاش سختی گیر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"2","آداپتور ۶ ولت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"3","آژیر اعلام حریق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"4","استارت ۴۰ وات مهتابی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"5","استارت مهتابی ۲۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"6","اگزوز فن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"7","الماس شیشه بر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"8","اهرم فلاش تانک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"9","بالاتنه شیر فلکه نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"10","برزنت ۳۵۰۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"11","بست پرچمی شوفاژ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"12","بست دو پایه نمره ۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"13","بست دو پایه نمره ۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"14","بست روکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"15","بست شیلنگ توالت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"16","بست شیلنگی نمره ۲/۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"17","بست شیلنگی نمره ۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"18","بست شیلنگی نمره ۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"19","بست شیلنگی نمره ۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"20","بست شیلنگی نمره ۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"21","بست علمکی نمره ۱۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"22","بست علمکی نمره ۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"23","بست علمکی نمره ۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"24","بست علمکی نمره ۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"25","بست نمره ۲ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"26","بست نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"27","بلبرینک ۶۳۱۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"28","بلبرینگ ۵۳۰۷ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"29","بلبرینگ ۶۰۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"30","بلبرینگ ۶۲۰۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"31","بلبرینگ ۶۲۰۷ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"32","بلبرینگ ۶۲۱۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"33","بلبرینگ ۶۳۱۱ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"34","۲۰۸ h بلبرینگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"35","۲۰۸ nu بلبرینگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"36","بوشن پرسی نمره ۱۶ * ۱۶ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"37","بوشن پرسی نمره ۴۰ * ۴۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"38","بوشن تبدیل ۶ * ۴ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"39","بوشن تبدیل پرسی نمره ۲۰ * ۳۲ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"40","بوشن تبدیل پرسی نمره ۳۲ * ۴۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"41","بوشن تبدیل پرسی نمره ۳۲ * ۵۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"42","بوشن تبدیل پرسی نمره ۴۰ * ۵۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"43","بوشن تبدیل ساده نمره ۳ * ۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"44","بوشن تبدیل نمره ۵ / ۲ * ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"45","بوشن توپیچ پرسی نمره ۲ / ۱ * ۲۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"46","بوشن توپیچ پرسی نمره ۱ * ۳۲ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"47","بوشن دنده نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"48","بوشن دنده نمره ۴ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"49","بوشن دنده نمره ۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"50","بوشن دنده نمره ۶ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"51","بوشن روپیچ پرسی نمره ۲ / ۱ * ۲۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"52","بوشن ساده نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"53","بوشن ساده نمره ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"54","بوشن ساده نمره ۴ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"55","بوشن ساده نمره ۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"56","بوشن فولادی ۱۳ برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"57","AV بوشن فولادی ۱۶ برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"58","AA بوشن مغزی ۲ * ۱۲ / وحید ۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"59","بوشن مغزی نمره ۲ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"60","بوشن مغزی نمره ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"61","بوشن مغزی نمره ۴ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"62","بوشن نمره ۱۲ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"63","بوشن نمره ۱۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"64","بوشن نمره ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"65","بوشن نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"66","بوشن نمره ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"67","بوشن نمره ۶ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"68","بوشن نمره ۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"69","بوشن نمره ۸ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"70","بی متال ۶-۱ / ۱ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"71","بی متال ۱۱۰- ۱۶۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"72","بی متال ۲۲- ۳۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"73","بی متال ۲۵-۱۷ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"74","بی متال ۳۲- ۱۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"75","بی متال ۳۲- ۲۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"76","بی متال ۴-۲ / ۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"77","بی متال ۵۰- ۳۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"78","بی متال ۵۰- ۳۷ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"79","پارچه متقال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"80","پایه بکس ۱۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"81","پایه بکس ۲۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"82","پایه بکس ۶۳ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"83","پایه چراغ پارکی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"84","پایه چراغ خیابانی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"85","پایه رله",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"86","پایه سینی کابل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"87","پایه فیوز کتابی ۱۶۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"88","پایه کلید گردان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"89","پایه مقره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"90","پایه مهتابی کم مصرف ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"91","پایه مهتابی گرد کوچک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"92","پایه مهتابی معمولی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"95","پروانه پمپ کولر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"96","پروانه ۴۰ سانت سر شفت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"97","پریز برق - توکار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"98","پریز برق ارتدار - توکار",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"99","پریز برق سه فاز بارانی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"100","پریز تلفن - توکار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"101","پریز تلفن تک پورت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"102","پریز آنتن توکار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"103","پل نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"104","پمپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"105","پمپ خطی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"106","پمپ فلاش تانک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"107","پمپ کولر - نو ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"108","پوسته کلاهک شیر مخلوط ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"109","پیچ ال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"110","پیچ ام دی اف ۴ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"111","پیچ بست حباب پارکی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"112","پیچ خودکار نمره ۲/۵ - ۱ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"113","پیچ رولپلاک > ۱۰ * ۲۱۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"114","پیچ شیروانی ۴ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"115","پیچ شیروانی ۶ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"116","پیچ نمره ۱۸ - ۷ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"117","پیچ نمره ۲ - ۴ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"118","پیچ نمره ۲ - ۵ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"119","پیچ و مهره نمره ۱۴ - ۱۵ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"120","پیچ و مهره نمره ۱۸ - ۸ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"121","پیچ و مهره نمره ۴ - ۳ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"122","پیچ و مهره نمره ۶- ۵ سانت",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"123","پیچ و مهره نمره ۸ - ۱۰ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"124","پیچ و مهره ورشویی نمره ۴ - ۶ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"125","تابلو آتش نشانی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"126","تابلو تلفنی ۲۰ زوج روکار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"127","تایل سقفی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"128","تایمر دیجیتالی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"129","تایمر راه پله",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"130","تایمر ستاره مثلث ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"131","تبدیل ۶ * ۱۰ بخاری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"132","تبدیل آفتابه برنجی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"133","تبدیل سرپیچ چینی بزرگ به کوچک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"134","تبدیل نمره ۵ / ۱ * ۲ پیسوال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"135","تبدیل نمره ۱۰ * ۱۲ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"136","تبدیل نمره ۱۰ * ۱۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"137","تبدیل نمره ۱۰ * ۱۶ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"138","تبدیل نمره ۱۲ * ۱۶ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"139","تبدیل نمره ۱۲ * ۲۰ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"140","تبدیل نمره ۱۶ * ۲۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"141","تبدیل نمره ۲ * ۲ / ۵ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"142","تبدیل نمره ۲ * ۲ / ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"143","تبدیل نمره ۲ * ۲ / ۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"144","تبدیل نمره ۲ * ۳ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"145","تبدیل نمره ۲ * ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"146","تبدیل نمره ۲ * ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"147","تبدیل نمره ۲ * ۴ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"148","تبدیل نمره ۲ * ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"149","تبدیل نمره . ۲ * ۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"150","تبدیل نمره ۲ * ۶ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"151","تبدیل نمره ۲ * ۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"152","تبدیل نمره ۲ * ۶ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"153","تبدیل نمره ۵ / ۲ * ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"154","تبدیل نمره ۵ / ۲ * ۳ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"155","تبدیل نمره ۵ / ۲ * ۴ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"156","تبدیل نمره ۵ / ۲ * ۴ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"157","تبدیل نمره ۵ / ۲ * ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"158","تبدیل نمره ۵ / ۲ * ۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"159","تبدیل نمره ۵ / ۲ * ۶ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"160","تبدیل نمره ۵ / ۲ * ۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"161","تبدیل نمره ۵ / ۲ * ۶ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"162","تبدیل نمره ۲۰ * ۲۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"163","تبدیل نمره ۳ * ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"164","تبدیل نمره ۳ * ۴ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"165","تبدیل نمره ۳ * ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"166","تبدیل نمره ۶۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"167","تبدیل نمره ۶۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"168","تبدیل نمره ۳ * ۷ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"169","تبدیل نمره ۴ * ۵ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"170","تبدیل نمره ۴ * ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"171","تبدیل نمره ۴ * ۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"172","تبدیل نمره ۴ * ۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"173","تبدیل نمره ۵ * ۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"174","تبدیل نمره ۶ * ۱۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"175","تبدیل نمره ۶ * ۱۲ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"176","تبدیل نمره ۶ * ۷ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"177","تبدیل نمره ۶ * ۸ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"178","تبدیل نمره ۷ * ۸ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"179","تبدیل نمره ۱۲۸ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"180","ترانس ۲۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"181","ترانس ۲۵۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"182","ترانس ۷۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"183","ترانس بالاست ۳۶ * ۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"184","ترموستات جداری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"185","ترموستات دیجیتالی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"186","ترموستات فن کویل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"187","ترموستات قلافی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"188","ترموستات لمسی ۹۵ - ۵۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"189","ترموستات ویترینی یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"190","ترموستات یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"191","ترموکوبل آبگرمکن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"192","ترموکوبل اجاق گاز ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"193","ترمینال با جعبه ۱۰ زوج ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"194","ترمینال خانه ای نمره ۱۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"195","ترمینال خانه ای نمره ۲۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"196","ترمینال خانه ای نمره ۳۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"197","ترمینال خانه ای نمره ۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"198","ترمینال ریلی نمره ۳۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"199","ترمینال ریلی نمره ۷۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"200","ترمینال ریلی نمره ۹۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"201","کولر a تسمه نمره ۱۰۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"202","کولر b تسمه نمره ۴۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"203","کولر a۲۴ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"204","کولر a۲۹ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"205","کولر a۳۱ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"206","کولر a۳۲ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"207","کولر a33 تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"208","کولر a۳۵ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"209","کولر a۳۶ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"210","کولر a۳۹ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"211","کولر a۴۸ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"212","کولر a۴۹ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"213","کولر a۵۰ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"214","کولر a۷۳ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"215","کولر a۷۴ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"216","کولر b۱۱۲ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"217","کولر b۲۹ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"218","کولر b۳۷ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"219","کولر b۴۱ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"220","کولر b۴۲ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"221","کولر b۴۴ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"222","کولر b۵۰ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"223","کولر b۷۰ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"224","کولر b۷۳ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"225","کولر h۷۴ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"226","کولر b۷۵ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"227","کولر b۷۷ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"228","کولر b۷۸ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"229","b۹۲ تسمه نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"230","تفنگ انبار فنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"231","تقسیم روکار ۲۰ * ۱۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"232","ته فیوز فشنگی ۱۶ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"233","ته فیوز فشنگی ۲۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"234","ته فیوز فشنگی ۶۳ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"235","ته فیوز فشنگی ۱۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"236","توالت فرنگی",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"237","توپی قفل درب آهنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"238","توپی مسی شناور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"239","تو پیچ و روپیچ نمره ۲ برنجی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"240","تو پیچ و روپیچ نمره ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"241","تو پیچ و روپیچ نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"242","تو پیچ و روپیچ نمره ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"243","تو پیچ و روپیچ نمره ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"244","توپیچ و روپیچ نمره ۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"245","توزن یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"246","لاستیکی دسته دار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"247","جا استارتی لیوانی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"248","جا یخی یخچال ( اواپراتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"249","جالباسی تکی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"250","جالباسی سبدی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"251","جامایع دستی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"252","جامسواکی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"253","جای فیوز شیشه ای ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"254","( جایخی یخچال ( اواپراتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"255","جعبه تقسیم ۲۰ * ۲۰ پلاستیکی توکار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"256","جعبه فلزی ۴۰ * ۴۰ برق روکار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"257","جعبه فیوز ۱۲ تایی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"258","جعبه فیوز ۵ تایی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"259","جعبه فیوز ۸ تایی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"260","جعبه فیوز ۹ تایی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"261","چاه بست ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"262","چپقی ۹۰ درجه نمره ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"263","چپقی ۹۰ درجه نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"264","چپقی ۹۰ درجه نمره ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"265","چراغ بالا آینه ای کم مصرف شمعی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"266","چراغ تونلی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"267","چراغ چشمک زن هوشمند ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"268","چراغ دیواری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"269","چراغ سقفی گرد ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"270","چراغ سقفی مربع ( چهار گوش) ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"271","چراغ هالوژن نمره ۱۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"272","چراغ هالوژن نمره ۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"273","چراغ والواشر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"274","چرخ دنده کلر زن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"275","چرخ صندلی فلزی بزرگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"276","چسب ۱-۲-۳ بزرگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"277","چسب آکواریم بزرگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"278","چسب بتن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"279","چسب برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"280","چسب چوب ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"281","چسب سنگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"282","خازن ۱۵ کیلوبار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"283","خازن ۵ کیلوبار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"284","خازن موتور یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"285","دتکتور دودی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"286","درایر جوشی یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"287","درایر مهره ای یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"288","درب باز کن فنری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"289","درب باز کن میله ای ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"290","درب جایخی یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"291","درب کولر ۵۹۷۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"292","درب کولر ۷۲ * ۸۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"293","درپوش رادیاتور نمره ۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"294","درپوش شیر هواگیری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"295","درپوش نمره ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"296","درپوش نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"297","درپوش نمره ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"298","درزگیردرب ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"299","دریچه بازدید نمره ۱۵ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"300","دریچه بخاری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"301","دریچه کنتر آب ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"302","دریچه ونت پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"303","دستگیره پنجره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"304","دستگیره درب آلمینیوم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"305","دستگیره دو جداره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"306","دستگیره دوخم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"307","دستگیره سوئیچی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"308","دستگیره فلزی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"309","دستگیره کمدی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"310","دستگیره یخچال معمولی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"311","دسته شیر گازی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"312","دماسنج ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"313","دوبندی مس به آلومینیوم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"314","رابط اتصال فلنچی ۱۰ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"315","رابط توپیچ نمره ۴ / ۳ * ۲۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"316","رابط توپیچ نمره ۴ / ۳ * ۲۵ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"317","رابط درپوش نمره ۴ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"318","رابط در پوش نمره ۶ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"319","رابط درپوش نمره ۸ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"320","رابط شیر رادیاتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"321","رابط فلنچی نمره ۹۰ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"322","رابط ماده نمره ۵ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"323","رابط ماده نمره ۶ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"324","رابط ماده نمره ۸ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"325","رابط نمره ۳ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"326","رابط نمره ۵ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"327","رگلاتور گاز ۱۰۰ متری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"328","رگلاتور گاز ۴۰ متری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"329","رله ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"330","رله ۲۲۰ ولت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"331","رله يخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"332","رنگ اسپری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"333","رو پیچ و توپیچ نمره ۲/۵ سوپرپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"334","رول ولت نمره ۱۰ - ۱۰ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"335","رول ولت نمره ۱۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"336","رولپلاک ۱۰ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"337","رولپلاک ۶ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"338","رولپلاک ۷ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"339","ریل ترمینالی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"340","ریل مینیاتوری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"341","ریل یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"342","زانو رابط نمره ۶ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"343","زانو نر نمره ۳ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"344","زانو نر نمره ۶ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"345","زانوی ماده نمره ۶ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"346","زانویی ۴۵ درجه نمره ۱۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"347","زانویی ۴۵ درجه نمره ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"348","زانویی ۴۵ درجه نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"349","زانویی ۴۵ درجه نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"350","زانویی ۴۵ درجه نمره ۲۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"351","زانویی ۴۵ درجه نمره ۲۰ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"352","زانویی ۴۵ درجه نمره ۲۵ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"353","زانویی ۴۵ درجه نمره ۳ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"354","زانویی ۴۵ درجه نمره ۵ ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"355","زانویی ۴۵ درجه نمره ۴ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"356","زانویی ۴۵ درجه نمره ۶ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"357","زانویی ۴۵ درجه نمره ۶ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"358","زانویی ۴۵ درجه نمره ۸ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"359","زانویی ۴۵ درجه نمره ۸ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"360","زانویی 90 درجه پرسی نمره ۶۳ * ۶۳ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"361","زانویی 90 درجه نمره ۱۰ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"362","زانویی 90 درجه نمره ۱۰ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"363","زانویی 90 درجه نمره ۱۲ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"364","زانویی 90 درجه نمره ۱۵ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"365","زانویی 90 درجه نمره ۱۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"366","زانویی 90 درجه نمره ۲ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"367","زانویی 90 درجه نمره ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"368","زانویی 90 درجه نمره ۲ * ۲ / ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"369","زانویی 90 درجه نمره ۲ * ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"370","زانویی 90 درجه نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"371","زانویی 90 درجه نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"372","زانویی 90 درجه نمره ۲۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"373","زانویی 90 درجه نمره ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"374","زانویی 90 درجه نمره ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"375","زانویی 90 درجه نمره ۴ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"376","زانویی 90 درجه نمره ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"377","زانویی 90 درجه نمره ۴ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"378","زانویی 90 درجه نمره ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"379","زانویی 90 درجه نمره ۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"380","زانویی 90 درجه نمره ۶ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"381","زانویی 90 درجه نمره ۶ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"382","زانویی 90 درجه نمره ۷ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"383","زانویی 90 درجه نمره ۸ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"384","زانویی 90 درجه نمره ۸ چدنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"385","زانویی 90 درجه نمره ۸ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"386","زانویی پرسی ۹۰ درجه نمره ۱۶ * ۱۶ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"387","زانویی پرسی ۹۰ درجه به نمره ۲۰ * ۲۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"388","زانویی چپقی پرسی نمره ۴ / ۳ * ۲۵ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"389","زانویی دنده ۹۰ درجه نمره ۲ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"390","زانویی دنده ۹۰ درجه نمره ۲ * ۵ / ۲ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"391","زانویی دنده ۹۰ درجه نمره ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"392","زانویی دوسر مهره رزوه ای ۲۵ * ۲۵ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"393","زانویی رابط نمره ۲۵ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"394","زانویی رابط نمره ۵۰ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"395","زانویی رابط نمره ۹۰ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"396","زانویی ساده ۹۰ درجه نمره ۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"397","زانویی عصایی نمره ۱۶ برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"398","زانویی مغزی نمره ۲ * ۵ / ۲ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"399","زنگ اخبار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"400","ساکشن ۱/۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"401","ساکشن ۱/۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"402","سر شیر نمره ۲ آب ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"403","سر شیلنگ گازی نمره ۲/۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"404","سر شیلنگی ۳ آب ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"405","سرپیچ چینی ۴۰۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"406","سرپیچ حبابی پارکی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"407","سرپیچ دوشاخه دار برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"408","سرد ردنده نمره ۲ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"409","سردنده نمره ۲/۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"410","سردنده نمره ۳ گازی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"411","سردنده نمره ۷ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"412","سردنده نمره ۸ گازی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"413","سردوش حمام ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"414","سرکابل برق ۵۰ * ۱ هوای ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"415","سنسور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"416","سنگ توالت معمولی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"417","سه راهی ۴۵ درجه نمره ۱۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"418","سه راهی ۴۵ درجه نمره ۱۰ * ۱۶ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"419","سه راهی ۴۵ درجه نمره ۱۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"420","سه راهی ۴۵ درجه نمره ۱۵ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"421","سه راهی ۴۵ درجه نمره ۲۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"422","سه راهی ۴۵ درجه نمره ۶۳ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"423","سه راهی ۴۵ درجه نمره ۸ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"424","سه راهی ۹۰ درجه نمره ۱۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"425","سه راهی ۹۰ درجه نمره ۱۲ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"426","سه راهی ۹۰ درجه نمره ۶ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"427","سه راهی ۹۰ درجه نمره ۶ * ۸ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"428","سه راهی ۹۰ درجه نمره ۸ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"429","سه راهی ۹۰ درجه نمره ۸ * ۱۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"430","سه راهی بازدید نمره ۱۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"431","سه راهی پرسی نمره ۱۶۱۶ * ۱۶ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"432","سه راهی پرسی نمره ۲۰ * ۲۰ * ۲۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"433","سه راهی پرسی نمره ۲۵ * ۲۵ * ۲۵ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"434","سه راهی پرسی نمره ۶۳ * ۶۳ * ۶۳ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"435","سه راهی تبدیل پرسی نمره ۲۰ * ۱۶ * ۲۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"436","سه راهی تبدیل پرسی نمره ۳۲ : ۱۶ * ۳۲ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"437","سه راهی تبدیل پرسی نمره ۵۰ * ۲۵ * ۵۰ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"438","سه راهی دیواری پرسی ۲۰ * ۲ / ۱ * ۲۰ نیوپاپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"439","سه راهی دیواری پرسی ۹۰ درجه نمره ۱۶ * ۱ / ۲ * ۱۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"440","نیوپایپ_x000D_
+",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"441","سه راهی دیواری پرسی ۹۰ درجه نمره ۲۰ * ۱ / ۲ * ۲۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"442","سه راهی سینی کابل ۱۵ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"443","سه راهی نمره ۱۰ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"444","سه راهی نمره ۱۰ * ۳۰ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"445","سه راهی نمره ۱۲ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"446","سه راهی نمره ۱۲ * ۳۰ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"447","سه راهی نمره ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"448","سه راهی نمره ۲ * ۲ / ۵ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"449","سه راهی نمره ۲ * ۵ / ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"450","سه راهی نمره ۲ * ۳ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"451","سه راهی نمره ۲ * ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"452","سه راهی نمره ۲ * ۶ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"453","سه راهی نمره ۲/۵ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"454","سه راهی نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"455","سه راهی نمره ۲/۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"456","راهی نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"457","سه راهی نمره ۵ / ۲ * ۱۰ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"458","سه راهی نمره ۵ / ۲ * ۳ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"459","سه راهی نمره ۵ / ۲ * ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"460","سه راهی نمره ۵ / ۲ * ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"461","سه راهی نمره ۵ / ۲ * ۶ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"462","سه راهی نمره ۵ / ۲ * ۶ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"463","سه راهی نمره ۵ / ۲ * ۶ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"464","سه راهی نمره ۵ / ۲ * ۷ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"465","سه راهی نمره ۵ / ۲ * ۸ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"466","سه راهی نمره ۵ / ۲ * ۸ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"467","سه راهی نمره ۲۰ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"468","سه راهی نمره ۲۵ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"469","سه راهی نمره ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"470","سه راهی نمره ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"471","سه راهی نمره ۲۳ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"472","سه راهی نمره ۳ * ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"473","سه راهی نمره ۶۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"474","سه راهی نمره ۳ * ۸ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"475","سه راهی نمره ۳ * ۸ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"476","سه راهی نمره ۴ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"477","سه راهی نمره ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"478","سه راهی نمره ۴ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"479","سه راهی نمره ۴ * ۵ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"480","سه راهی نمره ۶۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"481","سه راهی نمره ۴ * ۷ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"482","سه راهی نمره ۴ * ۸ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"483","سه راهی نمره ۴۰ * ۶۳ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"484","سه راهی نمره ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"485","سه راهی نمره ۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"486","سه راهی نمره ۵ * ۶ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"487","سه راهی نمره ۵۰ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"488","سه راهی نمره ۶ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"489","FAA سه راهی نمره ۶ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"490","سه راهی نمره ۶ * ۱۲ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"491","سه راهی نمره ۷۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"492","سه راهی نمره ۷ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"493","سه راهی نمره ۷ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"494","سه راهی نمره ۸ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"495","سه راهی نمره ۸ چدنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"496","سه راهی نمره ۸ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"497","سه راهی نمره ۸ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"498","سیفون دستشویی با خرطومی محک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"499","سیفون ظرفشویی با خرطومی محک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"500","سیفون ظرفشویی دو قلو ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"501","سیفون نمره ۱۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"502","سیفون نمره ۱۲ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"503","سیفون نمره ۶۳ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"504","سیم ارت نمره ۵ / ۱ * ۱ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"505","سیم ارت نمره ۵ / ۲ * ۱ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"506","سیم برق نمره ۱ * ۱ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"507","سیم برق نمره ۵ / ۲ * ۱ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"508","سیم برق نمره ۴ * ۱ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"509","سیم جوش آلمینیوم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"510","سیم جوش برنج  ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"511","سیم جوش نقره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"512","سیم دو رشته تلفن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"513","شاسی استارت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"514","شاسی دوبل ساده ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"515","شاسی زنگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"516","شمش نول ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"517","شناور فلاش تانک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"518","شناور نمره ۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"519","شیر آبسردکن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"520","شیر برگشت رادیاتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"521","شیر ترموستات شوفاژ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"522","شیر تک پایه دیواری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"523","شیر جامایع ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"524","شیر خودکار برنجی نمره ۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"525","شیر خودکار برنجی نمره ۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"526","شیر خودکار برنجی نمره ۷ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"527","شیر خودکار چدنی نمره ۱۰ - دسته دوم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"528","شیر خودکار چدنی نمره ۱۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"529","شیر رفت رادیاتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"530","شیر صافی ۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"531","شیر صافی چدنی نمره ۱۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"532","شیر صافی چدنی نمره ۱۰ - دسته دوم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"533","شیر صافی چدنی نمره ۱۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"534","شیر صافی چدنی نمره ۷ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"535","شیر غیر گازی نمره ۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"536","شیر فلکه اصلی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"537","شیر فلکه سوزنی نمره ۱۲ چدنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"538","شیر فلکه سوزنی نمره ۴ چدنی - دسته دوم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"539","شیر فلکه سوزنی نمره ۵ چدنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"540","( شیر فلکه کشویی نمره ۱۰ برنجی ( ۴ اینچ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"541","شیر فلکه کشویی نمره ۲/۵ برنجی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"542","شیر فلکه کشویی نمره ۲۰ چدنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"543","شیر فلکه کشویی نمره ۵ چدنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"544","شیر فلکه کشویی نمره ۶ برنجی ( ۲ اینچ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"545","شیر فلکه نمره ۲ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"546","شیر فلکه نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"547","شیر کنداسور چیلر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"548","شیر کولری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"549","شیر گازی نمره ۱/۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"550","شیر گازی نمره ۶ ( ۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"551","شیر گازی نمره ۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"552","شیر گیج ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"553","شیر لباسشویی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"554","شیر نمره ۲ آب ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"555","شیر نمره ۲ * ۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"556","شیر نمره ۲ * ۲ اهرمی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"557","شیر نمره ۲/۵ آب ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"558","شیر هواگیری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"559","شیر اطمینان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"560","شیشه چراغ خیابانی ۲۵۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"561","و ۵۶ شیشه چراغ خیابانی ۴۰۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"562","شیشه حباب دیواری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"563","شیلنگ اهرمی پیسوال نمره ۵ ۱/۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"564","شیلنگ اهرمی پیسوال نمره ۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"565","شیلنگ پیسوال ۲ * ۲ ۴۰ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"566","شیلنگ پیسوال ۲ * ۲ ۵۰ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"567","شیلنگ پیسوال ۲ * ۲ ۶۰ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"568","شیلنگ دستشویی پلاستیکی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"569","شیلنگ لباسشویی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"570","شیلنگ نمره ۲ فشار قوی ۲۰ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"571","صافی علم شیر مخلوط ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"572","صفحه پمپ فلاش تانک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"573","صفحه تریزون یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"574","صفحه نصب ۵۰ سانت نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"575","نیوپایپ mm صفحه نصب تک ۶۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"576","ضامن پنجره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"577","ضربه گیر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"578","علم شیر مخلوط ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"579","غلطک لادری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"580","فلکسر ۱۱/۲ اینچ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"581","فلکسر ۶ اینچ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"582","فلنج نمره ۶ سیاه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"583","فلنچ نمره ۳۰ سیاه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"584","فن خنک کننده ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"585","فن کوئل مدل ۲۰۰ راست ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"586","فن کوئل مدل ۳۰۰ راست ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"587","فن کوئل مدل ۴۰۰ راست ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"588","فن کوئل مدل ۸۰۰ راست ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"589","فولی ۱۱ سانت کولر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"590","فولی ۹ سانت کولر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"591","فوم سفید نمره ۶۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"592","فوم مشکی نمره ۲۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"593","فیش سرسیم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"594","فیلتر گاز نمره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"595","فیوز شیشه ای ۱۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"596","فیوز فشنگی ۱۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"597","فیوز فشنگی ۱۰۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"598","فیوز فشنگی ۱۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"599","فیوز فشنگی ۳۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"600","فیوز فشنگی ۵۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"601","فیوز فشنگی ۶ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"602","فیوز فشنگی ۶/۳ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"603","فیوز کتابی ۱۰۰ آمپر پایه بلند ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"604","فیوز کتابی ۱۰۰ آمپر پایه کوتاه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"605","فیوز کتابی ۱۶۰ آمپر پایه بلند ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"606","فیوز کتابی ۱۶۰ آمپر کوتاه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"607","فیوز کتابی ۳۱۵ آمپر پایه بلند ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"608","V 9. فیوز کتابی ۳۲ آمپر پایه بلند ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"609","فیوز کتابی ۴۰۰ آمپر پایه بلند ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"610","فیوز کتابی ۵۰ آمپر پایه کوتاه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"611","فیوز کتابی ۶۳ آمپر پایه بلند ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"612","فیوز کتابی ۸۰ آمپر پایه بلند ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"613","فیوز کتابی ۸۰ آمپر پایه کوتاه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"614","فیوز مینیاتوری تک فاز ۱۶ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"615","فیوز مینیاتوری تک فاز ۴۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"616","فیوز مینیاتوری تک فاز ۶۳ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"617","فیوز مینیاتوری سه فاز ۱۶ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"618","فیوز شیشه ای ۲۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"619","فیوز شیشه ای ۴ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"620","فیوز شیشه ای ۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"621","قاب مهتابی ۳۶ * ۲ کم مصرف ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"622","قاب مهتابی کم مصرف ۸۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"623","قفل برقی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"624","قفل تابلو برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"625","قفل تابلویی ۴ پره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"626","قفل درب آهنی ۳/۵ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"627","قفل سوئیچی ۴/۵ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"628","قفل سوئیچی ۵/۲ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"629","قفل کمدی دو پل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"630","قفل نمره ۲ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"631","قفل نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"632","قفل نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"633","قفل نمره ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"634","قفل نمره ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"635","قفل نمره ۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"636","قفل نمره ۶ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"637","قفل نمره ۸ برزیلی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"638","قفل نمره ۸ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"639","کابلشو برق نمره ۱۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"640","کابلشو برق نمره ۱۲۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"641","کابلشو برق نمره ۲۴۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"642","کابلشو برق نمره ۳۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"643","کابلشو برق نمره ۵۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"644","کابلشو برق نمره ۷۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"645","کابلشو بی متال نمره ۵۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"646","کادر کلید یک خانه پاریس ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"647","کانال ۲ سانتی برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"648","کانال ۳ سانت برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"649","کانال ۴ سانت برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"650","کانال ۵ سانتی برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"651","کانال ۹ سانت برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"652","کانال کف خواب برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"653","کاور مهره شیر اهرمی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"654","کپ جوشی نمره ۱۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"655","کپ جوشی نمره ۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"656","کپ جوشی نمره ۲۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"657","کپ جوشی نمره ۳۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"658","کپ جوشی نمره ۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"659","کپ جوشی نمره ۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"660","کپ نمره ۱۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"661","کپ نمره ۲ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"662","کپ نمره ۲/۵ جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"663","کپ نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"664","کپ نمره ۳ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"665","کپ نمره ۶ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"666","کپ نمره ۸ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"667","کرپی بزرگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"668","کرپی کوچک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"669","کشو کلنگی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"670","کشو مغزی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"671","کشوی پروانه کمدی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"672","کف خواب کنار نمره ۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"673","کف خواب وسط نمره ۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"674","کلاه حصیری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"675","کلاهک بخاری نمره ۱۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"676","کلاهک شیر مخلوط ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"677","کلاهک فیوز ۲۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"678","کلاهک فیوز ۶ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"679","کلاهک فیوز ۶۳ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"680","نیوپایپ اکلکتور ۲ * ۳۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"681","نیوپایپ اکلکتور ۵ / ۲ * ۳۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"682","کلمپ مسی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"683","کلید اتوماتیک ۱۶۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"684","کلید تک پل - توکار برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"685","کلید توکار دو پل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"686","کلید فیوز حفاظ جان تک فاز ۲۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"687","کلید فیوز حفاظ جان سه فاز ۶۳ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"688","کلید قفل تابلو برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"689","کلید کاردی تک فاز ۳۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"690","کلید کاردی تک فاز ۶۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"691","کلید کاردی سه فاز ۶۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"692","کلید کلنگی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"693","کلید کولر - توکار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"694","کلید کولر - روکار ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"695","کلید گردان ۱۲۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"696","کلید گردان ۱۲۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"697","کلید گردان ۱۶ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"698","کلید گردان ۲۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"699","کلید گردان ۲۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"700","کلید گردان ۶۳ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"701","کلید گردان ۷۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"702","کلید یک پل بارانی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"703","کلید یک طرفه رایسون ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"704","کمربند نمره ۱۰ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"705","کمربند نمره ۱۵ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"706","کمربند نمره ۴ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"707","کمربند نمره ۵ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"708","کمربند نمره ۶ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"709","کمربند نمره ۷ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"710","کمربند نمره ۸ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"711","کنتاکتور ۱۰۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"712","کنتاکتور ۴۰ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"713","کنتاکتور ۸۵ آمپر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"714","کنترل بار دیجیتالی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"715","کنترل سطح مایعات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"716","کنترل فاز بار دیجیتالی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"717","کنترل فن کوئل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"718","کندانسور یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"719","کور کن ظرفشویی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"720","گریس ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"721","گلند ۲۹ فلکسی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"722","گوشی علم مخلوط فنری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"723","گیج فشار ۲۵۰-۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"724","گیج فشار ۴- . ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"725","گیج فشار ۴۰۰-۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"726","گیج فشار روغنی ۱۰-۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"727","لاستیک توالت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"728","لامپ ۱۰۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"729","لامپ ۱۵۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"730","لامپ چراغ سیگنال/TELEMECANIQUE/وات3","TELEMECANIQUE","SL",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"731","لامپ حبابی ۳۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"732","لامپ حبابی ۵۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"733","لامپ خیاری ۱۵۰ وات آفتابی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"734","لامپ رشته ای ۲۵ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"735","لامپ رشته ای ۶۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"736","لامپ شمعی کم مصرف ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"737","لامپ گازی ۱۲۵ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"738","لامپ گازی ۱۶۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"739","لامپ گازی ۳۵۰ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"740","لرزه گیر ۲ اینچ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"741","لرزه گیر ۵ اینچ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"742","لرزه گیر ۶ اینچ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"743","لولا تابلو برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"744","لولا درب ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"745","لولای یخچال ویترینی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"746",". لوله آلومینیوم ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"747","لوله بخاری نمره ۱۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"748","لوله برق نمره ۱۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"749","لوله خرطومی نسوز نمره ۱۱ برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"750","لوله فلاش تانک نمره ۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"751","الوله مسی متری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"752","لوله مهتابی ۲۰ وات آفتابی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"753","( لوله مهتابی ۲۰ وات مهتابی ( سفید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"754","لوله مهتابی ۴۰ وات آفتابی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"755","لوله مهتابی کم مصرف ۱۲ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"756","لوله مهتابی کم مصرف ۱۴ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"757","لوله مهتابی کم مصرف ۱۸ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"758","لوله مهتابی کم مصرف ۲۱ وات ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"759","لوله مهتابی کم مصرف ۲۴ وات سفید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"760","لوله مویی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"761","لوله مویی ۱/۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"762","لوله مویی ۱/۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"763","لوله مویی ۱/۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"764","لوله مویی ۳/۴ یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"765","لوله نمره ۱۰ پلی اتیلن فشارقوی جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"766","لوله نمره ۱۰ پلی اتیلن معمولی جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"767","لوله نمره ۱۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"768","لوله نمره ۱۰ گازی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"769","لوله نمره ۱۰ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"770","لوله نمره ۱۲ پلی اتیلن فشار قوی جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"771","لوله نمره ۱۲ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"772","لوله نمره ۱۵ پلی اتیلن فشار قوی جوشی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"773","لوله نمره ۱۵ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"774","لوله نمره ۱۵ گازی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"775","لوله نمره ۱۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"776","لوله نمره ۲ گازی نوار شده ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"777","لوله نمره ۲/۵ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"778","لوله نمره ۲۰ پلیکا ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"779","لوله نمره ۲۰ وحید ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"780","لوله نمره ۳ گازی نوار شده ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"781","لوله نمره ۴ گازی نوار شده ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"782","لوله نمره ۵ گازی نوار شده ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"783","لوله نمره ۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"784","لوله نمره ۵ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"785","لوله نمره ۶ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"786","لوله نمره ۷ مانیسمان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"787","YAY لوله نمره ۸ پلی اتیلن معمولی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"788","مادگی ۵ شاخ برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"789","مادگی صنعتی برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"790","ماسوره شیر رادیاتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"791","مانومتر ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"792","مایع پروتکتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"793","متر ۳ متری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"794","محافظ نوسان برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"795","مخزن ۱۳۰۰۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"796","مشعل بزرگ - تعمیری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"797","مشعل کوچک - تعمیری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"798","مغزی ۴ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"799","مغزی تبدیل ۳/۴ - ۱ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"800","مغزی شیر ۲ * ۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"801","مغزی لنگی شیر مخلوط توكاسه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"802","مغزی نمره ۱۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"803","مغزی نمره ۲ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"804","مغزی نمره ۲ * ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"805","مغزی نمره ۲/۵ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"806","مغزی نمره ۵ / ۲ * ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"807","مغزی نمره ۳ رادیاتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"808","مغزی نمره ۳ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"809","مغزی نمره ۴ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"810","مغزی نمره ۶ گالوانیزه ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"811","مفصل برق نمره ۱۵۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"812","مفصل برق نمره ۱۸۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"813","مفصل برق نمره ۲۴۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"814","مفصل برق نمره ۳۰۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"815","مفصل برق نمره ۳۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"816","مفصل برق نمره ۹۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"817","مقره ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"818","مقره بشقابی برق ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"819","منبع آبسردکن بزرگ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"820","منبع آبسردکن کوچک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"821","مهره برنجی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"822","مهره برنجی شیر اهرمی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"823","مهره درپوش نمره ۴ رادیاتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"824","مهره شیر رادیاتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"825","مهره قفسه ای ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"826","مهره ماسوره پرسی نمره ۱ * ۲۵ نیوپایپ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"827","مهره نمره ۱۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"828","مهره نمره ۱۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"829","مهره نمره ۱۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"830","مهره نمره ۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"831","مهره نمره ۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"832","مهره نمره ۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"833","مهره نمره ۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"834","مهره و ماسوره رادیاتور نمره ۳ - کامل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"835","مهره و ماسوره ورود و خروجی رادیاتور نمره ۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"836","مهره و ماسوره ورود و خروجی رادیاتور نمره ۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"837","موتور کولر - تعمیری ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"838","موتور یخچال فنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"839","میخ کیلویی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"840","میکرو سوئیچ رگلاژی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"841","میله ارت آکان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"842","نخ نسوز ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"843","نری نمره ۲ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"844","نری نمره ۵ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"845","نری نمره ۶ پلی اتیلی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"846","نری نمره ۸ پلی اتیلن ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"847","نعلی شیر اهرمی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"848","نگهدارنده مهتابی کم مصرف ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"849","نوار پرایمر مشکی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"850","نوار تفلون ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"851","نوار دور درب یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"852","نیپل نمره ۲/۵ گالوانیزه ۶۰ سانت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"853","هواکش پلاستیکی ۱۰ * ۱۰ گرد ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"854","هواکش پلاستیکی ۱۵ * ۱۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"855","هواکش پلاستیکی ۳۰ * ۳۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"856","هیتر گازی فنی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"857","( هیدرانت نمره ۶ ( ۲ اینچ","231","321",NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"858","واسطه ۱۰ سانت سینی کابل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"859","واسطه ۱۵ سانت سینی کابل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"860","واسطه ۲۰ سانت سینی کابل ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"861","واسطه برنجی علم شیر اهرمی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"862","واشر بالاتنه شیر ۲/۵ شیلنگی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"863","واشر پلاستیکی شیروانی کوچک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"864","واشر پلاستیکی نمره ۱۲۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"865","واشر پلاستیکی نمره ۵۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"866","واشر پلی اتیلن نمره ۳ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"867","واشر پلی اتیلن نمره ۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"868","واشر پلی اتیلن نمره ۵ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"869","واشر پلی اتیلن نمره ۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"870","واشر پیچ شیروانی کوچک ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"871","واشر تخت نمره ۱۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"872","واشر تخت نمره ۱۴ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"873","واشر تخت نمره ۱۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"874","واشر تخت نمره ۱۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"875","واشر حباب پارکی ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"876","واشر شیر مخلوط ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"877","واشر فنری نمره ۱۲ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"878","AYA واشر فنری نمره ۱۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"879","واشر فنری نمره ۱۸ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"880","واشر فنری نمره ۶ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"881","واشر کاغذی نمره ۱۰۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"882","واشر کاغذی نمره ۵۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"883","واشر مغزی شیر مخلوط ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"884","واشر نمره ۴ رادیاتور ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"885","ولت متر دیجیتال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"886","یاتاقان ۱۳۰۰۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"887","یاتاقان ۴۵۰۰ ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"888","۲۰۶ p یاتاقان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"889","۲۰۷ p ياتاقان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"890","۲۰۸ p یاتاقان ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"891","یو سیمی یخچال ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"892","کشش تسمه اتوماتیک SA۶۸ یونیت ",,,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL
+"896","کلیداصلی","سلکتوری 1-0","1",NULL,"اشنایدر","2000",NULL,"برق",NULL,"125",NULL,NULL
+"897","کنتاکتورکمکی","کنتاکتورکمکی 1","37","hyundai","ls37","0",NULL,NULL,NULL,NULL,NULL,NULL
+"902","پمپ","پمپ","1","PUMPIRAN","سانتریفیوژ 250-100","0",NULL,NULL,NULL,NULL,NULL,NULL
+"903","پمپ","پمپ","1","PUMPIRAN","سانتریفیوژ 400-100","0",NULL,NULL,NULL,NULL,NULL,NULL
+"904","پمپ","پمپ","1","PUMPIRAN","سانتریفیوژ 160-32","0",NULL,NULL,NULL,NULL,NULL,NULL
+"905","پمپ","پمپ","1","PUMPIRAN","EN 40-125","0",NULL,NULL,NULL,NULL,NULL,NULL
+"906","الکتروموتور","الکتروموتور","2","VEM","KMR 132S4A","0",NULL,NULL,NULL,NULL,NULL,NULL
+"907","الکتروموتور","الکتروموتور","2","ELPROMZ ENERGO","MOM180M-4","0",NULL,NULL,NULL,NULL,NULL,NULL
+"908","الکتروموتور","الکتروموتور","2","MOTOGEN","180L4B","0",NULL,NULL,NULL,NULL,NULL,NULL
+"909","الکتروموتور","الکتروموتور","2","LION MOTOR","Y180L-4","0",NULL,NULL,NULL,NULL,NULL,NULL
+"910","الکتروموتور","الکتروموتور","2","GANZ","VZ180L4","0",NULL,NULL,NULL,NULL,NULL,NULL
+"915","پروانه فلزی","پروانه هواکش","VI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"916","کلیدسلکتوری دوحالته","کلیدسلکتوری","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"917","کنتاکتور50 امپر/AEG/LS37","کنتاکتور50/AEG/LS37","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"918","فیوزفشنگی 25 امپر/ETI","فیوزفشنگی 25/ETI","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"919","کلید60 امپر/HYUNDAI/UCB100R","کلیداصلی220-690 ولت","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"921","بی متال 50/AEG","بی متال 50/AEG","BI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"922","فیوزفشنگی 6 امپر/ETI","فیوزفشنگی 6/ETI","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"923","فیوزفشنگی 50 امپر/ETI","فیوزفشنگی 50/ETI","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"924","کنتاکت کمکی 40امپر/AEG/LS37","کنتاکت کمکی40امپر/AEG/LS37","CON +",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"925","کنتاکت کمکی 40امپر/HYUNDAI/UMC40","کنتاکت","CON+",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"926","تایمر10امپر/WETRON/","تایمر","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"927","تایمرهفتگی/SHIVA AMVAJ/12B3/","تایمرهفتگی VAC250-180","TIW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"928","فیوزمینیاتوری10امپر/AEG/ELFA","فیوزمینیاتوری","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"929","کنترل فاز MICRO/3-30SEC","کنترل فاز","PC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"930","کنترل بار SHIVA AMVAJ/13F6","کنترل بار","LC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"931","کلید60امپر/FUJI","کلیداصلی","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"932","تایمر/SHIVA AMVAJ/13F6","تایمر","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"933","فیوزمینیاتوری10امپر/HYUNDAI","فیوز","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"934","کلید63امپر/INDO KUPP","کلید63امپر/INDO KUPP","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"935","کنتاکتور SCHNEIDER","کنتاکتور SCHNEIDER","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"936","تایمرMICRO","تایمرMICRO","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"937","فیوزمینیاتوری6امپر/HYUNDAI","فیوزمینیاتوری","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"938","کنتاکت AEG/LS27","کنتاکت","CON+",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"939","کنتاکت SCHNEIDER/LC1D50","کنتاکت","CON+",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"940","رله گازی/HONEV WELL/TMG740-3","رله مدل 32-32/امپر6","RE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"941","پرشرگازDUNGS/GW150A4","P:30-150mbar/امپر10","GP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"942","پرشرهوا DUNGS","GW50A4/P:2.5-50mbar","AP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"943","الکترودجرقه زن","الکترودجرقه زن","IE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"944","ترانس جرقه زن","ترانس جرقه زن","ST",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"945","میله یون","میله یون","IB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"947","ترموستات غلافی TAKBAN","ترموستات غلافی","TE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"948","شیربرقی گازی ""DUNGS/1","25امپر/VSTART","GSV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"949","شیربرقی گازی 2""/DUNGS/VSTART","60امپر/VSTART","GSV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"950","شیربرقی گازی""DUNGS/2","MVD220/5.....P:200mbar","GSV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"951","بالانسر","بالانسر","GB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"952","فیلترگاز","فیلترگاز","GF",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"953","شیلنگ فشارقوی گاز","شیلنگ فشارقوی گاز","GH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"954","شیربرقی گازوییل PARKER","شیربرقی OILZH14","DSV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"955","رله گازی/SATRONIC","مدل32-32/TMG740-3/امپر6/","RE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"956","پرشرگازDUNGS/GW50A4","GWA4/P:2.5-50mbar","GP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"958","شیربرقی گازیKROM SCHRODER/T33/تدریجی","شیربرقی گازیVG50R01ZLT33/تدریجی/130mbar/83-97w","GSV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"959","شیربرقی گازیKROM SCHRODER/NO33","شیربرقی گازی/تک ضرب/200mbar/73-86wVG50R02-NO33","GSV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"960","رله گازی SHOKOUH","رله 1379/TMG740-3","RE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"961","پرشرگازKROM","DG50B-3....P:600mbar","GP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"962","پرشرهواKROM","DL10K-3/P:300mbar","GP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"963","شیربرقی گازیKROM SCHRODER/T33D","VG40R01ZLT33D/تدریجی/130mbar/79-94w","GSV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"965","شیربرقی گازیKROM SCHRODER/NT33/تک ضرب","VG40R02NT33/تک ضرب/P:200mbar/67-75w","GSV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"966","کلید50امپر/توان صنعت","کلید600ولت...S/L2/سلکتوری0-1","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"967","فیوزمینیاتوری32امپر/LEGRAND","فیوزمینیاتوری400ولت/IEC60898/Sسه فاز","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"968","فیوزمینیاتوری25امپر/LEGRAND","فیوزمینیاتوری400ولت/IEC60898/Sسه فاز","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"969","فیوز6امپر/LEGRAND","فیوزمینیاتوری400ولت/IEC60898/Sتکفاز","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"970","کنتاکتور40امپر/HYUNDAI/HIMC40","کنتاکتور","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"971","کنتاکتور12امپر/HYUNDAI/HGC12","کنتاکتور","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"972","تایمرSHIVA AMVAJ/14B12/","تایمر180-250ولت","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"973","کنترل فازBORNA/ASN","کنترل فاز","PC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"974","کنترل بارMICRO/2-5","کنترل بار","LC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"975","کنترل سطح مایعات MICRO","کنترل سطح","LLC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"976","رله FINDER/6013/امپر10","رله250 ولت","RE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"977","کلیدسلکتوری/دم موشی","سلکتوری 1-0","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"978","لامپ چراغ سیگنال 20mA/PNC","لامپ چراغ سیگنال","SL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"979","کنتاکتور50 امپر/HYUNDI/HIMC50","کنتاکتور","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"980","کنتاکتورPARS FANAL/PFC-12","کنتاکتور","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"981","تایمرSHIVA AMVAJ/1-15","تایمر180-250ولت","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"982","کنترل بارMICRO/7-13","کنترل بار","LC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"983","لامپ چراغ سیگنال SAMMIT","لامپ چراغ سیگنال","SL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"984","کنترل فازSHIVA AMVAJ/13B1-1","کنترل فاز","PC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"985","لامپ چراغ سیگنال MOHAMMAD","لامپ چراغ سیگنال","SL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"986","فیوزمینیاتوری6امپر/LEGRAND","فیوزمینیاتوری400ولت/IEC60898/Sتک فاز","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"987","فیوزفشنگی16امپر/KALEPORSELEN/","فیوزفشنگی16امپر/KALEPORSELEN/","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"988","کنتاکتورLS27/AEG","کنتاکتورLS27/AEG","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"990","فیوزمینیاتوری16امپر/AEG/ELFA","فیوزمینیاتوری16امپر/ AEG/ELFA-E81","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"991","فیوزمینیاتوری32 امپر/AEG/ELFA","فیوزمینیاتوری32 امپر/AEG/ELFA-E81","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"992","کلیدسلکتوری/دم موشی/TEND","کلیدسلکتوری/دم موشی/TEND","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"993","کنتاکتور10امپر/AEG/LS17","کنتاکتور10امپر/AEG/LS17","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"994","بی متال 10/AEG/B17LS","بی متال 10/AEG/B17LS","BI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"996","فیوزفشنگی10امپر/KALEPORSELEN/","فیوزفشنگی10امپر/KALEPORSELEN/","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"997","بی متال 6/AEG/B17LS","بی متال امپر6/AEG/B17LS/600V","BI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"998","بی متال 10/AEG/B17S","بی متال 10/AEG/B17S","BI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"999","کلید63امپر/HYUNDAI/HIBD","کلید63امپر/HYUNDAI/HIBD","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1000","فیوزمینیاتوری10امپر/CANEL/EP7","فیوزمینیاتوری10امپر/CANEL/EP7","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1001","کنترل بار SHIVA AMVAJ/13F5","کنترل بار SHIVA AMVAJ/13F5","LC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1003","کلید40امپر/HYUNDAI/HIBD63","کلید40امپر/HYUNDAI/HIBD63","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1004","کلید63/SUSOL/LS","کلید63/SUSOL/LS","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1005","کنتاکتور60 امپر/ SCHWAN/CJX2D4011","کنتاکتور60 امپر/ SCHWAN/CJX2D4011","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1007","فیوزمینیاتوری10/INDOKUPP/SILVERPLUS","فیوزمینیاتوری10/INDOKUPP/SILVERPLUS","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1009","کنترل فازبار5امپر/SHIVAAMVAJ/13F5","کنترل فازبار5امپر/SHIVAAMVAJ/13F5","LPC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1011","کلید100امپر/HYUNDAI/UCB100R","کلید100امپر/HYUNDAI/UCB100R","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1012","کنترل فاز60امپر/SHIVA AMVAJ/BF5","کنترل فاز60امپر/SHIVA AMVAJ/BF5","LPC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1013","کنترل فازبار60امپر/SHIVAAMVAJ/BF5","کنترل فازبار60امپر/SHIVAAMVAJ/BF5","LPC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1014","تایمرCOTER/امپر3-5","تایمرCOTER/امپر3-5...220ولت","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1015","کلید63امپر/SUSOL/TD100N","کلید63امپر/SUSOL/TD100N","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1016","تایمر/H3BA","تایمر/H3BA","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1017","کنترل فازبار60امپر/SHIVAAMVAJ/13F5","کنترل فازبار60امپر/SHIVAAMVAJ/13F5","LPC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1018","کلید50امپر/HYUNDAI/UCB250S","کلید50امپر/HYUNDAI/UCB250S","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1019","فیوزمینیاتوری6امپر/INDOKUPP/SILVERPLUS","فیوزمینیاتوری6امپر/INDOKUPP/SILVERPLUS","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1020","کلید100امپر/HYUNDAI/MCCB","کلید100امپر/HYUNDAI/MCCB","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1021","کنتاکتور80امپر/HYUNDAI/UMC50","کنتاکتور80امپر/HYUNDAI/UMC50","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1022","تایمر7امپر/JKN","تایمر7امپر/JKN","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1024","کلید63امپر/SUSOL/TS100N","کلید63امپر/SUSOL/TS100N","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1027","رگلاتور440/SHREEM/PARS.GH/SPF-04","رگلاتور440/SHREEM/PARS.GH/SPF-04","REG",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1032","کلید630امپر/AEG/ME630","440V","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1033","رگلاتور440/SHREEM/PARS.GH/SPF-12","1-5","REG",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1034","کلیدسلکتوری/BRETER/NSA/ امپر10","220V","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1035","کلیدسلکتوری/BRETER/160S/امپر 10","220V","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1036","فیوزکاردی400امپر/ELA","500V","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1037","فیوزکاردی160امپر/R.KONCAR","500V","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1038","فیوزکاردی125امپر/R.KONKAR/VDE0660GT","500V","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1039","فیوزکاردی100امپر/NHOO/IEC-269GL","500V","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1040","فیوزکاردی63امپر/NHOO/IEC-269GL","500V","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1043","کنتاکتور90امپر/HYUNDAI/HIMC90","220-440V","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1044","کنتاکتور120امپر/LS/GMC125","220-690V","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1045","کنتاکتور130امپر/HYUNDAI/HIMC130","220-440V","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1046","کنتاکتوؤ60/SCHWAN/CJX2-D40","380V","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1047","خازن72امپر/50KVAR/IRAN ISKRA","KNK9103/400V","CAP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1048","خازن72امپر/20KVAR/IRAN ISKRA","400V/KNK9103","CAP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1049","خازن72امپر/50KVAR/FARAKO","400V/LKT50-400D52","CAP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1050","کلید690امپر","390-690امپر","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1051","کلیدسلکتوریELECTRO KAHROBA/160S","160S","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1053","فیوزکاردی125امپر/NHOO/IEC-269GL","500V","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1054","کنتاکتور100امپر/AEG/LS57","100امپر","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1055","کنتاکتور160امپر/HYUNDAI/UMC115","160","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1056","کنتاکتور110امپر/HYUNDAI/HIMC110","110","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1057","خازن29امپر/IRAN ISKRA/20KVAR","400V/KNK9103","CAP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1058","خازن50KVAR","50","CAP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1059","کلید400امپر","240-400امپر/","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1060","کلیدسلکتوری0-1-2/امپرBRETER/10-12","220-380","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1061","فیوزکاردی400امپر/NH2","500V","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1062","فیوزکاردی80امپر/KALEPOR SELEN/NHOO7999","500V","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1063","فیوزکاردی125امپر/NHOO/VDE0660GT","125","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1064","فیوزکاردی125امپر/R.KONKAR/IEC269GL","500V","FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1065","کنتاکتور80امپر/MEC/GMC-LS85","80","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1066","کنتاکتور/AEG/LS107","کنتاکتور/AEG/LS107","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1067","خازن14.4امپر/10KVAR/IRAN ISKRA","KNK9103/400V","CAP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1068","کنتاکتورAEG/LS77","کنتاکتورAEG/LS77","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1069","خازن21.6امپر/15KVAR/PKS","خازن21.6امپر/15KVAR/PKS","CAP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1071","کلید1250امپر/AEG/","600V","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1072","امپرمتر2000/BEW/BE-144","0-2000A","AM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1073","ولتمتر500/BEW/BE-144","0-500V","VO",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1074","کلیدسلکتوریRISESUN","RST","KS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1075","ضریب توان متر","1-....0.5-/1....0.5","COS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1077","کلید630امپر/AEG","300-630A","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1078","امپرمتر1200/QFQ0107","1200","AM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1079","ولتمتر500/QFQ107","500V","VO",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1080","کمپرسور40تن/COPELAND","کمپرسور40تن/COPELAND","COM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1081","شیرساکشن/NOBIS KOLN","مکش/P:500-2500psi/سه حالته","VA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1082","شیردیس شارژ","MAX:16N.M","VA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1083","ترموستات چیلر/PEEN","5-..25-","TE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1084","انتی فریزPEEN","0-35/10A/220V","ANF",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1085","شیربرقی چیلرALCO","18A/240V","SV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1086","کلیدکنترل فشارگاز/SAGINMIYA","100-425psi/220v/","HLP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1087","فلوسوییچ کندانسور/PEEN","220V","FSC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1088","فلوسوییچ اواپراتور/UL","15A/220V","FSE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1089","انتی فریزSAGINAMIYA","0-35/5A","ANF",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1090","فلوسوییچ اواپراتور/PEEN","فلوسوییچ اواپراتور/PEEN","FSE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1091","کلیدکنترل فشارگاز/DANFUSS","کلیدکنترل فشارگاز/DANFUSS","HLP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1092","شیرکشویی""SITCO/ 2","کشویی/برنجی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1093","شیرکشویی""3/4/SITCO","شیر""3/4/SITCO","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1094","شیرکشویی""1/SITCO","شیر""1/SITCO","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1095","شیرکشویی""1/ 77","شیر""1/ 77/کشویی برنجی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1096","شناور""3/4/پلاستیکی","شناور""3/4/پلاستیکی","FLO",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1097","شناور""1/پلاستیکی","شناور""1/پلاستیکی","FLOT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1098","کویل هواساز","کویل هواساز","ACC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1099","دمپرهواسازBELIMO","FM24SR","DAM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1100","تسمه B58","تسمه","BEL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1101","فولی فن هواساز","فولی فن هواساز","FV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1102","فن هواساز","فن هواساز","FAC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1103","یاتاقان","یاتاقان","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1104","فولی موتورهواساز","فولی موتورهواساز","FAC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1105","اب پخش کن","اب پخش کن برنجی/شامل 6 خروجی پلیکا نمره 7/ورودی پلیکا نمره25","SP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1106","پکینگ","CM 2*2","PAC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1107","تسمه B90","تسمه","BEL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1108","فولی فن برج","فولی فن برج","FVC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1109","فولی موتوربرج","فولی موتوربرج","FEM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1110","فن برج خنک کننده","فن برج خنک کننده","FCT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1111","شیرگازی""1.1/2/ AZAR","گازی/برنجی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1112","گیج فشارودما/TG","0-120C/0-4bar","GAE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1113","شیرگازی""1/2/AZAR","گازی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1114","شیرگازی""3/4/AZAR","گازی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1116","شیرکشویی""1.1/2/SITCO","شیرکشویی""1.1/2/SITCO","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1117","شیرگازی""2/ 77","شیرگازی""2/ 77","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1118","شیرگازی""1.1/2/ 77","شیرگازی""1.1/2/ 77","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1119","شیرکشویی""1/KISAN","شیرکشویی""1/KISAN","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1120","شیرچندحالته ""2.1/2/SAICO","چندحالته","HYD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1121","شیرابی گازی""1/2/DN","ابی گازی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1122","گیج فشارFG","0-6bar","GAE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1123","شیرحیاطی""1/2/زرکش","شیرحیاطی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1124","کنتوراب""1/اب سنج","چرخ دنده","WM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1125","پروانه الکتروموتورVEM/7.5KW/KMR132S4A","1435RPM","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1128","کلید کنترل فن کویل ساراول","کلید تنظیم سرعت و خاموش و روشن","ّFCK",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1129","کویل فن کویل 200",,"FCcoil200",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1130","کویل فن کویل 400",,"FCcoil400",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1131","کویل فن کویل 600",,"FCcoil600",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1132","شیرکشویی""1/2/SITCO","شیرکشویی""1/2","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1133","کویل فن کویل 800",,"FCcoil800",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1135","شیر کشویی"" SITCO1/2",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1136","شیر کشویی"" SITCO1/2",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1137","پروانه الکتروموتورVEM/18.5KW/KPR160M-4","1455PM","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1138","پروانه الکتروموتورELPROMZ ENERGO/25HP/M0M180M-4","1460RPM","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1139","پروانه الکتروموتورVEM/0.75KW/KMER60/1380RPM","1380RPM","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1140","پروانه الکتروموتورVEM/0.75KW/KMERB04/1380RPM","1380RPM","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1142","پروانه الکتروموتورMOTOGEN/22KW/1463RPM/180L4B","پروانه الکتروموتور","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1143","پروانه الکتروموتورLION MOTOR/22KW/1470RPM/Y180L-4","پروانه","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1144","پروانه الکتروموتورVEM/18.5KW/KMR160M4A/1455RPM","220-380V/36.5-63.5A","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1145","پروانه الکتروموتورGANZ/22KW/1470RPM","380V/44A","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1146","پروانه الکتروموتورVEM/0.75KMR2184/1380RPM","220-380V/2-3.45A","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1147","پروانه الکتروموتورMOTGEN/.075KW/1385RPM","220-380V/2.2-3.8A","EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1148","درب الکتروموتورMOTO GEN/سایز160","درب الکتروموتور","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1149","درب الکتروموتورMOTO GEN/سایز132","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1150","درب الکتروموتورMOTO GEN/سایز90","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1151","درب عقب الکتروموتورELPROMZ ENERGO/25HP/M0M180M-4","درب الکتروموتور","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1154","درب عقب الکتروموتورLION MOTOR/22KW/1470RPM/Y180L-4","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1156","درب عقب الکتروموتورVEM/0.75KW/KMERB04/1380RPM","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1157","درب عقب الکتروموتورVEM/0.75KW/KMR2184/1380RPM","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1158","درب عقب الکتروموتورVEM/0.75KW/KMER60","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1161","درب عقب الکتروموتورVEM/18.5KW","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1163","بلبرینگ الکتروموتورMOTO GEN/سایز6308","بلبرینگ","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1164","بلبرینگ الکتروموتورMOTO GEN/سایز6309","بلبرینگ","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1165","بلبرینگ الکتروموتورLION MOTOR/22KW/1470RPM/Y180L-4","بلبرینگ","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1166","بلبرینگ الکتروموتورELPROMZ ENERGO/25HP/M0M180M-4","بلبرینگ","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1167","بلبرینگ الکتروموتورGANZ/22KW/1470RPM","بلبرینگ","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1168","بلبرینگ الکتروموتورVEM/0.75KMR2184/1380RPM","بلبرینگ","EMB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1169","بلبرینگ الکتروموتورVEM/0.75KW/KMER60","بلبرینگ","EMB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1170","بلبرینگ الکتروموتورVEM/0.75KW/KMER60/1380RPM","بلبرینگ","EMB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1171","بلبرینگ الکتروموتورVEM/0.75KW/KMERB04","بلبرینگ","EMB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1172","بلبرینگ الکتروموتورVEM/0.75KW/KMERB04/1380RPM","بلبرینگ","EMB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1173","بلبرینگ الکتروموتورVEM/18.5KW","بلبرینگ","EMB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1174","موتور فن کویل 200",,"EMFC200",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1175","موتور فن کویل 400",,"EMFC400",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1176","موتور فن کویل 600",,"EMFC600",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1177","موتور فن کویل 800",,"EMFC800",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1178","حلزونی فن کویل 200",,"IMFC200",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1179","حلزونی فن کویل 400",,"IMFC400",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1180","حلزونی فن کویل 600",,"IMFC600",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1181","حلزونی فن کویل 800",,"IMFC800",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1182","رابط اتصال فن کویل","رابط که ممکن است لوله 5 لایه یا شیلنگ پیسوار یا فلکسی فلزی مخصوص فن کویل باشد","FCjoint",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1183","سیل پمپ 250-100","سیل","SPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1185","سیل پمپ 160-32","سیل","SPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1186","سیل پمپ EN40-125","سیل","SPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1187","بلبرینگ پمپ سایز6203","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1188","بلبرینگ پمپ سایز6204","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1189","بلبرینگ پمپ سایز6205","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1190","بلبرینگ پمپ سایز6206","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1191","بلبرینگ پمپ سایز6207","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1192","بلبرینگ پمپ سایز6208","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1193","بلبرینگ پمپ سایز6302","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1194","بلبرینگ پمپ سایز6303","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1195","بلبرینگ پمپ سایز6304","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1196","بلبرینگ پمپ سایز6305","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1198","بلبرینگ پمپ سایز6306","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1199","بلبرینگ پمپ سایز6307","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1200","بلبرینگ پمپ سایز6308","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1201","بلبرینگ پمپ سایز6309","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1202","بلبرینگ پمپ سایز6310","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1203","بلبرینگ پمپ سایز6311","بلبرینگ پمپ","BPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1204","کاسه نمد پمپ 400-100","کاسه نمد","SB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1206","کاسه نمد پمپ 250-100","کاسه نمد","SB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1207","کاسه نمد پمپ 160-32","کاسه نمد","SB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1208","کاسه نمد پمپ EN40-125","کاسه نمد","SB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1209","کوپلینگ پمپ 160-32","کوپلینگ","COP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1210","کوپلینگ پمپ 400-100","کوپلینگ","COP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1211","کوپلینگ پمپ 250-100","کوپلینگ","COP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1212","کوپلینگ پمپ EN40-125","کوپلینگ","COP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1215","بلبرینگ الکتروموتورVEM/7.5KW/KMR132S4A/1435RPM","بلبرینگ الکتروموتورVEM/7.5KW/KMR132S4A/1435RPM","EMB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1216","درب عقب الکتروموتورVEM/7.5KW/KMR132S4A/1435RPM","درب الکتروموتورVEM/7.5KW/KMR132S4A/1435RPM","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1217","شیرگازی""2/ AZAR","شیرگازی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1218","شیرکشویی""3/4/ تهران","شیرکشویی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1219","شیر""2/HISECO","شیر2""","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1220","درب جلو الکتروموتورELPROMZ ENERGO/25HP/M0M180M-4","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1222","درب جلو الکتروموتورLION MOTOR/22KW/1470RPM/Y180L-4","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1223","درب جلو الکتروموتورVEM/0.75KW/KMR2184/1380RPM","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1224","درب جلو الکتروموتورVEM/0.75KW/KMER60","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1226","درب جلو الکتروموتورVEM/0.75KW/KMER60/1380RPM","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1227","درب جلو الکتروموتورVEM/18.5KW","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1228","درب جلو الکتروموتورVEM/7.5KW/KMR132S4A/1435RPM","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1229","بلبرینگ الکتروموتورVEM/18.5KW/KPR160M-4","بلبرینگ","EMB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1230","درب عقب الکتروموتورVEM/18.5KW/KPR160M-4","درب عقب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1231","درب جلو الکتروموتورVEM/18.5KW/KPR160M-4","درب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1233","درب جلو الکتروموتورVEM/0.75KW/KMERB04/1380RPM","درب جلو","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1235","چراغ 20*4 علوم پایه",,"[1]LGH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1236","بلبرینگ الکتروموتورMOTO GEN/22KW//1463RPM/180L4B","بلبرینگ","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1237","بلبرینگ الکتروموتورMOTO GEN/0.75KW//1385RPM/804B","بلبرینگ","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1238","درب جلوالکتروموتورMOTO GEN/22KW/1463RPM/180L4B","درب جلو","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1239","درب عقب الکتروموتورMOTOGEN/22KW/1463RPM/180L4B","درب عقب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1240","درب جلوالکتروموتورMOTO GEN/0.75KW/1385RPM/804B","درب جلو","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1241","درب عقب الکتروموتورMOTOGEN/0.75KW/1385RPM/804B","درب عقب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1242","درب جلو الکتروموتورMOTOGEN/22KW/1463RPM/180L4B","درب جلو","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1244","درب جلو الکتروموتورMOTOGEN/0.75KW/1385RPM/804B","درب جلو","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1246","سقف کاذب گچی","RCE11","RCE11",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1248","بلبرینگ الکتروموتورVEM/18.5KW/KMR160M4A","بلبرینگ","BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1249","سقف کاذب ضد حریق","RCE12","RCE12",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1250","سقف کاذب PVC","RCE13","RCE13",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1252","سقف کاذب دامپا","RCE14","RCE14",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1253","درب جلوالکتروموتورVEM/18.5KW/KMR160M4A/1455RPM","درب جلو","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1254","قوطی کف خواب","RTRUC","RTRUC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1255","درب عقب الکتروموتورVEM/18.5KW/KMR160M4A","درب عقب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1256","کولر گازی","RCG","RCG",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1257","سنسور روشنایی سقفی","RLS2","RLS2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1258","سنسور روشنایی دیواری","RLS1","RLS1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1259","درب جلو الکتروموتورVEM/18.5KW/KMR160M4A","درب جلو","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1260","بلندگو دیواری","RS1","RS1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1261","بلندگو سقفی","RS2","RS2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1263","ترموستات دیجیتال مرصوص","RT1","RT1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1264","ترموستات آنالوگ","RT2","RT2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1265","پنل مرکزی سیستم اعلام حریق","RFP","RFP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1266","سنسور اعلام حریق دودی","RFD2","RFD2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1267","درب جلو الکتروموتورGANZ/22KW/VZ180L4/1470RPM","درب جلو","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1268","سنسور اعلام حریق حرارتی","RFD1","RFD1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1269","درب عقب الکتروموتورGANZ/22KW/VZ180L4/1470RPM","درب عقب","EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1270","آژیر سیستم اعلام حریق","RALA","RALA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1271","پریز تلفن","RTS","RTS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1272","پریز شبکه","RNS","RNS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1273","پریز برق ارت دار","RES1","RES1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1274","پریز برق ساده","RES2","RES2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1275","کلید تک پل","RB1","RB1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1276","کلید دو پل","RB2","RB2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1277","کلید تبدیل","RB3","RB3",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1278","کلید کولر","RB4","RB4",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1279","کلید غیره","RB5","RB5",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1280","لامپ فلورسنت 60 سانت","RLG14","RLG14",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1282","لامپ فلورسنت 120 سانت","RLG15","RLG15",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1283","LED 60CM","RLG12","RLG12",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1284","LED120CM","RLG16","RLG16",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1285","FPL36","RLG13","RLG13",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1286","LED FPL36","RLG11","RLG11",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1287","شیرکشویی""1/CIM/سوزنی","شیر","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1288","هواکش15","RFAN15","RFAN15",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1289","جعبه فایر","RFB","RFB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1290","فلاش تانک","RFT","RFT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1291","شیرگازی""1.1/2/ 77","شیرگازی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1292","شیرگازی77/""1/2","شیرگازی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1293","نیمکت","RBENCH","RBENCH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1294","شیرسماوری ""1/2","شیرسماوری","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1299","شیرفلکه کشویی/چدنی/زبانه برنجی/سایز200/KAMRAD","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1300","شیرفلکه کشویی ""5/SAM/زبانه برنجی","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1301","شیرفلکه کشویی/سایز200/KAMRAD/زبانه برنجی","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1302","شیرفلکه کشویی ""5/FARAB","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1303","شیرفلکه کشویی""5/SAM/زبانه برنجی","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1304","شیرفلکه کشویی""6/KAMRAD/زبانه برنجی","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1305","شیرفلکه کشویی""6/SAM/زبانه پلاستیکی","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1306","شیرفلکه کشویی""5/FARAB/زبانه برنجی","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1307","لرزه گیر""5/FLEXOR PARS/مهاردارپایه بلند","لرزه گیر","RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1308","لرزه گیر""6/نوارنقاله تهران/پایه بلندساده","لرزه گیر","RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1309","لرزه گیر""5/VIBRATIONS/مهاردارپایه بلند","لرزه گیر","RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1310","هواکش 20","RFAN20","RFAN20",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1311","هواکش 25","RFAN25","RFAN25",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1312","هواکش 30","RFAN30","RFAN30",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1313","شیلنگ نخی جعبه فایر","RFB1","RFB1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1314","شیلنگ پلاستیکی جعبه فایر","RFB2","RFB2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1315","نازل جعبه فایر","RFB3","RFB3",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1316","کوپلینگ جعبه فایر","RFB4","RFB4",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1317","شیر جعبه فایر","RFB5","RFB5",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1318","بست جعبه فایر","RFB6","RFB6",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1319","قرقره جعبه فایر","RFB7","RFB7",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1320","لرزه گیر""5/SAM/مهاردارپایه کوتاه","لرزه گیر","RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1321","شناور فلاش تانک","RFT1","RFT1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1322","پمپ فلاش تانک","RFT2","RFT2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1323","اهرم فلاش تانک","RFT3","RFT3",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1324","شیرکشویی""6/KITZ","مدل WOG","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1327","سنگ توالت ایرانی","RTO1","RTO1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1328","توالت فرنگی","RTO2","RTO2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1329","دست خشک کن برقی","RDRYER","RDRYER",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1330","شیرفلکه کشویی ""5/SAM/زبانه پلاستیکی","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1331","جامایعی","RLIQ","RLIQ",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1332","شیلنگ توالت پلاستیکی","RHOSE1","RHOSE1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1333","شیرفلکه کشویی""6/KITZ","WOG","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1334","شیلنگ توالت فلزی","RHOSE2","RHOSE2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1335","شیرفلکه کشویی""6/SAM/زبانه برنجی","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1336","شیرصافی 125-16/KAMRAD","صافی","FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1337","شیر مخلوط ساده","خود شیر","RFAU1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1338","صافی 125-5/KAMRAD","صافی","FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1339","صافی 125-21/2/KAMRAD","صافی","FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1340","ٌصافی 125-16/FARAB","صافی","FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1341","مغزی شیر مخلوط ساده","مغزی شیر","RFAU10",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1342","شیر مخلوط اهرمی","خود شیر","RFAU2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1343","مغزی شیر مخلوط اهرمی","مغزی شیر","RFAU20",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1344","الم دوش ساده",,"RDOU1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1345","صافی65-16/SAM","صافی","FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1346","الم دوش عصایی",,"RDOU2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1348","دوش ساده",,"RDOU3",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1349","دوش تلفنی",,"RDOU4",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1350","شیر پروانه ایی","مورد استفاده در اتاق ها به عنوان شیر اصلی وروردی","RFAU3",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1351","شیر پیسوار","مورد استفاده در روشویی ها","FRAU4",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1352","شیر گازی","مورد استفاده در اتاق ها و آزمایشگاه ها","RFAU5",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1353","روشویی کابینتی",,"RBASIN1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1354","روشویی معمولی",,"RBASIN2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1355","سینک معمولی",,"RSINK1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1356","سینک ضد اسید",,"RSINK2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1357","سیفون","مورد استفاده در سینک یا روشویی ها","RSINK0",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1358","شیر فن کویل",,"RFCVAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1359","پره رادیاتور الومینیومی",,"RR1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1360","پره رادیاتور آهنی",,"RR2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1361","دریچه تهویه سقفی",,"RVENT1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1362","دریچه تهویه دیواری",,"RVENT2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1363","پنجره دو جداره",,"RW1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1364","پنجره معمولی",,"RW2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1365","جالباسی",,"RHOOK",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1366","پرده پارچه ایی",,"RCUR1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1367","پرده غیر پارچه ایی",,"RCUR2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1368","درب چوبی",,"RD1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1369","درب فلزی",,"RD2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1370","درب شیشه سکوریت",,"RD3",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1371","درب دو جداره",,"RD4",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1372","شیریکطرفه 250-16/FARAB","شیریکطرفه","OW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1373","شیریکطرفه 125-16/SAM","زبانه چدنی","OW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1374","شیریکطرفه 125-16/FARAB","زبانه چدنی","OW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1375","شیریکطرفه 65-16/SAM","زبانه چدنی","OW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1376","لرزه گیر""21/2/نوارنقاله تهران/مهاردارکوتاه","لرزه گیر","RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1377","لرزه گیر""21/2/SAM/مهاردارپایه کوتاه","لرزه گیر","RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1378","شیرگازی""3/4/ZEE","شیرگازی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1379","شیرکشویی""3/4/KIZZ","شیرکشویی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1380","شیرکشویی""3/4/SAMIN","شیرکشویی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1382","شیرحیاطی""3/4","شیرحیاطی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1383","شیرفلکه کشویی150-10/KAMRAD","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1384","شیرفلکه کشویی150-10/VOG","شیرفلکه","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1385","شیرفلکه کشویی""5/KAMRAD/","زبانه برنجی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1386","شیرفلکه کشویی 65-10/FARAB","زبانه برنجی","VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1387","شیرفلکه کشویی 125-10/FARAB",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1388","شیرفلکه کشویی125-10/SAM",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1389","شیرفلکه کشویی150-10/FARAB",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1390","شیرفلکه کشویی150-10/SAM",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1392","بلبرینگ الکتروموتورMOTO GEN/7.5KW//2860RPM/132M",,"BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1393","پروانه الکتروموتورMOTGEN/7.5KW/2860RPM",,"EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1394","درب عقب الکتروموتورMOTOGEN/7.5KW/2860RPM",,"EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1395","درب جلو الکتروموتورMOTOGEN/7.5KW/2860RPM",,"EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1396","موتوردمپرمشعل CONECTRON BERLIN",,"EMP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1397","موتوردمپرمشعل BERGERLAHAR",,"EMP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1398","موتورپمپ گازوییل",,"EMG",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1400","مغزی قفل درب چوبی",,"RD10",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1401","قفل درب چوبی",,"RD11",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1402","دستگیره درب چوبی",,"RD12",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1403","فیوزفشنگی63امپر/KALEPORSELEN/",,"FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1404","فیوزفشنگی25امپر/KALEPORSELEN/",,"FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1405","فیوزفشنگی50امپر/KALEPORSELEN/",,"FUS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1406","کلید100امپر/TD100N/SUSOL","380V","MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1407","کنتاکتور125امپر/TELEMECANIQUE","کنتاکتور","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1408","کنتاکت کمکی 32امپر/HYUNDAI/HIMC40","380V","CON+",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1409","فیوزمینیاتوری6امپر/INDO KUPP","فیوز","MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1410","تایمر10امپر/TELEMECANIQUE","تایمر","TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1411","کلیداستارت 6امپر/TELEMECANIQUE","کلیداستارت","KST",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1412","کلیداستپ3امپر/SEVEN/V2BE102","کلیداستپ","KST",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1413","کنترل فشارروغن/SAGINAMIYA","7-50psi/20A/125-250V/110BT110","CPO",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1414","المنت گرم کن/CALOR FLEX","المنت","ELH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1415","کنتاکت کمکی10مپر/TELEMECANIQUE","کنتاکت","CON +",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1416","کنتاکتور100امپر/HYUNDAI/HGC","کنتاکتور","CON",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1417","کلیداستپ10امپر/TELEMECANIQUE",,"KST",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1418","کلید100امپر/TS100N/SUSOL",,"MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1419","کلید125امپر/HYUNDAI/HGM125H",,"MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1420","کنتاکتور100امپر/METASOL/MC-100A",,"MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1421","فیوزمینیاتوری10امپر/LEGRAND",,"MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1422","کنترل فاز10امپر/MICRO",,"PC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1423","تایمرTELEMECANIQUE",,"TI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1424","کلید100امپر/SUSOL/MCCB",,"MCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1425","فیوزمینیاتوری10امپر/TSE",,"MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1426","فیوزمینیاتوری10امپر/PARS FANAL",,"MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1427","کمپرسور40تن/COPELAND","پیستونی/بلژیکی","CO",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1428","شیرفلکه کشویی""21/2/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1429","شیرفلکه کشویی""3/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1430","شیرفلکه سوزنی""3/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1431","شیرکنترل برقی",,"CVAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1432","شیرفلکه کشویی""3/SAM",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1433","شیرفلکه کشویی""3/FARAB",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1434","شیرفلکه سوزنی21/2/BOA",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1435","شیرفلکه سوزنی""2/BOA",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1437","شیرفلکه کشویی""2/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1438","شیرفلکه کشویی""21/2/FARAB",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1439","شیرفلکه سوزنی""2/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1440","شیرفلکه کشویی""2/FARAB",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1441","شیرکشویی""3/4/AZAR",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1442","بلبرینگ الکتروموتور7.5KW/HYUNDAI",,"BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1443","پروانه الکتروموتورHYUNDAI/7.5KW",,"EMI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1444","درب عقب الکتروموتورHYUNDAI/7.5KW",,"EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1445","درب جلوالکتروموتورHYUNDAI/7.5KW",,"EMD",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1446","گیج فشار/GICOMINI","0-4BAR/0-120C","GAE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1447","شیرکشویی""2/AZAR",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1448","شیرکشویی""2/SITCO",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1449","شیرفلکه کشویی نمره 200/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1450","شیرصافی ""5/FARAB",,"FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1451","لرزه گیر""5/نوارنقاله تهران/پایه بلندساده",,"RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1452","لرزه گیر""6/SAM",,"RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1453","شیرفلکه کشویی""5/SAM/زبانه پلاستیکی",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1455","بلبرینگ پمپ250-100",,"BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1456","سیل پمپ400-100",,"SPU",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1459","کاسه نمدپمپ400-100",,"SB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1460","بلبرینگ پمپ400-100",,"BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1462","بلبرینگ پمپ160-32",,"BEA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1463","کله پمپ",,"PUH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1465","شیریکطرفه 150-16/FARAB",,"OW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1466","لرزه گیر""6/نوارنقاله تهران/پایه کوتاه مهاردار",,"RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1467","شیرصافی125-5/KAMRAD",,"FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1468","لرزه گیر""5/FLEXOR PARS/پایه بلندساده",,"RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1469","شیرصافی125-21/2/KAMRAD",,"FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1470","شیریکطرفه ""21/2/KAMRAD",,"OW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1473","شیرصافی125-5/KAMRAD",,"FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1474","لرزه گیر""5/FLEXOR PARS /مهاردارکوتاه",,"RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1475","لرزه گیر""5/نوارنقاله تهران/کوتاه مهاردار",,"RUB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1476","شیرصافی125-16/FARAB",,"FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1477","شیرصافی65-16/SAM",,"FW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1478","درپوش ""1/2گالوانیزه",,"GCAP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1479","شیرفلکه کشویی125-10/FARAB",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1480","لوله""4",,"PIP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1481","شیرفلکه کشویی100-10/FARAB",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1482","شیرفلکه کشویی200-16/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1483","شیرکشویی""11/4/SITCO",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1484","شیرکشویی""3/SITCO",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1485","شیرفلکه بشقابی/سوزنی150-16/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1486","شیرفلکه کشویی""4/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1487","شیرفلکه کشویی""4/SAM",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1488","شیرکشویی سوزنی""11/4/KITZ",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1489","شیرکشویی""21/2/SITCO",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1490","شیرفلکه کشویی""4/وگ بی همتا",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1491","شیرفلکه کشویی""4/SAM/زبانه پلاستیکی",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1492","شیرکشویی""3/4/CIM",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1493","شیرکشویی""2/KITZ",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1494","شیرکشویی""3/CIM",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1495","شیرفلکه کشویی""4/وگ امید",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1496","شیرفلکه کشویی150-10/RAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1497","شیرصافی""6",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1498","شیرصافی""6/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1499","َشیرفلکه بشقابی سوزنی""8",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1500","شیرفلکه کشویی""8/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1501","شیرصافی""8",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1502","شیرفلکه کشویی""6/FARAB",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1503","شیرفلکه کشویی""6/VOG",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1504","شیرفلکه کشویی80-10/SAM",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1505","لوله ""2",,"PIP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1506","لوله""6",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1508","َشیرفلکه کشویی 250/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1509","شیرفلکه کشویی200/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1510","لوله ""8",,"PIP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1511","شیرصافی""8",,"OW",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1512",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1513","شیر حیاطی ساده 2","مورد استفاده در سرویس ها","RFAU6",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1514","شیلنگ پیسوار 2",,"RHOSE3",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1515","سیفون روشویی",,"RBASIN0",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1516","آینه ساده روشویی",,"RMIR",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1517","لامپ برای حباب سقفی 9 وات",,"RLG39",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1518","شیرصافی 125-6/KAMRAD",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1519","گیج فشارروغن",,"GAE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1520",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1521","گیج فشار",,"GAE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1522","کندانسور",,"COND",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1523","اواپراتور",,"EVA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1524","گیج فشارمکش",,"GAE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1525","گیج فشاردهش",,"GAE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1526","الم شیر مخلوط",,"RFAU11",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1527","کلاهک شیر مخلوط",,"RFAU12",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1528","شیر تک آزمایشگاهی",,"RFAU7",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1529","چشم شور آزمایشگاهی",,"RFAU8",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1530","هالوژن 8",,"RLG28",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1531","چشم دزدگیر",,"RSDET",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1532","دستگاه مرکزی دزدگیر",,"RSCP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1533","باتری 12 ولت دزدگیر",,"RSBATT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1534","کویل فن کویل 300",,"ّFccoil300",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1535","موتور فن کویل 300",,"EMFC300",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1536","حلزونی فن کویل 300",,"IMFC300",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1537","تسمه اگزاست فن",,"exfanb",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1538","موتور اگزاست فن با پروانه سر خود",,"EXFANM1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1539","موتور اگزاست فن جدا",,"EXFANM2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1540","کلید اگزاست فن",,"EXFANK",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1541",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1542","درب ریلی اتومات","درب ریلی اتومات","RD5",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1543","موتور کولر آبی",,"coolerm",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1544",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1545","پمپ کولر آبی",,"coolerp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1546","شناور کولر آبی",,"coolerv",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1547","پوشال کولر آبی",,"coolerpush",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1548","فولی موتور کولر",,"coolerf1",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1549","فولی فن کولر",,"coolerf2",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1550","یاتاقان کولر",,"cooleryat",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1551","شفت کولر آبی",,"coolershaf",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1552","ستون کولر آبی",,"coolersot",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1553","تشتک کولر آبی",,"coolertash",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1554","هرزاب کولر آبی",,"coolerharzab",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1555","آبریز کولر ابی",,"coolerabriz",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1556","شیلنگ کولر آبی",,"coolersh",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1557","درب کولر ابی",,"coolerd",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1558","پوشال گیر کولر آبی",,"coolerpg",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1559","ناودانی کولر آبی",,"coolernav",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1560","حلزونی کولر آبی",,"coolerfan",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1561","تسمه کولر ابی",,"coolerbelt",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1563","کلید اصلی ورودی تابلو",,"PDP-MCCBI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1564","کلید توزیع اصلی خروجی",,"PDP-MCCBO",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1565","فیوز مینیاتوری",,"PDP-MCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1566","کلید محافظ جان",,"PDP-RCCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1567","کلید گردان قدرت",,"PDP-ROTCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1568","کلید سلکتوری فرمان",,"PDP-SELCB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1569","فیوز",,"PDP-FUSE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1570","آمپرمتر",,"PDP-CM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1571","ولتمتر",,"PDP-VM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1572","تایمر",,"PDP-TIMER",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1573","کنترل بار",,"PDP-LOADC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1574","کنترل فاز",,"PDP-PHASEC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1575","چراغ سیگنال",,"PDP-SIGL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1576","بیمتال",,"PDP-BIMETAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1577","تلمبه تراکم فلاش تانک",,"TC",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1578","تشتک کولر6500",,"TSH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1579","تشتک کولر6500",,"TSH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1580","موتور1/3",,"MOT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1581","پایه مهتابی",,"PMA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1582","نوارچسب مشکی",,"NAV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1583","لامپ 12 وات",,"LAMP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1584","موتور1/8",,"MOT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1585","فیوز25 امپر",,"fus",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1586","مهتابی 40 وات سفید",,"mah",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1587","فوم لوله ای مشکی 4 اینچ",,"fom",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1588","نوارچسب",,"nav",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1589","تشتک 3500",,"tash",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1590","تسمه A58",,"TAS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1591","شیرفلکه کشویی""3",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1592","ترانس 40 وات",,"tra",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1593","استارت400",,"est",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1594","لامپ خیاری400",,"lam",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1595","شیرفلکه نمره 5",,"val",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1596","کلیددوپل",,"key",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1597","مهتابی 36*2",,"mah",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1598","ناودانی کولر",,"nav",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1599","هرزاب کولر",,"har",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1600","پایه اس روشویی",,"pas",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1601","المک روشویی",,"alam",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1602","شیرمایع صابون",,"val",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1603","مهتابی 18 وات",,"mah",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1604","مهتابی24وات",,"mah",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1605","لامپ13 وات",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1606","لامپ 18 وات",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1607","لامپ 20 وات",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1608","داکت 2 سانت",,"dact",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1609","داکت3 سانت",,"dact",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1610","داکت 5 سانت",,"dact",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1611","کلیدتوکار",,"key",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1612","پریزتوکار",,"per",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1613","کمربند20 سانت",,"kem",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1614","کمربند30 سانت",,"kem",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1615","کلیدتک پل توکار",,"key",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1616","لامپ 9 وات",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1617","کلیدکولرتوکار",,"key",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1618","بست دینام",,"bas",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1619","سرپیچ چینی",,"sar",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1620","لامپ هالوژن",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1621","ترموستان micro",,"ter",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1622","کابل 4*4",,"cab",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1623","ترانس400",,"ter",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1624","استارت400",,"est",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1625","قفل گالوانبزه ""1",,"gho",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1626","مغزی گالوانیزه ""1",,"magh",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1627","بوشن گالوانیزه ""1",,"bosh",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1628","ترموستات یخچال",,"ter",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1629","کابل 4*2",,"cab",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1630","فلکسی 16",,"fel",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1631",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1632","لامپ 15 وات",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1633","فلوسوییچ کندانسور""1",,"felo",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1634",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1635","کنترل فاز شیوا امواج",,"cont",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1636","کلیداتوماتیک 100 امپر",,"key",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1637","فن تابلو برق 10*10(220 ولت)",,"fan",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1638","لامپ 60 وات",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1639",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1640","گیج روغنی 250PSI/R22",,"GAGE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1641","گیج روغنی 500PSI/R22",,"GAGE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1642","کپسول ازت",,"CAPS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1643","شیلنک کولر",,"SHIL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1644","بست شیلنگ کولر",,"bast",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1645","سرشیلنگی کولر",,"sar",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1646","پشت شناوری کولر",,"posh",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1647","موتور1/6",,"moto",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1648","قطعه طبق نمونه انبار",,"ghet",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1649","چوب لباسی",,"chob",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1650","چسب پلیکا قوطی",,"chasb",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1651","چسب پلیکا لوله ای",,"chasb",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1652","چسب اب بندی لوله ای",,"chasb",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1653","لوله پلیکا نمره 8",,"lole",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1654","زیپ 20 سانت",,"zip",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1655","کابل 2.5*2",,"cabl",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1656","ترموستات میکرو مکث",,"term",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1657","مبدل اصلی گیره ای /25 سانت",,"moba",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1658",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1659","لوله مهتابی 20 وات/FPL",,"MAHT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1660","لوله مهتابی 36 وات/FPL",,"MAHT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1661","لوله مهتابی 20 وات /LED",,"MAHT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1662","فیوز2امپر/استوانه ای",,"fus",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1663","کابل 2.5*4",,"cabl",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1664","کمربند63 پلی اتیلن",,"KAMA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1665","لوله نیوپایپ نمره 2",,"LOLE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1666","لوله نیوپایپ نمره 2.5",,"LOLE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1667","دینام کولر6500",,"DENA",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1668",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1669",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1670","شیرفلکه کشویی ""2 /برنجی",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1671","شیرفلکه کشویی ""2 / برنجی",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1672","چسب اکواریوم",,"CHAS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1673","شناورنمره3",,"SHEN",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1674","زانو گالوانیزه نمره 3",,"ZANO",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1675","نوارتفلون",,"TEFL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1676","شیرکامل ظرفشویی",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1677","رابط 63 پلی اتیلن",,"RABE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1678","لوله گاز نمره 2",,"LOLE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1679","کابل 2.5*3",,"CABL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1680","قفل درب طبق نمونه",,"GHOF",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1681","کابل CATE6",,"CABL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1682","پریز بارانی",,"PERI",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1683","توپی درب",,"TOP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1685","چپقی نمره 2",,"CHOP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1686","ممبران 75",,"MEM",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1687","شیربرقی اب تصفیه",,"VAL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1688","مقاومت 300 اب تصفیه",,"MOGH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1689","فیلترمرحله یک اب تصفیه",,"FILT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1690","فیلترمرحله دو اب تصفیه",,"FILT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1691","فیلترمرحله سه اب تصفیه",,"FILT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1692","لامپ 30 وات",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1693","کابل1.5*2",,"cabl",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1694","شیرکامل مخلوط",,"val",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1695","ست کنترل",,"set",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1696","کابل 1.5*2",,"cabl",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1697","فلوسوییچ",,"flow",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1698","سه راه نیوپایپ نمره 2.5",,"ser",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1699","رابط کوپلینگ نیوپایپ نمره 2.5",,"rab",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1700","رابط پرس نیوپایپ نمره 2.5",,"rab",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1701","زانوپلیکا نمره 8",,"zan",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1702","کلنگی شیرحمام",,"col",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1703","لوله خرطومی هرزاب",,"lole",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1704","اسید",,"asid",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1705","واشر",,"vash",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1706","تسمه G83",,"TAS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1707","پیچ نمره 12",,"PICH",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1708","کوپلینگ چدنی",,"COP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1709","کوپلینگ لاستیکی",,"COP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1710","پروانه الکتروموتور",,"PAR",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1711","صافی درب شیشه ای",,"SAF",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1712","شیرفلکه ""1برنجی",,"valv",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1713","کنترل بارمیکرو 25-0",,"cont",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1714","لامپ خیابانی100 وات LED",,"LAMP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1715","بلبرینگ 6309",,"BEAR",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1716","کابل 1.5*4",,"CABL",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1717","جعبه برق کولر",,"JABE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1718","سردنده ""2",,"sar",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1719","بلبرینگ 6309",,"bear",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1720","پروانه الکتروموتور",,"IMPE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1721","درب عقب الکتروموتور",,"DARB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1722","بلبرینگ 6205",,"BEAR",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1723","ساعت نجومی",,"saat",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1724","پرژکتور400 کامل",,"per",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1725","کابل شبکه",,"cable",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1726","شیراطمینان",,"valv",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1727","ترانس 150 متال هالید",,"tera",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1728","پرژکتور250کامل",,"pere",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1729","فتوسل",,"photo",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1730","کنتاکتورD12",,"CONT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1731","کلیددوپل صنعتی",,"KEY",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1732","کابل 1*2",,"cabl",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1733","لامپ گازی",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1734","فن کویل 600 کامل",,"fan",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1735","سیفون شترگلویی",,"sif",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1736","لامپ 250 وات",,"lamp",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1737","استارت 250",,"est",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1738","استارت 400 وات",,"est",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1739","تسمه a68",,"tas",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1740","یاتاقان 75",,"yat",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1741","پرژکتور ال ای دی",,"per",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1742","کنتاکتورD25",,"cont",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1743","کنترل بارشیوا امواج 0-15",,"CONT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1744","ساعت فرمان",,"SAAT",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1745","تسمه B59",,"tas",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1746","نبشی3*3",,"NAB",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1747","توری 3 سانت",,"TOR",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1748","الکترود 2.5",,"ELE",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1749","بلبرینگ 6310",,"BEAR",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1750","پروانه حلزونی",,"IMP",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1751","تسمه A49",,"TAS",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1752","کمربند50 پلی اتیلن",,"kama",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1753","رابط نمره 2.5",,"rabe",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1754","زانو ماده نمره 2.5",,"zano",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1755","چپقی نمره 2.5",,"chop",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1756","فن کولر6500",,"fan",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1757","توری 2 سانت",,"TOR",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1758",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1759","شیراهرمی",,"VALV",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1760","درب الومینیوم",,"dar",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1761","دستگیره کابینت",,"cabin",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1762","سیفون ظرفشویی",,"sifn",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1763","بردپکیج",,"bord",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1764","پمپ پکیج",,"PU-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1765","پرشرسوییچ پکیج",,"PER-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1766","فلوسوییچ پکیج",,"FL-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1767",,,,NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1768","پرشرهوا",,"PE-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1769","دودکش پکیج نمره 6",,"DOD-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1770","دودکش پکیج نمره 10",,"DOD-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1771","منبع انبساط پکیج",,"MAN-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1772","شیراطمینان پکیج",,"SAF-V-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1773","پلی فسفات",,"POL-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1774","جرقه زن پکیج",,"JER-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1775","میله یون پکیج",,"MIL-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1776","میدل اصلی پکیج",,"MOB-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1777","مبدل اصلی پکیج",,"MOB-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1778","مبدل ثانویه پکیج",,"MOB-S-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1779","شیرموتوری پکیج",,"VAL-M-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1780","بلوک هیدرولیک پکیج",,"BLO-P",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1781","جرقه زن  2تایی اجاق گاز",,"JER-O",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1782","جرقه زن 4 تایی/ اجاق گاز",,"JER-O",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1783","ولوم اجاق گاز",,"VOL-O",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1784","شیربرقی شیرگاز",,"VAL-O",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1785","شیرگازاجاق گاز",,"VAL-O",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1786","موتورهود",,"MOTO-H",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
+"1787","کلیدهود",,"KEY-H",NULL,NULL,"0",NULL,NULL,NULL,NULL,NULL,NULL
