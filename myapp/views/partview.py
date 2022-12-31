@@ -316,9 +316,9 @@ def get_parts(request):
 def upload_part(request):
     return render(request, 'myapp/part/partUpload.html', {})
 def upload_file_part(request):
-    # def iter_rows(ws):
-    #     for row in ws.iter_rows():
-    #         yield [cell.value for cell in row]
+    def iter_rows(ws):
+        for row in ws.iter_rows():
+            yield [cell.value for cell in row]
     if request.method == 'POST':
         # print("here!!!",request.FILES)
         my_file=request.FILES.get('file')
@@ -330,39 +330,49 @@ def upload_file_part(request):
 
 
         msg=PartCsvFile.objects.create(msgFile=my_file)
-        with open('media/'+msg.msgFile.name,encoding='utf-8') as csv_file:
-            csv_reader = csv.reader(csv_file, delimiter=',')
-            line_count = 0
-            for i in csv_reader:
-                if line_count == 0:
-                    print(f'Column names are {", ".join(i)}')
-                    line_count += 1
-                else:
-                    # print(f'\t{row[0]} works in the {row[1]} department, and was born in {row[2]}.')
-                    # line_count += 1
-                    item=Part(pk=None)
-                    item.partName=i[1]
-                    print(i[1])
-                    item.partDescription=i[2] if(i[2]) else '-'
-                    item.partCode=i[3] if(i[3]) else '-'
-                    item.partMake=i[4] if(i[4]) else '-'
-                    item.partModel=i[5] if(i[5]) else '-'
-                    item.partLastPrice=float(i[6]) if(i[6]!='NULL') else 0
-                    item.partBarCode=i[10] if(i[10]) else '-'
-                    item.partInventoryCode=i[11] if(i[11]) else '-'
-                    item.save()
-                    pass
-            print(f'Processed {line_count} lines.')
-        # workbook = load_workbook(filename='media/'+msg.msgFile.name)
-        # ws = workbook.active
-        # # print(list(iter_rows(ws))[1])
-        # # Fish.objects.all().delete()
-        # item_new=Part(pk=None)
+        # with open('media/'+msg.msgFile.name,encoding='utf-8') as csv_file:
+        #     csv_reader = csv.reader(csv_file, delimiter=',')
+        #     line_count = 0
+        #     for i in csv_reader:
+        #         if line_count == 0:
+        #             print(f'Column names are {", ".join(i)}')
+        #             line_count += 1
+        #         else:
+        #             # print(f'\t{row[0]} works in the {row[1]} department, and was born in {row[2]}.')
+        #             # line_count += 1
+        #             item=Part(pk=None)
+        #             item.partName=i[1]
+        #             print(i[1])
+        #             item.partDescription=i[2] if(i[2]) else '-'
+        #             item.partCode=i[3] if(i[3]) else '-'
+        #             item.partMake=i[4] if(i[4]) else '-'
+        #             item.partModel=i[5] if(i[5]) else '-'
+        #             item.partLastPrice=float(i[6]) if(i[6]!='NULL') else 0
+        #             item.partBarCode=i[10] if(i[10]) else '-'
+        #             item.partInventoryCode=i[11] if(i[11]) else '-'
+        #             item.save()
+        #             pass
+        #     print(f'Processed {line_count} lines.')
+        print("@!!!!!!!!!!!!!!!")
+        workbook = load_workbook(filename='media/'+msg.msgFile.name)
+        ws = workbook.active
+        # print(list(iter_rows(ws))[1])
+        Part.objects.filter(id__gt=20).delete()
+        item=Part(pk=None)
         # item_old=Part(pk=None)
         #
-        # for i in list(iter_rows(ws)):
-        #     if(i[20]==None):
-        #         pass
+        for i in list(iter_rows(ws)):
+            # print(i[18])
+            # print(i[19])
+            # print(i[21])
+
+            if(i[19]!=None):#id
+                item=Part(pk=None)
+                item.partName=i[18]
+                # print(i[1])
+                item.partDescription=i[14] if(i[14]) else '-'
+                item.partCode=0
+                item.save()
         #     elif(not str(i[30]).isdigit()):
         #         pass
         #     else:
