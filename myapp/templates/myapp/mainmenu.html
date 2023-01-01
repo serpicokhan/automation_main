@@ -15,7 +15,7 @@
                 <span class="nav-text">کارتابل</span>
             </a>
                 <ul aria-expanded="false">
-                    <li><a href="app-profile.html">پروفایل</a></li>
+                    <li><a href="{% url 'profile' %}">پروفایل</a></li>
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">ایمیل</a>
                         <ul aria-expanded="false">
                             <li><a href="email-compose.html">ارسال ایمیل</a></li>
@@ -23,7 +23,7 @@
                             <li><a href="email-read.html">خواندن</a></li>
                         </ul>
                     </li>
-                    <li><a href="app-calender.html">تقویم</a></li>
+                    <li><a href="{% url 'calendar' %}">تقویم</a></li>
                     <li><a class="has-arrow" href="javascript:void()" aria-expanded="false">فروشگاه</a>
                         <ul aria-expanded="false">
                             <li><a href="ecom-product-grid.html">جدول بندی محصول</a></li>
@@ -52,6 +52,7 @@
             </a>
                 <ul aria-expanded="false">
                     <li><a href="{% url 'list_purchaseRequest' %}">درخواست ها</a></li>
+                    <li><a href="{% url 'list_item_view' %}">درخواست ها نمای جزیی</a></li>
                     <li><a href="{% url 'list_planning_board' %}">بورد خرید</a></li>
 
                 </ul>

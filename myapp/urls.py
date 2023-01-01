@@ -79,6 +79,9 @@ urlpatterns = [
       url(r'^PartCategory/(?P<id>\d+)/update/$', partCategory_update, name='partCategory_update'),
       url(r'^Purchase/Record/$', record_voice, name='record_voice'),
       url(r'^Purchase/upload_file/$', file_upload, name='file_upload'),
+      url(r'^Purchase/ItemView/$', list_item_view, name='list_item_view'),
+      url(r'^Dashboard/Calendar/$', calendar, name='calendar'),
+      url(r'^Dashboard/Profile/$', profile, name='profile'),
 
 
 ]+ static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
