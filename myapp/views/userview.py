@@ -171,6 +171,17 @@ def user_update(request, id):
         form = SysUserForm(instance=company)
 
     return save_user_form(request, form,'myapp/users/partialUserUpdate.html',id)
+def end_user_update(request):
+    user=SysUser.objects.get(userId=request.user)
+    company= get_object_or_404(SysUser,user.id)
+
+    if (request.method == 'POST'):
+        # print(request.FILES)
+        form = SysUserForm(request.POST,request.FILES, instance=company)
+    else:
+        form = SysUserForm(instance=company)
+
+    return save_user_form(request, form,'myapp/users/partialUserUpdate.html',id)
 #############################################################
 def changeUserStatus(request,UserId):
     try:

@@ -296,9 +296,12 @@ def record_voice(request):
     data["html_name"]=msg.get_name()
     data["html_id"]=msg.id
     return JsonResponse(data)
+
+
 def list_item_view(request):
     items=PurchaseRequest.objects.all()
-    return render(request,"myapp/purchase_request/purchaseItemList.html",{'items':items})
+    books=doPaging(request,items)
+    return render(request,"myapp/purchase_request/purchaseItemList.html",{'items':books})
 @csrf_exempt
 def file_upload(request):
     # def iter_rows(ws):

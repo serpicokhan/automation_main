@@ -1,25 +1,25 @@
-{% for i in items %}
+{% for c in items %}
 
 <tr class="btn-reveal-trigger">
     <td class="py-2">
-        <div class="custom-control custom-checkbox checkbox-success">
-            <input type="checkbox" class="custom-control-input" id="checkbox">
-            <label class="custom-control-label" for="checkbox"></label>
+        <div class="custom-control custom-checkbox checkbox-{{c.get_status_color}}">
+            <input type="checkbox" class="custom-control-input" id="checkbox{{c.id}}">
+            <label class="custom-control-label" for="checkbox{{c.id}}"></label>
         </div>
     </td>
     <td class="py-2">
         <a href="#">
-            <strong>#181</strong></a><strong>معین سروی</strong><br>
-        <a href="mailto:mohamad@gmail.com">mohamad@gmail.com</a>
+            <strong>#{{ forloop.counter }}</strong></a><strong>{{c.PurchaseRequestRequestedUser|default_if_none:'نامشخص'}}</strong><br>
+        <a href="#">{{c.PurchaseRequestPartName}}</a>
     </td>
-    <td class="py-2">8 شهریور 1400</td>
-    <td class="py-2">تهران - ستارخان کوچه 10
-        <p class="mb-0 text-500">پرداخت درب منزل</p>
+    <td class="py-2">{{c.get_dateCreated_jalali}}</td>
+    <td class="py-2">
+      {{c.PurchaseRequestAssetQty}}
     </td>
-    <td class="py-2"><span class="badge badge-success">کامل شد<span class="ml-1 fa fa-check"></span></span>
+    <td class="py-2">{% autoescape off %}{{c.get_pstatus|default_if_none:'نامشخص'}}{% endautoescape %}</span>
     </td>
     <td class="py-2">
-        99 هزار تومان
+        {{c.PurchaseRequestPartName.partLastPrice|default_if_none:'0.00'}}
     </td>
     <td class="py-2">
         <div class="dropdown text-sans-serif">

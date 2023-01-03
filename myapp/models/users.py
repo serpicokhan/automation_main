@@ -51,6 +51,7 @@ class SysUser(models.Model):
     personalCode=models.CharField("کد پرسنلی",max_length = 50)
     title=models.CharField("نام کاربری",max_length = 50,null=True,blank=True)
     email=models.EmailField("ایمیل",max_length=70,blank=True, null= True, unique= True)
+    phone=models.CharField("موبایل",max_length=70,blank=True, null= True, unique= True)
     profileImage = models.ImageField(upload_to='images/',default=None,blank=True)
 
     userStatus=models.BooleanField("وضعیت",default=True)
@@ -95,4 +96,3 @@ class UserFile(models.Model):
     userFiledateAdded=models.DateTimeField(auto_now_add=True)
     class Meta:
         db_table="userfile"
-

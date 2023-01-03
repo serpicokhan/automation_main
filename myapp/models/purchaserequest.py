@@ -4,11 +4,58 @@ from myapp.models.Asset import Asset
 import jdatetime
 import os
 class PurchaseRequest(models.Model):
+    Requested=1
+    onHold=2
+    Draft=3
+    Assigned=4
+    Open=5
+    workInProgress=6
+    closedComplete=7
+    closedIncomplete=8
+    waitingForPart=9
+    invisible=-1
+    Highest=1
+    High=2
+    Medium=3
+    Low=4
+    Lowest=5
+    Status=(
+         (Requested,'درخواست شده')  ,
+         (onHold,'متوقف'),
+         (Assigned,'تخصیص داده شده'),
+         (Open,'باز'),
+         (workInProgress,'در حال پیشرفت'),
+         (closedComplete,'بسته شده کامل'),
+         (closedIncomplete,'بسته شده، ناقص'),
+         (waitingForPart,'در انتظار قطعه'),
+
+     )
     def get_pstatus(self):
-                 if(self.PurchaseRequestAssetNot==True):
-                     return "<i class='fa fa-check'></i>								"
+                 if(self.PurchaseRequestStatus==1):
+                     return "<span class='badge badge-rounded badge-light'>درخواست شده </span>"
+                 elif(self.PurchaseRequestStatus==2):
+                     return "<span class='badge badge-rounded badge-secondary'> تعلیق </span>"
+                 elif(self.PurchaseRequestStatus==6):
+                     return "<span class='badge badge-rounded badge-info'> در حال پردازش </span>"
+                 elif(self.PurchaseRequestStatus==7):
+                     return "<span class='badge badge-rounded badge badge-success'> کامل شده </span>"
+                 elif(self.PurchaseRequestStatus==8):
+                     return "<span class='badge badge-rounded badge badge-danger'> متوقف </span>"
                  else:
-                     return "<i class='fa fa-close'></i>"
+                     return "<span class='badge badge-rounded badge-danger'>نامشخص </span>"
+    def get_status_color(self):
+         if(self.PurchaseRequestStatus==1):
+             return "light"
+         elif(self.PurchaseRequestStatus==2):
+             return "secondary"
+         elif(self.PurchaseRequestStatus==6):
+             return "info"
+         elif(self.PurchaseRequestStatus==7):
+             return "success"
+         else:
+             return "danger"
+
+
     def getQTY(self):
         if(self.PurchaseRequestAssetQty):
             return self.PurchaseRequestAssetQty
@@ -18,6 +65,13 @@ class PurchaseRequest(models.Model):
         return jdatetime.date.fromgregorian(date=self.PurchaseRequestDateTo)
     def is_in_manager(self):
         return (self.PurchaseRequestRequestedUser.userId.groups.filter(name= 'manager').exists())
+
+
+    PurchaseRequestStatus=models.IntegerField("وضعیت درخواست", choices=Status,null=True,blank=True)
+    PurchaseRequestRequestedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر درخواست کننده",null=True,related_name="PurchaseRequestdUser2")
+    PurchaseRequestTayeedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر تایید کننده",null=True,blank=True,related_name="PurchaseAdmitter2")
+    PurchaseRequestDateTo = models.DateField("تاریخ ", auto_now_add=True)
+    PurchaseRequestCompletionDate = models.DateField("تاریخ تکمیل",blank=True,null=True)
 
 
     PurchaseRequestPartName=models.ForeignKey("Part",on_delete=models.CASCADE,null=True,blank=True,related_name="RequestedPart",verbose_name="مشخصات قطعه")
