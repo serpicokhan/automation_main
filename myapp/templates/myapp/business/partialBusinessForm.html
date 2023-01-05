@@ -1,8 +1,13 @@
 {% load widget_tweaks %}
-<div class="row">
-<div class="col-sm-6 b-r">
-  {% load static %}
-  <img src="{% static 'img/if_industry_50840.png' %}" / >
+{% load static %}
+
+<div class="row text-centered">
+<div class="col-sm-12 b-r">
+  <div class="span4"></div>
+    <div class="span4"><img class="center-block" src="{% static 'img/if_industry_50840.png' %}" /></div>
+    <div class="span4"></div>
+
+
   <input type=hidden name='lastBusinessid' id='lastBusinessid' value='{{lId}}'/>
 
 
@@ -10,389 +15,292 @@
 
 
 </div>
-<div class="col-sm-6 b-r">
-  <div class="form-group">
-  <label>{{form.name.label}}</label>
-  {{form.name| add_class:"form-control" }}
-  </div>
-  <div class="form-group">
-  <label>{{form.code.label}}</label>
-  {{form.code| add_class:"form-control" }}
-  </div>
 
-</div>
 
 </div>
 <div class="row">
+  <div class="col-sm-6 b-r">
+    <div class="form-group">
+    <label>{{form.name.label}}</label>
+    {{form.name| add_class:"form-control" }}
+    </div>
+    </div>
+    <div class="col-sm-6">
+
+
+    <div class="form-group">
+    <label>{{form.code.label}}</label>
+    {{form.code| add_class:"form-control" }}
+    </div>
+
+  </div>
+</div>
+<div class="row">
   <div class="col-lg-12">
-                    <div class="default-tab">
-                        <ul class="nav nav-tabs">
-                            <li class="nav-item active"><a  class="nav-link active"  data-toggle="tab" href="#tab-1" aria-expanded="true">اطلاعات عمومی</a></li>
-                            <li class=""nav-item><a class="nav-link" data-toggle="tab" href="#tab-2" aria-expanded="false">اطلاعات مکانی</a></li>
+    <div class="card">
+      <div class="card-header">
 
-
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-4" aria-expanded="false">دارایی های مرتبط</a></li>
-                            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-5" aria-expanded="false">قطعات مرتبط</a></li>
-                              <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#tab-3" aria-expanded="false">پیوست ها</a></li>
-
-
-                        </ul>
-                        <div class="tab-content ">
-                            <div id="tab-1" class="tab-pane active">
-                                <div class="pt-5">
-
-                                                                  <div class="row">
-                                  <div class="col-lg-12">
-                                    <div class="panel panel-info">
-                                      <div class="panel-heading">
-
-                                      </div>
+      </div>
+      <div class="card-body">
+        <div class="custom-tab-1">
+          <ul class="nav nav-tabs">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" data-toggle="tab" href="#tab-1"><i class="la la-home mr-2"></i> اطلاعات عمومی</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab-2"><i class="la la-user mr-2"></i>اطلاعات مکانی</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab-3"><i class="la la-phone mr-2"></i>دارایی های مرتبط</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab-4"><i class="la la-envelope mr-2"></i>قطعات مرتبط</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" data-toggle="tab" href="#tab-5"><i class="la la-envelope mr-2"></i>پیوست ها</a>
+                                    </li>
+                                </ul>
+                                <div class="tab-content">
+                                    <div class="tab-pane fade active show" id="tab-1" role="tabpanel">
                                       <div class="pt-5">
-                                        <div class="row">
-                                          <div class="col-sm-6">
-                                            <div class="form-group">
-                                              <label>{{form.primaryContact.label}}</label>
-                                              {{form.primaryContact| add_class:"form-control" }}
+
+                                                                        <div class="row">
+                                        <div class="col-lg-12">
+                                          <div class="panel panel-info">
+                                            <div class="panel-heading">
+
+                                            </div>
+                                            <div class="pt-5">
+                                              <div class="row">
+                                                <div class="col-sm-6">
+                                                  <div class="form-group">
+                                                    <label>{{form.primaryContact.label}}</label>
+                                                    {{form.primaryContact| add_class:"form-control" }}
+
+
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <label>{{form.phone.label}}</label>
+                                                    {{form.phone| add_class:"form-control" }}
+
+
+                                                  </div>
+
+                                                  <div class="form-group">
+                                                    <label>{{form.fax.label}}</label>
+                                                    {{form.fax| add_class:"form-control" }}
+
+
+                                                  </div>
+
+
+                                                </div>
+                                                <div class="col-sm-6">
+
+                                                  <div class="form-group">
+                                                    <label>{{form.phone2.label}}</label>
+
+                                                    {{form.phone2| add_class:"form-control" }}
+
+
+                                                  </div>
+
+                                                  <div class="form-group">
+                                                    <label>{{form.webSite.label}}</label>
+                                                    {{form.webSite| add_class:"form-control" }}
+
+
+                                                  </div>
+                                                  <div class="form-group">
+                                                    <label>{{form.primaryEmail.label}}</label>
+                                                    {{form.primaryEmail| add_class:"form-control" }}
+
+
+                                                  </div>
+
+
+
+
+
+                                                </div>
+
+                                              </div>
+                                              <div class="row">
+                                                <div class="col-xl-12">
+                                                  <div class="form-group">
+                                                    <label>{{form.notes.label}}</label>
+                                                    {{form.notes| add_class:"form-control" }}
+
+
+                                                  </div>
+
+                                                </div>
+
+                                              </div>
 
 
                                             </div>
-                                            <div class="form-group">
-                                              <label>{{form.phone.label}}</label>
-                                              {{form.phone| add_class:"form-control" }}
 
-
-                                            </div>
-
-                                            <div class="form-group">
-                                              <label>{{form.fax.label}}</label>
-                                              {{form.fax| add_class:"form-control" }}
-
-
-                                            </div>
-                                            <div class="form-group">
-                                              <label>{{form.primaryEmail.label}}</label>
-                                              {{form.primaryEmail| add_class:"form-control" }}
-
-
-                                            </div>
-                                            <div class="form-group">
-                                              <label>{{form.primaryCurrency.label}}</label>
-                                              {{form.primaryCurrency| add_class:"form-control" }}
-
-
-                                            </div>
-                                            <div class="form-group">
-                                              <label>{{form.notes.label}}</label>
-                                              {{form.notes| add_class:"form-control" }}
-
-
-                                            </div>
-
-                                          </div>
-                                          <div class="col-sm-6">
-                                            <div class="form-group">
-
-                                            </div>
-                                            <div class="form-group">
-                                              <label>{{form.phone2.label}}</label>
-                                              {{form.phone2| add_class:"form-control" }}
-
-
-                                            </div>
-
-                                            <div class="form-group">
-                                              <label>{{form.webSite.label}}</label>
-                                              {{form.webSite| add_class:"form-control" }}
-
-
-                                            </div>
-                                            <div class="form-group">
-                                              <label>{{form.secondyEmail.label}}</label>
-                                              {{form.secondyEmail| add_class:"form-control" }}
-
-
-                                            </div>
-                                            <div class="form-group">
-
-                                            </div>
-                                            <div >
-
-                                              <label>{{form.isSupplier.label}}</label>
-                                              {{form.isSupplier| add_class:"form-control"  }}
-                                              </label>
-                                              <label>{{form.insManufacturer.label}}</label>
-                                              {{form.insManufacturer| add_class:"form-control" }}
-                                              <label>{{form.isServiceProvider.label}}</label>
-                                              {{form.isServiceProvider| add_class:"form-control" }}
-                                              <label>{{form.isOwner.label}}</label>
-                                              {{form.isOwner| add_class:"form-control" }}
-                                              <label>{{form.isCustomer.label}}</label>
-                                              {{form.isCustomer| add_class:"form-control" }}
-
-                                            </div>
                                           </div>
 
                                         </div>
 
-
                                       </div>
 
+
+
+
+
+
+                                      </div>
                                     </div>
-
-                                  </div>
-
-                                </div>
-
-
-
-
-
-
-                                </div>
-                                </div>
-
-                            <div id="tab-2" class="tab-pane">
-                                <div class="pt-5">
-                                  <div class='row'>
-                                    <div class='col-lg-12'>
-                                      <div class="panel panel-info">
-                                           <div class="panel-heading">
-
-                                           </div>
-                                           <div class="pt-5">
-                                               <div class="row">
-                                                 <div class="col-lg-6">
-                                                                     <div class="form-group">
-                                                                       <label>{{form.address.label}}</label>
-                                                                       {{form.address| add_class:"form-control" }}
-                                                                     </div>
-                                                                     <div class="form-group">
-                                                                       <label>{{form.city.label}}</label>
-                                                                       {{form.city| add_class:"form-control" }}
-                                                                     </div>
-                                                                     <div class="form-group">
-                                                                       <label>{{form.state.label}}</label>
-                                                                       {{form.state| add_class:"form-control" }}
-                                                                     </div>
-                                                                     <div class="form-group">
-                                                                       <label>{{form.postalCode.label}}</label>
-                                                                       {{form.postalCode| add_class:"form-control" }}
-                                                                     </div>
-                                                                     <div class="form-group">
-                                                                       <label>{{form.country.label}}</label>
-                                                                       {{form.country| add_class:"form-control" }}
-                                                                     </div>
-
+                                    <div class="tab-pane fade" id="tab-2">
+                                      <div class="pt-5">
+                                        <div class='row'>
+                                          <div class='col-lg-12'>
+                                            <div class="panel panel-info">
+                                                 <div class="panel-heading">
 
                                                  </div>
+                                                 <div class="pt-5">
+                                                     <div class="row">
+                                                       <div class="col-xl-6">
+                                                                           <div class="form-group">
+                                                                             <label>{{form.address.label}}</label>
+                                                                             {{form.address| add_class:"form-control" }}
+                                                                           </div>
+                                                                           <div class="form-group">
+                                                                             <label>{{form.city.label}}</label>
+                                                                             {{form.city| add_class:"form-control" }}
+                                                                           </div>
+                                                                           <div class="form-group">
+                                                                             <label>{{form.state.label}}</label>
+                                                                             {{form.state| add_class:"form-control" }}
+                                                                           </div>
 
-                                               </div>
-                                           </div>
 
-                                      </div>
-
-
-
-
-                                    </div>
-                                  </div>
-
-                                   </div>
-
-                            </div>
-                            <div id="tab-3" class="tab-pane">
-                                <div class="pt-5">
-
-                                    <div class='row'>
-                                      <div class='col-lg-12'>
-                                        <div class="panel panel-info">
-                                             <div class="panel-heading">
-
-                                             </div>
-                                             <div class="pt-5">
-                                                 <div class="row">
-                                                   <div class="col-lg-12">
-                                                     <div class="panel panel-info">
-
-                                                       <div class="pt-5">
-                                                     {% include 'myapp/business_file/businessFileList.html' %}
 
                                                        </div>
+                                                       <div class="col-cl-6">
+                                                         <div class="form-group">
+                                                           <label>{{form.postalCode.label}}</label>
+                                                           {{form.postalCode| add_class:"form-control" }}
+                                                         </div>
+                                                         <div class="form-group">
+                                                           <label>{{form.country.label}}</label>
+                                                           {{form.country| add_class:"form-control" }}
+                                                         </div>
+                                                       </div>
+
 
                                                      </div>
+                                                 </div>
+
+                                            </div>
 
 
 
+
+                                          </div>
+                                        </div>
+
+                                         </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-3">
+                                      <div class="pt-5">
+
+                                          <div class='row'>
+                                            <div class='col-lg-12'>
+                                              <div class="panel panel-info">
+                                                   <div class="panel-heading">
 
                                                    </div>
+                                                   <div class="pt-5">
+                                                       <div class="row">
+                                                         <div class="col-lg-12">
+                                                           <div class="panel panel-info">
 
-                                                 </div>
-                                             </div>
+                                                             <div class="pt-5">
+                                                            {% include 'myapp/business_asset/businessAssetList.html' %}
+                                                             </div>
+
+                                                           </div>
+
+
+
+
+                                                         </div>
+
+                                                       </div>
+                                                   </div>
+
+
+                                            </div>
+                                          </div>
+
 
 
                                       </div>
+                                  </div>
                                     </div>
+                                    <div class="tab-pane fade" id="tab-4">
+                                      <div class="pt-5">
+
+                                          <div class='row'>
+                                            <div class='col-lg-12'>
+                                              <div class="panel panel-info">
+                                                   <div class="panel-heading">
+
+                                                   </div>
+                                                   <div class="pt-5">
+                                                       <div class="row">
+                                                         <div class="col-lg-12">
+
+                                                            {% include 'myapp/business_part/businessPartList.html' %}
+
+                                                         </div>
+
+                                                       </div>
+                                                   </div>
 
 
-
-                                </div>
-                            </div>
-                          </div>
-
-
-                          <div id="tab-4" class="tab-pane">
-                              <div class="pt-5">
-
-                                  <div class='row'>
-                                    <div class='col-lg-12'>
-                                      <div class="panel panel-info">
-                                           <div class="panel-heading">
+                                            </div>
+                                          </div>
 
                                            </div>
-                                           <div class="pt-5">
-                                               <div class="row">
-                                                 <div class="col-lg-12">
 
-                                                    {% include 'myapp/business_asset/businessAssetList.html' %}
 
-                                                 </div>
+                                  </div>
+                                    </div>
+                                    <div class="tab-pane fade" id="tab-5">
+                                      <div class="pt-5">
+                                          <div class="row">
+                                            <div class="col-lg-12">
+                                              <div class="panel panel-info">
 
-                                               </div>
-                                           </div>
+                                                <div class="pt-5">
+                                              {% include 'myapp/business_file/businessFileList.html' %}
 
+                                                </div>
+
+                                              </div>
+
+
+
+
+                                            </div>
+
+                                          </div>
+                                      </div>
 
                                     </div>
-                                  </div>
-
-                                   </div>
-
-
-                          </div>
-                        </div>
-                        <div id="tab-5" class="tab-pane">
-                            <div class="pt-5">
-
-                                <div class='row'>
-                                  <div class='col-lg-12'>
-                                    <div class="panel panel-info">
-                                         <div class="panel-heading">
-
-                                         </div>
-                                         <div class="pt-5">
-                                             <div class="row">
-                                               <div class="col-lg-12">
-
-                                                    {% include 'myapp/business_part/businessPartList.html' %}
-
-                                               </div>
-
-                                             </div>
-                                         </div>
-
-
-                                  </div>
                                 </div>
 
-                                 </div>
+        </div>
 
+      </div>
 
-                        </div>
-                      </div>
-                      <div id="tab-6" class="tab-pane">
-                          <div class="pt-5">
+    </div>
 
-                              <div class='row'>
-                                <div class='col-lg-12'>
-                                  <div class="panel panel-info">
-                                       <div class="panel-heading">
-
-                                       </div>
-                                       <div class="pt-5">
-                                           <div class="row">
-                                             <div class="col-lg-12">
-
-
-
-                                             </div>
-
-                                           </div>
-                                       </div>
-
-
-                                </div>
-                              </div>
-
-                               </div>
-
-
-                      </div>
-                    </div>
-                    <div id="tab-7" class="tab-pane">
-                        <div class="pt-5">
-
-                            <div class='row'>
-                              <div class='col-lg-12'>
-                                <div class="panel panel-info">
-                                     <div class="panel-heading">
-
-                                     </div>
-                                     <div class="pt-5">
-                                         <div class="row">
-                                           <div class="col-lg-12">
-
-
-
-                                           </div>
-
-                                         </div>
-                                     </div>
-
-
-                              </div>
-                            </div>
-
-                             </div>
-
-
-                    </div>
-                  </div>
-                        <div id="tab-8" class="tab-pane">
-                            <div class="pt-5">
-
-                                <div class='row'>
-                                  <div class='col-lg-12'>
-                                    <div class="panel panel-info">
-                                         <div class="panel-heading">
-                                             <i class="fa fa-info-circle"></i>پیوستها
-                                         </div>
-                                         <div class="pt-5">
-                                             <div class="row">
-                                               <div class="col-lg-12">
-
-
-
-                                               </div>
-
-                                             </div>
-                                         </div>
-
-
-                                  </div>
-                                </div>
-
-                                 </div>
-
-
-                        </div>
-                      </div>
-
-                </div>
-
-
-
-
-
-
-                    </div>
                 </div>
 </div>

@@ -1,13 +1,18 @@
 {% for c in rfq %}
 
 <tr data-url="{{c.id}}">
-<td></td>
+  <td class="py-2">
+      <div class="custom-control custom-checkbox checkbox-{{c.get_status_color}}">
+          <input type="checkbox" class="custom-control-input" id="checkbox{{c.id}}">
+          <label class="custom-control-label" for="checkbox{{c.id}}"></label>
+      </div>
+  </td>
 
-<td>{{c.PurchaseRequestAsset}}</td>
-<td>{{c.PurchaseRequestPartName}}</td>
+<td class="py-2">{{c.PurchaseRequestAsset}}</td>
+<td class="py-2">{{c.PurchaseRequestPartName}}</td>
 
-<td>{{c.PurchaseRequestAssetQty}}</td>
- <td>{% autoescape off %}{{c.get_pstatus}}{% endautoescape %}</td>
+<td class="py-2">{{c.PurchaseRequestAssetQty}}</td>
+ <td class="py-2">{% autoescape off %}{{c.get_pstatus}}{% endautoescape %}</td>
 
 
 

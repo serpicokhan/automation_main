@@ -1,7 +1,13 @@
 {% for c in rfq %}
 
 <tr>
-<td></td>
+  <td class="py-2">
+      <div class="custom-control custom-checkbox checkbox-{{c.get_status_color}}">
+          <input type="checkbox" class="custom-control-input" id="checkbox{{c.id}}">
+          <label class="custom-control-label" for="checkbox{{c.id}}"></label>
+      </div>
+  </td>
+
 <td>{{c.id}}</td>
 
  <td>{{c.get_PurchaseStatus_display}}</td>

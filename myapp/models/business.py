@@ -116,3 +116,19 @@ class BusinessUser(models.Model):
     business= models.ForeignKey(SysUser,on_delete=models.CASCADE,verbose_name="پرسنل",null=True,blank=True)
     class Meta:
         db_table="businessuser"
+
+
+class BusinessCsvFile(models.Model):
+    def get_ext(self):
+        v=os.path.splitext(self.woFile.name)
+        return v[len(v)-1]
+    def get_name(self):
+        return os.path.basename(str(self.msgFile))
+    def get_size(self):
+        return " MB {0:.2f}".format(self.woFile.size/1048576)
+
+    msgFile=models.FileField(upload_to='documents/%Y/%m/%d',max_length=200)
+    # msgFileworkorder=models.ForeignKey(Message,on_delete=models.CASCADE,blank=True,null=True)
+    msgFiledateAdded=models.DateTimeField(auto_now_add=True)
+    class Meta:
+        db_table="businesscsvfile"

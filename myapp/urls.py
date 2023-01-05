@@ -39,6 +39,8 @@ urlpatterns = [
 
     url(r'^Asset/(?P<id>\d+)/listRelatedAsset/$', getRelatedAsset, name='getRelatedAsset'),
      url(r'^Business/$',list_business,name='list_business'),
+     url(r'^Business/Upload$',upload_business,name='upload_business'),
+     url(r'^Business/Upload_File$',upload_file_business,name='upload_file_business'),
      url(r'^Business/create/$', business_create, name='business_create'),
      url(r'^Business/(?P<id>\d+)/delete/$', business_delete, name='business_delete'),
      url(r'^Business/(?P<id>\d+)/update/$', business_update, name='business_update'),

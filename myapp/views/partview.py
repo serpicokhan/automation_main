@@ -357,7 +357,7 @@ def upload_file_part(request):
         workbook = load_workbook(filename='media/'+msg.msgFile.name)
         ws = workbook.active
         # print(list(iter_rows(ws))[1])
-        Part.objects.filter(id__gt=20).delete()
+        # Part.objects.filter(id__gt=20).delete()
         item=Part(pk=None)
         # item_old=Part(pk=None)
         #

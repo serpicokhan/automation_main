@@ -91,7 +91,7 @@ def business_create(request):
         form = BusinessForm(request.POST)
         return save_business_form(request, form, 'myapp/business/partialBusinessCreate.html')
     else:
-        # businessInstance=Business.objects.create()
+        businessInstance=Business.objects.create()
         form = BusinessForm()
         return save_business_form(request, form, 'myapp/business/partialBusinessCreate.html',businessInstance.id)
 
@@ -142,3 +142,51 @@ def business_search(request):
     #       'business': wos,'pageType':'business_search','ptr':searchStr})
     data['form_is_valid'] = True
     return JsonResponse(data)
+def upload_business(request):
+    return render(request, 'myapp/business/businessUpload.html', {})
+def upload_file_business(request):
+    def iter_rows(ws):
+        for row in ws.iter_rows():
+            yield [cell.value for cell in row]
+    if request.method == 'POST':
+        # print("here!!!",request.FILES)
+        my_file=request.FILES.get('file')
+        # # print(my_file.name)
+        # month=request.POST.get('month_select',False)
+        # sal=request.POST.get('sal_select',False)
+
+
+
+
+        msg=BusinessCsvFile.objects.create(msgFile=my_file)
+
+        print("@!!!!!!!!!!!!!!!")
+        workbook = load_workbook(filename='media/'+msg.msgFile.name)
+        ws = workbook.active
+        # print(list(iter_rows(ws))[1])
+        # Part.objects.filter(id__gt=20).delete()
+        item=Business(pk=None)
+        # item_old=Part(pk=None)
+        #
+        for i in list(iter_rows(ws)):
+            # print(i[18])
+            # print(i[19])
+            # print(i[21])
+
+            if(i[19]!=None):#id
+                item=Part(pk=None)
+                item.partName=i[18]
+                # print(i[1])
+                item.partDescription=i[14] if(i[14]) else '-'
+                item.partCode=0
+                item.save()
+
+
+
+
+
+        data=dict()
+        data["id"]=msg.id
+        return JsonResponse(data)
+        # return HttpResponse('')
+    return JsonResponse({'post':'fasle'})
