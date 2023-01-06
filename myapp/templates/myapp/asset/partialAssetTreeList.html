@@ -1,0 +1,104 @@
+{% load static %}
+{% for c in asset %}
+
+<tr date-url={{c.id}} date-type={{c.assetTypes}} data-tt-id={{c.id}}>
+  <td><input type="checkbox" name="action"  value={{c.id}} class="selection-box"></td>
+  <td class="client-avatar">
+
+    <img alt="image" src="{% static 'img/_blank_profile.png' %}">
+
+                                                                    </td>
+
+
+  <td>{{c.get_name|default_if_none:0}}</td>
+  <td>{{c.assetCode|default_if_none:"مشخص نشده"}}</td>
+  <td>{% autoescape off %}{{c.get_assetStatus}}{% endautoescape %}</td>
+  <td>{{c.assetCategory|default_if_none:'بدون دسته بندی'}}</td>
+  <td>{{c.get_location|default_if_none:0|truncatechars:9}}</td>
+
+
+
+
+ <td>
+   {% if perms.cmms.view_asset %}
+   <button type="button"
+              class=" btn btn-outline btn-warning btn-sm js-update-asset"
+              data-url="{% url 'asset_update' c.id %}">
+        <span class="glyphicon glyphicon-pencil"></span>
+      </button>
+      {% endif %}
+      {% if perms.cmms.delete_asset %}
+      <button type="button"
+                   class="btn btn-outline btn-danger btn-sm js-delete-asset"
+                   data-url="{% url 'asset_delete' c.id %}">
+             <span class="glyphicon glyphicon-trash"></span>
+           </button>
+        <div class="dropdown" style="display: inline-block">
+           <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+          <i class="fa fa-ellipsis-v"></i></button>
+           <ul class="dropdown-menu">
+             <li><a href="#">HTML</a></li>
+             <li><a href="#">CSS</a></li>
+             <li><a href="#">JavaScript</a></li>
+           </ul>
+         </div>
+
+           {% endif %}
+    </td>
+</tr>
+{% for i in c.get_child %}
+<tr date-url={{i.id}} date-type={{i.assetTypes}} data-tt-id={{i.id}} data-tt-parent-id="{{c.id}}">
+  <td><input type="checkbox" name="action"  value={{i.id}} class="selection-box"></td>
+  <td class="client-avatar">
+
+    <img alt="image" src="{% static 'img/fac2.png' %}">
+
+                                                                    </td>
+
+
+ <td>{{i.get_name|default_if_none:0}}</td>
+ <td>{{i.assetCode|default_if_none:"مشخص نشده"}}</td>
+ <td>{% autoescape off %}{{i.get_assetStatus}}{% endautoescape %}</td>
+ <td>{{i.assetCategory|default_if_none:'بدون دسته بندی'}}</td>
+ <td>{{i.get_location|default_if_none:0|truncatechars:9}}</td>
+
+
+
+
+ <td>
+   {% if perms.cmms.view_assets %}
+   <button type="button"
+              class="btn btn-warning btn-sm js-update-asset"
+              data-url="{% url 'asset_update' i.id %}">
+        <span class="glyphicon glyphicon-pencil"></span>
+      </button>
+      {% endif %}
+      {% if perms.cmms.delete_assets %}
+      <button type="button"
+                   class="btn btn-danger btn-sm js-delete-asset"
+                   data-url="{% url 'asset_delete' i.id %}">
+             <span class="glyphicon glyphicon-trash"></span>
+           </button>
+           <div class="dropdown" style="display: inline-block;">
+              <button class="btn dropdown-toggle" type="button" data-toggle="dropdown">
+             <i class="fa fa-ellipsis-v"></i></button>
+              <ul class="dropdown-menu">
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">CSS</a></li>
+                <li><a href="#">JavaScript</a></li>
+              </ul>
+            </div>
+           {% endif %}
+    </td>
+</tr>
+{% endfor %}
+{% empty %}
+<tr>
+ <td colspan="7" class="text-center bg-warning">هیچ موردی یافت نشد</td>
+</tr>
+
+{% endfor %}
+<script type="text/javascript">
+$('#example-basic').treetable({ expandable: true });
+
+</script>
