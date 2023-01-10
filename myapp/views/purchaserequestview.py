@@ -169,7 +169,10 @@ def purchase_item_create(request):
             # if(pid):
             #     form.save(commit=False)
             #     form.instance.PurchaseRequestPurchase=Purchase.objects.get(id=pid)
-            instance=form.save()
+            form.save(commit=False)
+            form.instance.PurchaseRequestStatus=1
+            form.save();
+
             data['id']=instance.id
             data['form_is_valid']=True
             return JsonResponse(data)
