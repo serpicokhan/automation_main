@@ -316,3 +316,23 @@ def file_upload(request):
         msg=RequestFile.objects.create(msgFile=my_file)
     data=dict()
     return JsonResponse(data)
+@csrf_exempt
+def change_purchase_item_status(request):
+    # return False
+    q=request.GET.get("q", "")
+    status=request.GET.get("status", 1)
+
+    data=dict()
+    q=[int(i) for i in q.split(',') ]
+    # item=PurchaseRequest
+    for i in q:
+        item=PurchaseRequest.objects.get(id=i)
+        item.PurchaseRequestStatus=int(status)
+        item.save()
+        items=PurchaseRequest.objects.all()
+        books=doPaging(request,items)
+        data['html_purchaseRequest_list'] = render_to_string('myapp/purchase_request/partialPurchaseItemList.html', {
+            'items': books
+        })
+        data['form_is_valid']=True
+    return JsonResponse(data)

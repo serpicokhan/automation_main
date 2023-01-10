@@ -3,7 +3,7 @@
 <tr class="btn-reveal-trigger">
     <td class="py-2">
         <div class="custom-control custom-checkbox checkbox-{{c.get_status_color}}">
-            <input type="checkbox" class="custom-control-input" id="checkbox{{c.id}}">
+            <input type="checkbox" class="custom-control-input" id="checkbox{{c.id}}" value={{c.id}}>
             <label class="custom-control-label" for="checkbox{{c.id}}"></label>
         </div>
     </td>
@@ -22,16 +22,19 @@
         {{c.PurchaseRequestPartName.partLastPrice|default_if_none:'0.00'}}
     </td>
     <td class="py-2">
-        <div class="dropdown text-sans-serif">
+        <!-- <div class="dropdown text-sans-serif">
             <button class="btn btn-primary tp-btn-light sharp" type="button" id="order-dropdown-0" data-toggle="dropdown" data-boundary="viewport" aria-haspopup="true" aria-expanded="false"><span><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewBox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></span>
             </button>
             <div class="dropdown-menu dropdown-menu-right border py-0" aria-labelledby="order-dropdown-0">
-                <div class="py-2"><a class="dropdown-item" href="#!">کامل شد</a><a class="dropdown-item" href="#!">درحال پردازش</a><a class="dropdown-item" href="#!">تعلیق</a><a class="dropdown-item" href="#!">در انتظار</a>
+                <div class="py-2"><a class="dropdown-item" href="#!" data-url="{{c.id}}">کامل شد</a>
+                  <a class="dropdown-item" href="#!">درحال پردازش</a>
+                  <a class="dropdown-item" href="#!">تعلیق</a>
+                  <a class="dropdown-item" href="#!">در انتظار</a>
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item text-danger" href="#!">حذف</a>
                 </div>
             </div>
-        </div>
+        </div> -->
     </td>
 </tr>
 {% endfor %}
