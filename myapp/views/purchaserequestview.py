@@ -171,7 +171,8 @@ def purchase_item_create(request):
             #     form.instance.PurchaseRequestPurchase=Purchase.objects.get(id=pid)
             form.save(commit=False)
             form.instance.PurchaseRequestStatus=1
-            form.save();
+            form.instance.PurchaseRequestRequestedUser=SysUser.objects.get(userId=request.user)
+            instance=form.save();
 
             data['id']=instance.id
             data['form_is_valid']=True
@@ -220,7 +221,7 @@ def purchase_item_get(request,id):
     books=PurchaseRequest.objects.filter(PurchaseRequestPurchase=id)
     data['form_is_valid']=True
     data['rows']=render_to_string('myapp/purchase/partialPurchaseRequestList.html', {               'rfq': books            })
-    print("here!!!")
+    # print("here!!!")
     return JsonResponse(data)
 
 
@@ -302,7 +303,7 @@ def record_voice(request):
 
 
 def list_item_view(request):
-    items=PurchaseRequest.objects.all()
+    items=PurchaseRequest.objects.all().order_by('-id')
     books=doPaging(request,items)
     return render(request,"myapp/purchase_request/purchaseItemList.html",{'items':books})
 @csrf_exempt

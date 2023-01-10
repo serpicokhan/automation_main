@@ -177,6 +177,8 @@ class PurchaseRequestForm(forms.ModelForm):
     mypart=forms.CharField(required=False)
     PurchaseRequestAssetMakan= forms.ModelChoiceField(label="نام مکان",required=False,queryset=Asset.objects.filter(assetIsLocatedAt__isnull=True,assetTypes=1),
     widget=forms.Select(attrs={'class':'selectpicker','data-live-search':'true'}))
+    # PurchaseRequestAssetMakan= forms.ModelChoiceField(label="نام مکان",required=False,queryset=Asset.objects.filter(assetIsLocatedAt__isnull=True,assetTypes=1),
+    # widget=forms.Select(attrs={'class':'selectpicker','data-live-search':'true'}))
     # PurchaseRequestAsset= forms.ModelChoiceField(required=False,label="دارایی ",queryset=Asset.objects.all(),
     # widget=forms.Select())
     # PurchaseRequestAssetNotInInventory = forms.CharField( label="ناموجود در انبار؟ اطلاعات بیشتری شرح دهید",widget=forms.Textarea(attrs={'rows': 5, 'cols': 100}),required=False )

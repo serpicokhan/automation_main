@@ -68,7 +68,7 @@ class PurchaseRequest(models.Model):
 
 
     PurchaseRequestStatus=models.IntegerField("وضعیت درخواست", choices=Status,null=True,blank=True)
-    PurchaseRequestRequestedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر درخواست کننده",null=True,related_name="PurchaseRequestdUser2")
+    PurchaseRequestRequestedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر درخواست کننده",null=True,blank=True,related_name="PurchaseRequestdUser2")
     PurchaseRequestTayeedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر تایید کننده",null=True,blank=True,related_name="PurchaseAdmitter2")
     PurchaseRequestDateTo = models.DateField("تاریخ ", auto_now_add=True)
     PurchaseRequestCompletionDate = models.DateField("تاریخ تکمیل",blank=True,null=True)
@@ -101,6 +101,7 @@ class PurchaseRequest(models.Model):
 
     class Meta:
        db_table = "purchaserequest"
+       ordering = ('-id', )    
 
 class Purchase(models.Model):
     Requested=1
