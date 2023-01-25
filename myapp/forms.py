@@ -45,6 +45,11 @@ class BusinessForm(forms.ModelForm):
     class Meta:
         model = Business
         fields = '__all__'
+class AssetCategoryForm(forms.ModelForm):
+
+    class Meta:
+        model = AssetCategory
+        fields = '__all__'
 class BusinessPartForm(forms.ModelForm):
     mypart = forms.CharField(label="نام قطعه",required=False,widget=forms.TextInput())
 

@@ -18,23 +18,23 @@ import django.core.serializers
 import logging
 from django.conf import settings
 
-from cmms.models.assetcategory import *
+from myapp.models.assetcategory import *
 #from django.core import serializers
 import json
 from django.forms.models import model_to_dict
-from cmms.forms import AssetCategoryForm
+from myapp.forms import AssetCategoryForm
 from django.urls import reverse_lazy
 from django.db import transaction
 from django.db import IntegrityError
 
 from rest_framework.decorators import api_view
-from cmms.api.WOSerializer import AssetCategorySerializer
+# from myapp.api.WOSerializer import AssetCategorySerializer
 from rest_framework.response import Response
 
 def list_assetCategory(request,id=None):
     #
     books = AssetCategory.objects.all()
-    return render(request, 'cmms/assetcategory/assetCategoryList.html', {'assetCategory': books,'section':'list_assetCategory'})
+    return render(request, 'myapp/assetcategory/assetCategoryList.html', {'assetCategory': books,'section':'list_assetCategory'})
 
 
 ##########################################################
@@ -51,7 +51,7 @@ def save_assetCategory_form(request, form, template_name,id=None):
                 form.save()
                 data['form_is_valid'] = True
                 books = AssetCategory.objects.all()
-                data['html_assetCategory_list'] = render_to_string('cmms/assetcategory/partialAssetCategoryList.html', {
+                data['html_assetCategory_list'] = render_to_string('myapp/assetcategory/partialAssetCategoryList.html', {
                     'assetCategory': books
                 })
 
@@ -76,12 +76,12 @@ def assetCategory_delete(request, id):
         data['form_is_valid'] = True  # This is just to play along with the existing code
         companies =  AssetCategory.objects.all()
         #Tasks.objects.filter(assetCategoryId=id).update(assetCategory=id)
-        data['html_assetCategory_list'] = render_to_string('cmms/assetcategory/partialAssetCategoryList.html', {
+        data['html_assetCategory_list'] = render_to_string('myapp/assetcategory/partialAssetCategoryList.html', {
             'assetCategory': companies
         })
     else:
         context = {'assetCategory': comp1}
-        data['html_assetCategory_form'] = render_to_string('cmms/assetcategory/partialAssetCategoryDelete.html',
+        data['html_assetCategory_form'] = render_to_string('myapp/assetcategory/partialAssetCategoryDelete.html',
             context,
             request=request,
         )
@@ -93,11 +93,11 @@ def assetCategory_delete(request, id):
 def assetCategory_create(request):
     if (request.method == 'POST'):
         form = AssetCategoryForm(request.POST)
-        return save_assetCategory_form(request, form, 'cmms/assetcategory/partialAssetCategoryCreate.html')
+        return save_assetCategory_form(request, form, 'myapp/assetcategory/partialAssetCategoryCreate.html')
     else:
 
         form = AssetCategoryForm()
-        return save_assetCategory_form(request, form, 'cmms/assetcategory/partialAssetCategoryCreate.html')
+        return save_assetCategory_form(request, form, 'myapp/assetcategory/partialAssetCategoryCreate.html')
 
 
 
@@ -112,7 +112,7 @@ def assetCategory_update(request, id):
         form = AssetCategoryForm(instance=company)
 
 
-    return save_assetCategory_form(request, form,"cmms/assetcategory/partialAssetCategoryUpdate.html",id)
+    return save_assetCategory_form(request, form,"myapp/assetcategory/partialAssetCategoryUpdate.html",id)
 ##########################################################
 
 ##########################################################

@@ -40,7 +40,9 @@ class PurchaseRequest(models.Model):
                  elif(self.PurchaseRequestStatus==7):
                      return "<span class='badge badge-rounded badge badge-success'> کامل شده </span>"
                  elif(self.PurchaseRequestStatus==8):
-                     return "<span class='badge badge-rounded badge badge-danger'> متوقف </span>"
+                     return "<span class='badge badge-rounded badge badge-warning'> متوقف </span>"
+                 elif(self.PurchaseRequestStatus==5):
+                     return "<span class='badge badge-rounded badge badge-danger'> باز</span>"
                  else:
                      return "<span class='badge badge-rounded badge-danger'>نامشخص </span>"
     def get_status_color(self):
@@ -101,7 +103,7 @@ class PurchaseRequest(models.Model):
 
     class Meta:
        db_table = "purchaserequest"
-       ordering = ('-id', )    
+       ordering = ('-id', )
 
 class Purchase(models.Model):
     Requested=1

@@ -68,6 +68,10 @@ urlpatterns = [
     url(r'^Asset/(?P<woId>\d+)/listAssetConsumedPart/$', js_list_assetConsumedPart, name='js_list_assetConsumedPart'),
 
     url(r'^Asset/Category/$', get_assetCategory, name='get_assetCategory'),
+    url(r'^AssetCategory/$', list_assetCategory, name='list_assetCategory'),
+    url(r'^AssetCategory/create/$', assetCategory_create, name='assetCategory_create'),
+    url(r'^AssetCategory/(?P<id>\d+)/update/$', assetCategory_update, name='assetCategory_update'),
+    url(r'^AssetCategory/(?P<id>\d+)/delete/$', assetCategory_delete, name='assetCategory_delete'),
     url(r'^Asset/Category2/$', get_assetCategoryMain, name='get_assetCategoryMain'),
     url(r'^Asset/Category2/(?P<ids>\d+(?:,\d+)*)$', get_assetCategoryMain, name='get_assetCategoryMain'),
     url(r'^Asset/Location/Category$', get_location_by_category, name='get_location_by_category'),

@@ -1,27 +1,15 @@
 <!--pip install django-widget-tweaks-->
-{% extends 'cmms/mainTheme.html' %}
+{% extends 'myapp/index.html' %}
 
  {% block content %}
 
 <div class="row">
   <div class="col-lg-12">
-                    <div class="ibox float-e-margins">
-                        <div class="ibox-title">
-                            <h5>دسته بندی اموال </h5>
-                            <div class="ibox-tools">
-                                <a class="collapse-link">
-                                    <i class="fa fa-chevron-up"></i>
-                                </a>
-                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                                    <i class="fa fa-wrench"></i>
-                                </a>
-
-                                <a class="close-link">
-                                    <i class="fa fa-times"></i>
-                                </a>
-                            </div>
+                    <div class="card">
+                        <div class="card-header">
+                            
                         </div>
-                        <div class="ibox-content">
+                        <div class="card-body">
 
                             <div class="table-responsive">
                                 <table class="table table-striped" id="company-table">
@@ -47,7 +35,7 @@
 
                                     </thead>
                                     <tbody id='tbody_company'>
-                                            {% include 'cmms/assetcategory/partialAssetCategoryList.html' %}
+                                            {% include 'myapp/assetcategory/partialAssetCategoryList.html' %}
                                     </tbody>
                                 </table>
                                 <!-- BUTTON TO TRIGGER THE ACTION -->
