@@ -165,7 +165,7 @@ $(function () {
         //     }
         //   });
         var elem = document.querySelector('.js-switch');
-        var init = new Switchery(elem);
+        // var init = new Switchery(elem);
         $("#id_assetStatus").change(function(x){
           // console.log("start");
           // console.log(x.cancelable);

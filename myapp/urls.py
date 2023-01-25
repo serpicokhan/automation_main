@@ -82,6 +82,11 @@ urlpatterns = [
     url(r'^Asset/Asset/create$', assetAsset_craete, name='assetAsset_craete'),
     url(r'^Asset/Asset/(?P<id>\d+)/listAssetAsset$', list_assetAsset, name='list_assetAsset'),
     url(r'^Asset/Asset/(?P<id>\d+)/delete/(?P<ch_id>\d+)$', assetAsset_delete, name='assetAsset_delete'),
+    url(r'^AssetPart/$',list_assetPart,name='list_assetPart'),
+    url(r'^AssetPart/create/$', assetPart_create, name='assetPart_create'),
+    url(r'^AssetPart/(?P<id>\d+)/delete/$', assetPart_delete, name='assetPart_delete'),
+    url(r'^AssetPart/(?P<id>\d+)/update/$', assetPart_update, name='assetPart_update'),
+    url(r'^AssetPart/(?P<woId>\d+)/listAssetPart/$', js_list_assetPart, name='js_list_assetPart'),
 
 
 

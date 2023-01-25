@@ -1,4 +1,4 @@
-from myapp.models import Asset
+from myapp.models import Asset,AssetCategory
 
 import jdatetime
 import datetime

@@ -26,7 +26,7 @@
 
                                     </thead>
                                     <tbody id='tbody_assetFile'>
-                                            {% include 'cmms/asset_file/partialAssetFileList.html' %}
+                                            {% include 'myapp/asset_file/partialAssetFileList.html' %}
                                     </tbody>
                                 </table>
                                 <!-- BUTTON TO TRIGGER THE ACTION -->
@@ -36,7 +36,7 @@
                                   </button>
                                   <input id="assetFileupload" type="file" name="assetFile" multiple
                                     style="display: none;"
-                                    data-url="{% url 'asset_upload' lId %}"
+                                    data-url="#"
                                     data-form-data='{"csrfmiddlewaretoken": "{{ csrf_token }}"}'>
 
                                   </button>

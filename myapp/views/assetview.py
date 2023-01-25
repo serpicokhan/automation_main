@@ -26,6 +26,7 @@ from django.views import View
 import json
 from django.forms.models import model_to_dict
 # from myapp.forms import WoFileForm
+from myapp.forms import AssetForm
 from django.views.decorators.http import require_POST
 from django.core.files.storage import default_storage
 from django.contrib.auth.decorators import permission_required

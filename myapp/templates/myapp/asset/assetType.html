@@ -7,50 +7,55 @@
 </div>
 <div class="modal-body">
 <div class="row">
-  <div class="col-lg-6">
-    <div class="widget yellow-bg p-lg text-center ">
-
-      <button class="btn btn-primary  dim btn-large-dim js-create-asset" id='btn100' data-url="{% url 'asset_create_location' %}" type="button" style="background-image:url({% static 'img/if_industry_50840.png' %});background-repeat:   no-repeat;    background-position: center center;background-size:     cover; ">
 
 
 
-
-</button>
-<h1>اماکن</h1>
-
-                     </div>
-
-
-                     <div class="widget yellow-bg p-lg text-center ">
-
-                       <button class="btn btn-primary  dim btn-large-dim js-create-asset" id='btn100' data-url="{% url 'asset_create_machine' %}" type="button" style="background-image: url({% static 'img/forklift.png' %}); background-repeat:   no-repeat;    background-position: center center;background-size:     cover; ">
-
-
-
-
-                 </button>
-                 <h1> ماشین آلات</h1>
-
-                                      </div>
-
-  </div>
-  <div class="col-lg-6">
-    <div class="widget yellow-bg p-lg text-center ">
-
-      <button class="btn btn-primary  dim btn-large-dim js-create-asset" id='btn100' data-url="{% url 'asset_create_tool' %}" type="button" style="background-image: url({% static 'img/tools.png' %}); background-repeat:   no-repeat;    background-position: center center;background-size:     cover; ">
-
-
-
-
- </button>
- <h1> ابزارآلات</h1>
-
-                     </div>
-
-
-  </div>
-
-</div>
+<div class="col-xl-4 col-xxl-6 col-lg-6 col-sm-6">
+                    <button class="widget-stat card bg-danger js-create-asset" id='btn100' data-url="{% url 'asset_create_location' %}" >
+                        <div class="card-body p-4">
+                            <div class="media">
+									<span class="mr-3">
+										<i class="flaticon-381-calendar-1"></i>
+									</span>
+                                <div class="media-body text-white">
+                                    <!-- <p class="mb-1">تاریخ ثبتی</p> -->
+                                    <h3 class="text-white">مکان</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-xl-4 col-xxl-6 col-lg-6 col-sm-6">
+                    <button class="widget-stat card bg-success js-create-asset" id='btn100' data-url="{% url 'asset_create_tool' %}">
+                        <div class="card-body p-4">
+                            <div class="media">
+									<span class="mr-3">
+										<i class="flaticon-381-diamond"></i>
+									</span>
+                                <div class="media-body text-white">
+                                    <!-- <p class="mb-1">درآمد ها</p> -->
+                                    <h3 class="text-white">ابزار</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                <div class="col-xl-4 col-xxl-6 col-lg-6 col-sm-6">
+                    <button class="widget-stat card bg-info js-create-asset" id='btn100' data-url="{% url 'asset_create_machine' %}">
+                        <div class="card-body p-4">
+                            <div class="media">
+									<span class="mr-3">
+										<i class="flaticon-381-heart"></i>
+									</span>
+                                <div class="media-body text-white">
+                                    <!-- <p class="mb-1">درخواست ها</p> -->
+                                    <h3 class="text-white">ماشین آلات</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </button>
+                </div>
+                </div>
 </div>
 {% load static %}
 

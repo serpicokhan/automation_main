@@ -39,7 +39,23 @@ class AssetForm(forms.ModelForm):
 #             makan= forms.ModelChoiceField(label="نام مکان",queryset=Asset.objects.filter(assetIsLocatedAt__isnull=True),
 #             widget=forms.Select(attrs={'class':'selectpicker','data-live-search':'true'}))
 
+class AssetPartForm(forms.ModelForm):
+    mypart=forms.CharField(required=False)
 
+    def clean(self):
+                 self.is_valid()
+                 cleaned_data=super(AssetPartForm, self).clean()
+                 assetPartAssetid=cleaned_data.get('assetPartAssetid','')
+                 assetPartPid=cleaned_data.get('assetPartPid','')
+                 assetPartQnty=cleaned_data.get('assetPartQnty','')
+                 assetPartDescription=cleaned_data.get('assetPartDescription','')
+
+
+
+                 return cleaned_data
+    class Meta:
+        model = AssetPart
+        fields = '__all__'
 class BusinessForm(forms.ModelForm):
 
     class Meta:

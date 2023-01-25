@@ -17,22 +17,22 @@ from django.views.decorators import csrf
 import django.core.serializers
 import logging
 from django.conf import settings
-from cmms.models.Asset import *
+from myapp.models.Asset import *
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 
 #from django.core import serializers
 import json
 from django.forms.models import model_to_dict
-from cmms.forms import AssetPartForm
+from myapp.forms import AssetPartForm
 from rest_framework.decorators import api_view
-from cmms.api.WOSerializer import *
+# from myapp.api.WOSerializer import *
 from rest_framework.response import Response
 
 ###################################################################
 def list_assetPart(request,id=None):
     books = WorkorderPart.objects.all()
-    return render(request, 'cmms/workorder_parts/assetPartList.html', {'assetParts': books})
+    return render(request, 'myapp/workorder_parts/assetPartList.html', {'assetParts': books})
 
 
 ###################################################################
@@ -48,7 +48,7 @@ def js_list_assetPart(request,woId):
 
     books=AssetPart.objects.filter(assetPartAssetid=woId).order_by('-id')
 
-    data['html_assetPart_list']= render_to_string('cmms/asset_parts/partialAssetPartList.html', {
+    data['html_assetPart_list']= render_to_string('myapp/asset_parts/partialAssetPartList.html', {
         'assetParts': books,
         'bomlist':books2
     })
@@ -74,7 +74,7 @@ def save_assetPart_form(request, form, template_name,woId=None):
             # books=AssetPart.objects.raw(query)
             books2=BOMGroupPart.objects.filter(BOMGroupPartBOMGroup__in=
             BOMGroupAsset.objects.filter(BOMGroupAssetAsset=woId).values_list('BOMGroupAssetBOMGroup',flat=True))
-            data['html_assetPart_list'] = render_to_string('cmms/asset_parts/partialAssetPartList.html', {
+            data['html_assetPart_list'] = render_to_string('myapp/asset_parts/partialAssetPartList.html', {
                 'assetParts': books,
                 'bomlist':books2
             })
@@ -104,13 +104,13 @@ def assetPart_delete(request, id):
 
             books=AssetPart.objects.raw(query)
 
-            data['html_assetPart_list'] = render_to_string('cmms/asset_parts/partialAssetPartList.html', {
+            data['html_assetPart_list'] = render_to_string('myapp/asset_parts/partialAssetPartList.html', {
                 'assetParts': books
             })
         else:
             print("1")
             context = {'assetPart': comp1}
-            data['html_assetPart_form'] = render_to_string('cmms/asset_parts/partialAssetPartDelete.html',
+            data['html_assetPart_form'] = render_to_string('myapp/asset_parts/partialAssetPartDelete.html',
                 context,
                 request=request,
             )
@@ -127,7 +127,7 @@ def assetPart_delete(request, id):
             # books=AssetPart.objects.raw(query)
             books2=BOMGroupPart.objects.filter(BOMGroupPartBOMGroup__in=
             BOMGroupAsset.objects.filter(BOMGroupAssetAsset=woId).values_list('BOMGroupAssetBOMGroup',flat=True))
-            data['html_assetPart_list'] = render_to_string('cmms/asset_parts/partialAssetPartList.html', {
+            data['html_assetPart_list'] = render_to_string('myapp/asset_parts/partialAssetPartList.html', {
                 'assetParts': books,
                 'bomlist':books2
             })
@@ -159,7 +159,7 @@ def assetPart_create(request):
 
     else:
         form = AssetPartForm()
-    return save_assetPart_form(request, form, 'cmms/asset_parts/partialAssetPartCreate.html',woId)
+    return save_assetPart_form(request, form, 'myapp/asset_parts/partialAssetPartCreate.html',woId)
 ###################################################################
 
 @csrf_exempt
@@ -178,7 +178,7 @@ def assetPart_update(request, id):
         form = AssetPartForm(data, instance=company)
     else:
         form = AssetPartForm(instance=company,initial={'mypart':company.assetPartPid.partName})
-    return save_assetPart_form(request, form, 'cmms/asset_parts/partialAssetPartUpdate.html',woId.id)
+    return save_assetPart_form(request, form, 'myapp/asset_parts/partialAssetPartUpdate.html',woId.id)
 @api_view(['GET'])
 def assetpart_collection(request,id):
     if request.method == 'GET':
