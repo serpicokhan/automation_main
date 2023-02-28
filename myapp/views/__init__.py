@@ -14,3 +14,4 @@ from myapp.views.businessassetview import *
 from myapp.views.businesspartview import *
 from myapp.views.planningboardview import *
 from myapp.views.partcategoryview import *
+from myapp.views.api import *

@@ -48,7 +48,8 @@ INSTALLED_APPS = [
     'widget_tweaks',
     'mathfilters',
     'channels',
-    'sslserver'
+    'sslserver',
+    'rest_framework',
 
 ]
 
