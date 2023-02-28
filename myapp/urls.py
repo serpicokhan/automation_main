@@ -135,10 +135,12 @@ urlpatterns = [
       url(r'^Purchase/upload_file/$', file_upload, name='file_upload'),
       url(r'^Purchase/ItemView/$', list_item_view, name='list_item_view'),
       url(r'^Purchase/Item/Change_Status/', change_purchase_item_status, name='change_purchase_item_status'),
-      url(r'^Purchase/api/', PurchaseRequestList, name='PurchaseRequestList'),
+
       url(r'^Dashboard/Calendar/$', calendar, name='calendar'),
       url(r'^Dashboard/Profile/$', profile, name='profile'),
-      url(r'^Purchase/api/', PurchaseRequestList, name='PurchaseRequestList'),
+      url(r'^PurchaseReq/api/', PurchaseRequestList, name='PurchaseRequestList'),
+      url(r'^Purchase/api/', PurchaseList2, name='PurchaseList2'),
+
 
 
 
