@@ -92,11 +92,11 @@ WSGI_APPLICATION = 'automation.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'kartable',
-        'USER': 'root',
-        'PASSWORD': '',
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'NAME': 'automation545_loraine',
+        'USER': 'automation545_loraine',
+        'PASSWORD': 'L6cPReJE3oXR',
+        'HOST': 'services.irn3.chabokan.net',
+        'PORT': '5596',
     }
 }
 
