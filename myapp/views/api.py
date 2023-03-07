@@ -32,7 +32,7 @@ def PurchaseList2(request):
         return Response(serializer.data)
 @api_view(['POST'])
 def purchase_api_create(request):
-    serializer = PurchaseMiniSerializer(data=request.data)
+    serializer = PurchaseSerializerMini(data=request.data)
     if serializer.is_valid():
         serializer.save()
         return Response(serializer.data, status=status.HTTP_201_CREATED)
