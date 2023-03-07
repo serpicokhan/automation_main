@@ -16,4 +16,4 @@ class PurchaseSerializer(serializers.ModelSerializer):
 class PurchaseSerializerMini(serializers.ModelSerializer):
     class Meta:
         model = PurchaseRequest
-        fields = ['purchaseRequestAssetMakan', 'purchaseRequestAsset', 'purchaseRequestPartName', 'purchaseRequestAssetQty']
+        fields = ['PurchaseRequestAssetMakan', 'PurchaseRequestAsset', 'PurchaseRequestPartName', 'PurchaseRequestAssetQty']
