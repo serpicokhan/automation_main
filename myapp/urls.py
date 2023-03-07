@@ -140,6 +140,7 @@ urlpatterns = [
       url(r'^Dashboard/Profile/$', profile, name='profile'),
       url(r'^PurchaseReq/api/', PurchaseRequestList, name='PurchaseRequestList'),
       url(r'^Purchase/api/', PurchaseList2, name='PurchaseList2'),
+      url(r'^Purchase/form/api', purchase_api_create, name='purchase_api_create'),
 
 
 
