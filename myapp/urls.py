@@ -3,6 +3,7 @@ from myapp.views import *
 from django.conf.urls import url
 from django.contrib.auth.views import LoginView,LogoutView
 from django.conf.urls.static import static
+from rest_framework.authtoken.views import obtain_auth_token
 
 from . import views
 
@@ -11,6 +12,7 @@ urlpatterns = [
     path(        'logout/',        LoginView.as_view(            template_name="myapp/registration/logout.html",            ),        name='logout'),
 
     path('', index, name='index'),
+
     url(r'^User/$',list_user,name='list_user'),
     url(r'^User/create/$', user_create, name='user_create'),
     url(r'^User/(?P<id>\d+)/update/$', user_update, name='user_update'),
@@ -141,6 +143,8 @@ urlpatterns = [
       url(r'^PurchaseReq/api/', PurchaseRequestList, name='PurchaseRequestList'),
       url(r'^Purchase/api/', PurchaseList2, name='PurchaseList2'),
       url(r'^Purchase/form/api', purchase_api_create, name='purchase_api_create'),
+      path('api-token-auth/', obtain_auth_token, name='api_token_auth'),
+
 
 
 
