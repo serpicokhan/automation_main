@@ -1,5 +1,6 @@
 from django.core.paginator import *
 from myapp.models.business import *
+from django.db.models import Q
 class BusinessUtility:
     @staticmethod
     def doPaging(request,books):
@@ -21,3 +22,11 @@ class BusinessUtility:
 
              else:
                  return Business.objects.all()
+
+    @staticmethod
+    def gets(searchStr):
+        qstr=searchStr
+        result = Business.objects.filter(Q(name__icontains=qstr)|Q(phone__icontains=qstr)|Q(code__icontains=qstr)).order_by('-id').values('id', 'name')
+        # res= Part.objects.filter(partName__isnull=False).filter(partName__icontains=searchStr)
+        result=result.extra(select={'length':'Length(name)'}).order_by('length').values('id', 'name','phone')[:10]
+        return result

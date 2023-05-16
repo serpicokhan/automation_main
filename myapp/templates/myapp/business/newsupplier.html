@@ -1,0 +1,19 @@
+
+
+    <!-- Modal header -->
+    <div class="modal-header">
+        <h5 class="modal-title" id="myModalLabel">Modal Title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <!-- Modal body -->
+    <div class="modal-body">
+      <form method="POST" action="{% url 'new_supplier' %}">
+        {% csrf_token %}
+        {% include 'myapp/business/newbusinessform.html' %}
+
+        <button type="submit" class="btn btn-primary js-supplier-create">Submit</button>
+      </form>
+    </div>
+    <!-- Modal footer -->

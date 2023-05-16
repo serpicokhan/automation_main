@@ -22,7 +22,7 @@ from myapp.models.business import *
 #from django.core import serializers
 import json
 from django.forms.models import model_to_dict
-from myapp.forms import BusinessForm
+from myapp.forms import BusinessForm,MiniBusinessForm
 from django.urls import reverse_lazy
 from django.db import transaction
 from django.contrib.auth.context_processors import PermWrapper
@@ -190,3 +190,27 @@ def upload_file_business(request):
         return JsonResponse(data)
         # return HttpResponse('')
     return JsonResponse({'post':'fasle'})
+def new_supplier(request):
+    data=dict()
+    sup=request.GET.get("qry","")
+    if(len(sup)>0):
+        instance=Business.objects.create(name=sup)
+        data['is_valid']=True
+        data['instance']=instance.id
+    return JsonResponse(data)
+def get_suppliers(request):
+    searchStr= request.GET['qry'] if request.GET['qry'] else ''
+    x=list(BusinessUtility.gets(searchStr))
+    # if(len(x)==0):
+    #     Business.create(name=searchStr)
+    #     x=list(BusinessUtility.gets(searchStr))
+
+
+    # if(len(x)==0):
+    #     print("dasdsa")
+    #     x=[{'id':-1,'partName':'قطعه یافت نشد'}]
+
+
+    # response_data = {}
+    # response_data['result'] = '[dsadas,dasdasdas]'
+    return JsonResponse(x, safe=False)

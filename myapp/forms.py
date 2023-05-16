@@ -61,6 +61,11 @@ class BusinessForm(forms.ModelForm):
     class Meta:
         model = Business
         fields = '__all__'
+class MiniBusinessForm(forms.ModelForm):
+
+    class Meta:
+        model = Business
+        fields = ['name', 'code', 'primaryContact']
 class AssetCategoryForm(forms.ModelForm):
 
     class Meta:
@@ -196,6 +201,7 @@ class PurchaseRequestForm(forms.ModelForm):
     #     except Exception as ex:
     #         print(ex)
     mypart=forms.CharField(required=False)
+    mysupplier=forms.CharField(required=False)
     PurchaseRequestAssetMakan= forms.ModelChoiceField(label="نام مکان",required=False,queryset=Asset.objects.filter(assetIsLocatedAt__isnull=True,assetTypes=1),
     widget=forms.Select(attrs={'class':'selectpicker','data-live-search':'true'}))
     # PurchaseRequestAssetMakan= forms.ModelChoiceField(label="نام مکان",required=False,queryset=Asset.objects.filter(assetIsLocatedAt__isnull=True,assetTypes=1),

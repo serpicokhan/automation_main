@@ -91,9 +91,11 @@ urlpatterns = [
 
 
      url(r'^Business/$',list_business,name='list_business'),
+     url(r'^Business/Get/$',get_suppliers,name='get_suppliers'),
      url(r'^Business/Upload$',upload_business,name='upload_business'),
      url(r'^Business/Upload_File$',upload_file_business,name='upload_file_business'),
      url(r'^Business/create/$', business_create, name='business_create'),
+     url(r'^Business/new/$', new_supplier, name='new_supplier'),
      url(r'^Business/(?P<id>\d+)/delete/$', business_delete, name='business_delete'),
      url(r'^Business/(?P<id>\d+)/update/$', business_update, name='business_update'),
      url(r'^Business/(?P<id>\d+)/Cancel/$', businessCancel, name='businessCancel'),

@@ -1,6 +1,7 @@
 from django.db import models
 from datetime import datetime
 from myapp.models.Asset import Asset
+from myapp.models.business import *
 import jdatetime
 import os
 class PurchaseRequest(models.Model):
@@ -84,6 +85,7 @@ class PurchaseRequest(models.Model):
     PurchaseRequestAssetQtyNot=models.FloatField("کمیت",null=True,blank=True)
     PurchaseRequestAssetNot=models.BooleanField("در صورت عدم تهیه تولید دچار وقفه میشود",default=False)
     PurchaseRequestNotInList=models.BooleanField(default=False,null=True)
+    supplier = models.ForeignKey(Business, on_delete=models.CASCADE, null=True, blank=True)
 
 
 

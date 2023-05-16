@@ -1,0 +1,13 @@
+{% load widget_tweaks %}
+<div class="form-group">
+  <label for="id_name">نام:</label>
+  {% render_field form.name class="form-control" placeholder="نام را وارد کنید"  %}
+</div>
+<div class="form-group">
+  <label for="id_code">کد:</label>
+  {% render_field form.code class="form-control" placeholder="کد را وارد کنید"  %}
+</div>
+<div class="form-group">
+  <label for="id_primaryContact">مشخصات تماس:</label>
+  {% render_field form.primaryContact class="form-control" placeholder="مشخصات تماس را وارد کنید" %}
+</div>
