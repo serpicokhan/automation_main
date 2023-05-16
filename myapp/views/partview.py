@@ -320,104 +320,20 @@ def upload_file_part(request):
         for row in ws.iter_rows():
             yield [cell.value for cell in row]
     if request.method == 'POST':
-        # print("here!!!",request.FILES)
         my_file=request.FILES.get('file')
-        # # print(my_file.name)
-        # month=request.POST.get('month_select',False)
-        # sal=request.POST.get('sal_select',False)
-
-
-
-
         msg=PartCsvFile.objects.create(msgFile=my_file)
-        # with open('media/'+msg.msgFile.name,encoding='utf-8') as csv_file:
-        #     csv_reader = csv.reader(csv_file, delimiter=',')
-        #     line_count = 0
-        #     for i in csv_reader:
-        #         if line_count == 0:
-        #             print(f'Column names are {", ".join(i)}')
-        #             line_count += 1
-        #         else:
-        #             # print(f'\t{row[0]} works in the {row[1]} department, and was born in {row[2]}.')
-        #             # line_count += 1
-        #             item=Part(pk=None)
-        #             item.partName=i[1]
-        #             print(i[1])
-        #             item.partDescription=i[2] if(i[2]) else '-'
-        #             item.partCode=i[3] if(i[3]) else '-'
-        #             item.partMake=i[4] if(i[4]) else '-'
-        #             item.partModel=i[5] if(i[5]) else '-'
-        #             item.partLastPrice=float(i[6]) if(i[6]!='NULL') else 0
-        #             item.partBarCode=i[10] if(i[10]) else '-'
-        #             item.partInventoryCode=i[11] if(i[11]) else '-'
-        #             item.save()
-        #             pass
-        #     print(f'Processed {line_count} lines.')
-        print("@!!!!!!!!!!!!!!!")
         workbook = load_workbook(filename='media/'+msg.msgFile.name)
         ws = workbook.active
-        # print(list(iter_rows(ws))[1])
-        # Part.objects.filter(id__gt=20).delete()
         item=Part(pk=None)
-        # item_old=Part(pk=None)
-        #
         for i in list(iter_rows(ws)):
-            # print(i[18])
-            # print(i[19])
-            # print(i[21])
+
 
             if(i[19]!=None):#id
                 item=Part(pk=None)
                 item.partName=i[18]
-                # print(i[1])
                 item.partDescription=i[14] if(i[14]) else '-'
                 item.partCode=0
                 item.save()
-        #     elif(not str(i[30]).isdigit()):
-        #         pass
-        #     else:
-        #         if(i[30] != None):
-        #             item_new.pk=None
-        #             item_new.mah=month
-        #             item_new.sal=sal
-        #
-        #
-        #             item_new.mande_morakhasi="{0}:{1}:{2}".format(i[32],i[33],i[34])
-        #             item_new.code=i[30] if(i[30]) else 0
-        #             item_new.code_meli=i[29] if(i[29]) else 0
-        #             item_new.name=i[28] if(i[28]) else 0
-        #             item_new.daily_hoghugh=i[27] if(i[27]) else 0
-        #             item_new.karkard=i[26] if(i[26]) else 0
-        #             item_new.monthly_hoghugh=i[25] if(i[25]) else 0
-        #             item_new.bon=i[24] if(i[24]) else 0
-        #             item_new.maskan=i[23] if(i[23]) else 0
-        #             item_new.nobate_kari=i[22] if(i[22]) else 0
-        #             item_new.paye_sanavat=i[21] if(i[21]) else 0
-        #             item_new.ovlad_moavaghe=i[20] if(i[20]) else 0
-        #             item_new.ovlad=i[19] if(i[19]) else 0
-        #             item_new.ezafe_kar=i[18] if(i[18]) else 0
-        #             item_new.padash=i[17] if(i[17]) else 0
-        #             item_new.eslahe_hoghugh=i[16] if(i[16]) else 0
-        #             item_new.randeman=i[15] if(i[15]) else 0
-        #             item_new.jome_kari=i[14] if(i[14]) else 0
-        #             item_new.ravande_mahe_ghabl=i[13] if(i[13]) else 0
-        #             item_new.maliat=i[12] if(i[12]) else 0
-        #             item_new.haghe_bime=i[11] if(i[11]) else 0
-        #             item_new.mosaede=i[10] if(i[10]) else 0
-        #             item_new.kasre_hoghugh=i[9] if(i[9]) else 0
-        #             item_new.vame_dakheli=i[8] if(i[8]) else 0
-        #             item_new.bime_takmili=i[7] if(i[7]) else 0
-        #             item_new.vame_aghsati=i[6] if(i[6]) else 0
-        #             item_new.bime_azad=i[5] if(i[5]) else 0
-        #             item_new.jarime=i[4] if(i[4]) else 0
-        #             item_new.pool_khurd=i[3] if(i[3]) else 0
-        #             item_new.morakhasi=i[2] if(i[2]) else 0
-        #             item_new.ezafe_kar_time=i[1] if(i[1]) else 0
-        #             item_new.estelaji=i[0] if(i[0]) else 0
-        #             item_new.save()
-
-
-
 
         data=dict()
         data["id"]=msg.id
