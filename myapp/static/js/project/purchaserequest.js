@@ -109,6 +109,9 @@ var create_supplier=function(){
                   data: { 'qry': qry}
                 }
               ).done(function (res) {
+                if(res.length==0){
+                  $(".js-create-supplier").show();
+                }
                 callback(res)
               });
             },

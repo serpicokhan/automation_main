@@ -183,8 +183,9 @@ def purchase_item_create(request):
             return HttpResponseRedirect(reverse('list_purchaseRequest'))
 
     else:
+        pid=request.GET.get('lid',False)
 
-        form = PurchaseRequestForm()
+        form = PurchaseRequestForm(initial={'PurchaseRequestStatus':1,'PurchaseRequestPurchase':pid})
         return save_purchaseRequest_form(request, form, 'myapp/purchase/partialPurchaseRequestCreate.html')
 def purchase_item_update(request,id):
     company=get_object_or_404(PurchaseRequest,id=id)
@@ -198,7 +199,7 @@ def purchase_item_update(request,id):
 
             data['id']=instance.id
             data['update']=True
-            books=PurchaseRequest.objects.filter(PurchaseRequestPurchase=instance.PurchaseRequestPurchase)
+            books=PurchaseRequest.objects.filter(PurchaseRequestPurchase=instance.PurchaseRequestPurchase).order_by('-id')
             data['result']=render_to_string('myapp/purchase/partialPurchaseRequestList.html', {               'rfq': books            })
             data['form_is_valid']=True
             return JsonResponse(data)

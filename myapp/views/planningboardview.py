@@ -11,6 +11,7 @@ import django.core.serializers
 import logging
 from django.conf import settings
 from myapp.models.parts import *
+from myapp.models import business
 from django.views.decorators.csrf import csrf_exempt
 from django.utils.decorators import method_decorator
 from django.views import View
@@ -26,6 +27,11 @@ from rest_framework.decorators import api_view
 # from myapp.api.WOSerializer import *
 from rest_framework.response import Response
 from myapp.business.partutility import *
+from myapp.models.business import *
+from myapp.models.purchaserequest import *
 
 def list_planning_board(request):
-    return render(request, 'myapp/planning_board/planningBoardList.html', {'mails': ''})
+    sup=Business.objects.filter(id__in=PurchaseRequest.objects.filter(PurchaseRequestStatus=1).values('supplier'))
+    # print(sup.suppliers.all())
+
+    return render(request, 'myapp/planning_board/planningBoardList.html', {'sup': sup})

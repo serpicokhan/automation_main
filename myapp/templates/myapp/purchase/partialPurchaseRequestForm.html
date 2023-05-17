@@ -3,6 +3,7 @@
 <div class="row">
   {% load static %}
     {{form.PurchaseRequestPurchase.as_hidden   }}
+    {{form.PurchaseRequestStatus.as_hidden   }}
 
 
 <div class="col-sm-12 b-r">
@@ -74,11 +75,11 @@
             <div class="form-group">
                 {{form.supplier.as_hidden   }}
                   {% render_field form.mysupplier  class='form-control advanced2AutoComplete2' placeholder='جستجو کنید' autocomplete='off'   %}
-                  
+
 
             </div>
             <div class="form-group">
-              <button type="button" name="button" class="btn btn-info btn-xxs js-create-supplier">+</button>
+              <button type="button" name="button" class="btn btn-info btn-xxs js-create-supplier" style='display:none'>+</button>
             </div>
 
             <div class="form-group">

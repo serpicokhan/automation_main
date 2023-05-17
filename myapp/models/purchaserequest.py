@@ -85,7 +85,7 @@ class PurchaseRequest(models.Model):
     PurchaseRequestAssetQtyNot=models.FloatField("کمیت",null=True,blank=True)
     PurchaseRequestAssetNot=models.BooleanField("در صورت عدم تهیه تولید دچار وقفه میشود",default=False)
     PurchaseRequestNotInList=models.BooleanField(default=False,null=True)
-    supplier = models.ForeignKey(Business, on_delete=models.CASCADE, null=True, blank=True)
+    supplier = models.ForeignKey(Business, on_delete=models.CASCADE, null=True, blank=True,related_name="suppliers")
 
 
 
