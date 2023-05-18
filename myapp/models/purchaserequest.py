@@ -106,6 +106,10 @@ class PurchaseRequest(models.Model):
     class Meta:
        db_table = "purchaserequest"
        ordering = ('-id', )
+       permissions = [
+            ("change_request_status", "Can change the status of purchase request status"),
+
+        ]
 
 class Purchase(models.Model):
     Requested=1

@@ -63,6 +63,13 @@
             <label>{{form.PurchaseRequestAsset.label}}</label>
               {% render_field form.PurchaseRequestAsset class="form-control selectpicker" data-show-subtext="true" data-live-search="true"  %}
           </div>
+          {% if  perms.myapp.change_request_status %}
+          <div class="form-group">
+            <label>{{form.PurchaseRequestStatus.label}}</label>
+              {% render_field form.PurchaseRequestStatus class="form-control selectpicker" data-show-subtext="true" data-live-search="true"  %}
+
+          </div>
+          {% endif %}
 
 
           </div>

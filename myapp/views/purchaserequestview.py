@@ -209,7 +209,7 @@ def purchase_item_update(request,id):
             return HttpResponseRedirect(reverse('list_purchaseRequest'))
     else:
 
-        form = PurchaseRequestForm(instance=company,initial={'mypart':company.PurchaseRequestPartName.partName,'mysupplier':company.supplier.name})
+        form = PurchaseRequestForm(instance=company,initial={'mypart':company.PurchaseRequestPartName.partName,'mysupplier':company.supplier.name if(company.supplier) else '' })
         data=dict()
 
         context = {'form': form}
