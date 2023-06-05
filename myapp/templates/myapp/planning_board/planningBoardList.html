@@ -48,18 +48,16 @@
 {% include 'myapp/planning_board/partialPlanningBoardList.html' %}
 
 </div>
-<style media="screen">
+<style >
   @media print {
-  .print {
-    width: 100%;
-    border-collapse: collapse;
+  body * {
+    display: none;
   }
 
-  .print th,
-  .print td {
-    border: 1px solid black;
-    padding: 8px;
+  #myTable {
+    display: table;
   }
+
 }
 </style>
 <script type="text/javascript">
@@ -68,15 +66,16 @@
   window.print();
 });
 
-window.onbeforeprint = function() {
-  // Generate custom print preview
-  var table = document.getElementById("myTable").outerHTML;
-  var printWindow = window.open("", "_blank");
-  printWindow.document.open();
-  printWindow.document.write('<html><head><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></head><body>');
-  printWindow.document.write(table);
-  printWindow.document.write('</body></html>');
-  printWindow.document.close();
-};
+// window.onbeforeprint = function() {
+//   // Generate custom print preview
+//   var printWindow = window.open("", "_blank");
+//   printWindow.document.open();
+//   printWindow.document.write('<html><head><link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">');
+//   printWindow.document.write('<style>@media print { body * { display: none; } #myTable { display: table; } }</style>');
+//   printWindow.document.write('</head><body>');
+//   printWindow.document.write(document.getElementById("myTable").outerHTML);
+//   printWindow.document.write('</body></html>');
+//   printWindow.document.close();
+// };
 </script>
 {% endblock %}
