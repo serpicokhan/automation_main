@@ -33,5 +33,6 @@ from myapp.models.purchaserequest import *
 def list_planning_board(request):
     sup=Business.objects.filter(id__in=PurchaseRequest.objects.filter(PurchaseRequestStatus=1).values('supplier'))
     # print(sup.suppliers.all())
+    assets=Asset.objects.filter(assetIsLocatedAt__isnull=True)
 
-    return render(request, 'myapp/planning_board/planningBoardList.html', {'sup': sup})
+    return render(request, 'myapp/planning_board/planningBoardList.html', {'sup': sup,'assets':assets})
