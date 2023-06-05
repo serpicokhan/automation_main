@@ -4,6 +4,7 @@ from myapp.models.Asset import Asset
 from myapp.models.business import *
 import jdatetime
 import os
+from myapp.utils import *
 class PurchaseRequest(models.Model):
     Requested=1
     onHold=2
@@ -127,17 +128,9 @@ class Purchase(models.Model):
     Medium=3
     Low=4
     Lowest=5
-    Status=(
-         (Requested,'درخواست شده')  ,
-         (onHold,'متوقف'),
-         (Assigned,'تخصیص داده شده'),
-         (Open,'باز'),
-         (workInProgress,'در حال پیشرفت'),
-         (closedComplete,'بسته شده کامل'),
-         (closedIncomplete,'بسته شده، ناقص'),
-         (waitingForPart,'در انتظار قطعه'),
 
-     )
+    def get_dateCreated_jalali(self):
+        return jdatetime.date.fromgregorian(date=self.PurchaseDateTo)
     PurchaseStatus=models.IntegerField("وضعیت درخواست", choices=Status,null=True,blank=True)
     PurchaseRequestedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر درخواست کننده",null=True,related_name="PurchaseRequestdUser")
     PurchaseTayeedUser = models.ForeignKey('SysUser',on_delete=models.CASCADE,verbose_name="کاربر تایید کننده",null=True,blank=True,related_name="PurchaseAdmitter")

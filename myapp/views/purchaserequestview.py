@@ -47,8 +47,12 @@ def list_purchaseRequest(request,id=None):
     #
     books1 = filter_user(request)
     books=doPaging(request,books1)
+    # print(Status)
+    # assets=Asset.objects.filter(assetIsLocatedAt__isnull=True)
+    assets=Asset.objects.all()
 
-    return render(request, 'myapp/purchase_request/purchaseRequestList.html', {'rfq': books,'status':Status})
+
+    return render(request, 'myapp/purchase_request/purchaseRequestList.html', {'rfq': books,'status':Status,'assets2':assets})
 
 def save_purchaseRequest_form(request, form, template_name,id=None):
 
@@ -255,9 +259,10 @@ def purchaseRequest_update(request, id):
 
     else:
         form = PurchaseForm(instance=company)
+        requested_user=company.PurchaseRequestedUser.fullName
         file_attachment=RequestFile.objects.all()
         voices=RequestVoice.objects.all()
-        return render(request, 'myapp/purchase_request/partialPurchaseRequestUpdate.html', {'form': form,'lid':id,'files':file_attachment,'voices':voices})
+        return render(request, 'myapp/purchase_request/partialPurchaseRequestUpdate.html', {'form': form,'lid':id,'files':file_attachment,'voices':voices,'req':requested_user})
 
 
 
