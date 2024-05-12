@@ -38,10 +38,11 @@ from django.core.files.storage import default_storage
 
 
 def filter_user(request):
-    if(request.user.username=="admin"):
-        return Purchase.objects.all().order_by('-id')
-    else:
-        return Purchase.objects.filter(PurchaseRequestedUser__userId=request.user).order_by('-id')
+    # if(request.user.username=="admin"):
+    #     return Purchase.objects.all().order_by('-id')
+    # else:
+    #     return Purchase.objects.filter(PurchaseRequestedUser__userId=request.user).order_by('-id')
+    return Purchase.objects.all().order_by('-id')
 ##########################################################
 def list_purchaseRequest(request,id=None):
     #

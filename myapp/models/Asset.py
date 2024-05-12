@@ -12,7 +12,16 @@ from myapp.utils import *
 from myapp.models.stock import *
 from django.db.models import Count
 from django.db.models import Q
+class MachineCategory(models.Model):
+    name=models.CharField("نام",max_length = 50)
+    description=models.CharField("توضیحات",max_length = 50)
 
+    isPartOf = models.ForeignKey('self',on_delete=models.CASCADE,verbose_name="زیر مجموعه",null=True,blank=True)
+    def __str__(self):
+        return self.name
+
+    class Meta:
+       db_table = "machinecategory"
 class Asset(models.Model):
     def __str__(self):
         if(self.assetIsLocatedAt):
@@ -94,7 +103,9 @@ class Asset(models.Model):
     assetModel=models.CharField("مدل",max_length = 50,null=True,blank=True)
     assetSerialNumber=models.CharField("شماره سریال",max_length = 50,null=True,blank=True)
     assetStatus=models.BooleanField("وضعیت",default=True)
+    assetMachineCategory=models.ForeignKey(MachineCategory,on_delete=models.CASCADE,null=True,blank=True,verbose_name="نوع دستگاه")
     assetIsStock=models.BooleanField("انبار",default=False)
+    assetTavali=models.IntegerField("شماره توالی",null=True,blank=True)
 
 
 
@@ -116,6 +127,7 @@ class Asset(models.Model):
 #     class Meta:
 #         db_table="assetmeterreading"
 #
+
 
 class AssetUser(models.Model):
         AssetUserAssetId=models.ForeignKey(Asset,on_delete=models.CASCADE,blank=True,null=True,verbose_name="دارایی")

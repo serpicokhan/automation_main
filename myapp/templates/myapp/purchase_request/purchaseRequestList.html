@@ -56,7 +56,7 @@
                                         class="las la-search scale5 mr-3"></i>جستجو</a>
                             </div>
                         </div>
-                        <div class="d-flex pb-3 mb-4 border-bottom flex-wrap align-items-center">
+                        {% comment %} <div class="d-flex pb-3 mb-4 border-bottom flex-wrap align-items-center">
                           {% for i in status %}
                             <a href="javascript:void(0);" class="btn btn-primary light btn-rounded mr-2 mb-2" date-value={{i.0}}>{{i.1}}</a>
                             {% endfor %}
@@ -68,12 +68,19 @@
                             <a href="javascript:void(0);" class="btn btn-primary light btn-rounded mr-2 mb-2"> -->
               <!-- دیجیتال مارکتینگ -->
             </a>
-                        </div>
+                        </div> {% endcomment %}
                         <div class="d-flex flex-wrap align-items-center mb-4">
                             <div class="mr-auto mb-2 pr-2">
-                                <h6 class="text-black fs-16 font-w600 mb-1">نمایش 19 رکورد</h6>
-                                <span class="fs-14">به میزان تخصص شما</span>
+                                <a type="button" href="{% url 'purchaseRequest_create' %}" class="form-control  mr-3 btn btn-rounded btn-primary">جدید</a>
+
+                                <span class="fs-14"></span>
+
                             </div>
+                            <div class="mr-auto">
+
+
+                            </div>
+
                             <div class="custom-control custom-switch toggle-switch text-right mr-5 mb-2">
                                 <input type="checkbox" class="custom-control-input" id="customSwitch12">
                                 <label class="custom-control-label" for="customSwitch12">حقوق</label>

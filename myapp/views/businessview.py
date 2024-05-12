@@ -27,6 +27,7 @@ from django.urls import reverse_lazy
 from django.db import transaction
 from django.contrib.auth.context_processors import PermWrapper
 from myapp.business.BusiUtil import *
+from openpyxl import load_workbook
 
 
 
@@ -143,6 +144,10 @@ def business_search(request):
     #       'business': wos,'pageType':'business_search','ptr':searchStr})
     data['form_is_valid'] = True
     return JsonResponse(data)
+def col_letter_to_index(letter):
+    index = 0
+    for char in letter:
+        index = index * 26 + (ord(char.upper()) - ord('A')) + 1
 def upload_business(request):
     return render(request, 'myapp/business/businessUpload.html', {})
 def upload_file_business(request):
@@ -166,21 +171,16 @@ def upload_file_business(request):
         ws = workbook.active
         # print(list(iter_rows(ws))[1])
         # Part.objects.filter(id__gt=20).delete()
-        item=Business(pk=None)
+       
         # item_old=Part(pk=None)
         #
-        for i in list(iter_rows(ws)):
-            # print(i[18])
-            # print(i[19])
-            # print(i[21])
-
-            if(i[19]!=None):#id
-                item=Part(pk=None)
-                item.partName=i[18]
-                # print(i[1])
-                item.partDescription=i[14] if(i[14]) else '-'
-                item.partCode=0
-                item.save()
+        sheet = workbook.active
+        for row in sheet.iter_rows(values_only=True):
+                if(row[0] is not None and row[1] is not None):
+                    item=Business(pk=None)
+                    item.name=row[0]
+                    item.code=row[1]                   
+                    item.save()
 
 
 

@@ -40,10 +40,8 @@ def list_part(request,id=None):
     #
     books=[]
 
-    if(request.user.username!="admin"):
-        books = []
-    else:
-        books = Part.objects.all().order_by('partName')
+    
+    books = Part.objects.all().order_by('partName')
     #paging
 
     wos=PartUtility.doPaging(request,books)
@@ -313,6 +311,11 @@ def get_parts(request):
     # response_data = {}
     # response_data['result'] = '[dsadas,dasdasdas]'
     return JsonResponse(x, safe=False)
+def col_letter_to_index(letter):
+    index = 0
+    for char in letter:
+        index = index * 26 + (ord(char.upper()) - ord('A')) + 1
+    return index - 1  # Subtract 1 to make it 0-based index
 def upload_part(request):
     return render(request, 'myapp/part/partUpload.html', {})
 def upload_file_part(request):
@@ -323,17 +326,36 @@ def upload_file_part(request):
         my_file=request.FILES.get('file')
         msg=PartCsvFile.objects.create(msgFile=my_file)
         workbook = load_workbook(filename='media/'+msg.msgFile.name)
-        ws = workbook.active
-        item=Part(pk=None)
-        for i in list(iter_rows(ws)):
+        # ws = workbook.active
+        # item=Part(pk=None)
+        # for i in list(iter_rows(ws)):
 
 
-            if(i[19]!=None):#id
-                item=Part(pk=None)
-                item.partName=i[18]
-                item.partDescription=i[14] if(i[14]) else '-'
-                item.partCode=0
-                item.save()
+        #     if(i[19]!=None):#id
+        #         item=Part(pk=None)
+        #         item.partName=i[18]
+        #         item.partDescription=i[14] if(i[14]) else '-'
+        #         item.partCode=0
+        #         item.save()
+        # sheet = workbook['Sheet1']  # Replace 'Sheet1' with your sheet name
+        
+
+        # Or use the default sheet (usually the first one)
+        sheet = workbook.active
+        for row in sheet.iter_rows(values_only=True):
+                if(row[col_letter_to_index('i')] is not None and row[col_letter_to_index('x')] is not None):
+                    item=Part(pk=None)
+                    item.partName=row[col_letter_to_index('i')]
+                    item.partDescription=row[col_letter_to_index('i')]
+                    item.partCode=row[col_letter_to_index('e')]
+                    item.save()
+                    item2=Part(pk=None)
+                    item2.partName=row[col_letter_to_index('x')]
+                    item2.partDescription=row[col_letter_to_index('x')]
+                    item2.partCode=row[col_letter_to_index('v')]
+                    item2.save()
+                    # print(row[col_letter_to_index('i')],row[col_letter_to_index('x')])
+
 
         data=dict()
         data["id"]=msg.id

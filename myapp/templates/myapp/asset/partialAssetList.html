@@ -13,20 +13,11 @@
 
 
  <td>
-   {% if perms.cmms.view_asset %}
-   <button type="button"
-              class="btn btn-outline btn-warning  btn-sm js-update-asset"
-              data-url="{% url 'asset_update' c.id %}?page={{page}}">
-        <span class="glyphicon glyphicon-pencil"></span>مشاهده
-      </button>
-      {% endif %}
-      {% if perms.cmms.delete_asset %}
-      <button type="button"
-                   class="btn btn-outline btn-danger btn-sm js-delete-asset"
-                   data-url="{% url 'asset_delete' c.id %}?page={{page}}">
-             <span class="glyphicon glyphicon-trash"></span> حذف
-           </button>
-           {% endif %}
+ 
+           <div class="d-flex">
+            <a href="#" class="btn btn-primary shadow btn-xs sharp mr-1 js-update-asset"   data-url="{% url 'asset_update' c.id %}"><i class="fa fa-pencil"></i></a>
+            <a href="#" class="btn btn-danger shadow btn-xs sharp js-delete-asset"  data-url="{% url 'asset_delete' c.id %}"><i class="fa fa-trash"></i></a>
+        </div>
     </td>
 </tr>
 {% empty %}

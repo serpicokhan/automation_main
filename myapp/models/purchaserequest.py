@@ -77,7 +77,7 @@ class PurchaseRequest(models.Model):
     PurchaseRequestDateTo = models.DateField("تاریخ ", auto_now_add=True)
     PurchaseRequestCompletionDate = models.DateField("تاریخ تکمیل",blank=True,null=True)
 
-
+    
     PurchaseRequestPartName=models.ForeignKey("Part",on_delete=models.CASCADE,null=True,blank=True,related_name="RequestedPart",verbose_name="مشخصات قطعه")
     PurchaseRequestMoreInfo=models.CharField("اطلاعات بیشتر",max_length = 100,null=True,blank=True)
     PurchaseRequestAssetNotInInventory=models.CharField("ناموجود در انبار؟ اطلاعات بیشتری شرح دهید",max_length = 100,null=True,blank=True)
