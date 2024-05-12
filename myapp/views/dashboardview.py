@@ -11,7 +11,11 @@ def index(request):
     today=1
     UserUtility.get_user_list(request)
     return render(request,"myapp/index.html",{"today" : today})
-
+@login_required
+def index2(request):
+    today=1
+    UserUtility.get_user_list(request)
+    return render(request,"myapp/index2.html",{"today" : today})
 def calendar(request):
     return render(request,"myapp/dashboard/calendar.html")
 def profile(request):

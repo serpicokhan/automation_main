@@ -11,6 +11,8 @@ urlpatterns = [
     path(        'logout/',        LoginView.as_view(            template_name="myapp/registration/logout.html",            ),        name='logout'),
 
     path('', index, name='index'),
+    path('index2', index2, name='index2'),
+
     url(r'^User/$',list_user,name='list_user'),
     url(r'^User/create/$', user_create, name='user_create'),
     url(r'^User/(?P<id>\d+)/update/$', user_update, name='user_update'),
