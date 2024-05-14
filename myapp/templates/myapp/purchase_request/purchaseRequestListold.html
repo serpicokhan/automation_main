@@ -1,0 +1,159 @@
+<!--pip install django-widget-tweaks-->
+<!--pip install django-widget-tweaks-->
+<!--pip install django-widget-tweaks-->
+<!--pip install django-widget-tweaks-->
+{% extends 'myapp/index.html' %}
+
+ {% block content %}
+{% load static %}
+<!-- <div class="d-flex flex-wrap mb-4 row">
+					<div class="col-xl-3 col-lg-4 mb-2">
+						<h6 class="text-black fs-16 font-w600 mb-1">نمایش 12 رکورد</h6>
+						<span class="fs-14">سرعت بسیار بالا</span>
+					</div>
+					<div class="col-xl-9 col-lg-8 d-flex flex-wrap">
+						<div class="mr-auto">
+							<a href="#" class="btn btn-primary btn-rounded mr-2 mb-2">همه</a>
+							<a href="#" class="btn btn-primary btn-rounded mr-2 light mb-2">در انتظار</a>
+							<a href="#" class="btn btn-primary btn-rounded mr-2 light mb-2">تعلیق</a>
+							<a href="#" class="btn btn-primary btn-rounded mr-2 light mb-2">انجام شده</a>
+						</div>
+						<select class="form-control default-select style-1 mr-3 border-primary">
+							<option>جدیدترین</option>
+							<option>قدیمی ترین</option>
+						</select>
+					</div>
+				</div> -->
+
+                <div class="row">
+                    <div class="col-xl-12">
+                      
+                        {% comment %} <div class="d-flex pb-3 mb-4 border-bottom flex-wrap align-items-center">
+                          {% for i in status %}
+                            <a href="javascript:void(0);" class="btn btn-primary light btn-rounded mr-2 mb-2" date-value={{i.0}}>{{i.1}}</a>
+                            {% endfor %}
+                            <!-- <a href="javascript:void(0);" class="btn btn-primary light btn-rounded mr-2 mb-2">تخصص شما</a>
+                            <a href="javascript:void(0);"
+                               class="btn btn-primary btn-rounded mr-2 mb-2">برنامه نویس</a>
+                            <a href="javascript:void(0);" class="btn btn-primary light btn-rounded mr-2 mb-2">مهندس کامپیوتر</a>
+                            <a href="javascript:void(0);" class="btn btn-primary light btn-rounded mr-2 mb-2">فوتوگراف</a>
+                            <a href="javascript:void(0);" class="btn btn-primary light btn-rounded mr-2 mb-2"> -->
+                        <!-- دیجیتال مارکتینگ -->
+                        </a>
+                        </div> {% endcomment %}
+                        <div class="d-flex flex-wrap align-items-center mb-4">
+                            <div class="mr-auto mb-2 pr-2">
+                                <a type="button" href="{% url 'purchaseRequest_create' %}" class="form-control  mr-3 btn btn-rounded btn-primary">جدید</a>
+
+                                <span class="fs-14"></span>
+
+                            </div>
+                            <div class="mr-auto">
+
+
+                            </div>
+
+                            <div class="custom-control custom-switch toggle-switch text-right mr-5 mb-2">
+                                <input type="checkbox" class="custom-control-input" id="customSwitch12">
+                                <label class="custom-control-label" for="customSwitch12">حقوق</label>
+                            </div>
+                            <select class="form-control default-select style-1 mr-3 border-primary">
+                                <option>جدیدترین</option>
+                                <option>قدیمی ترین</option>
+                            </select>
+                            <ul class="nav grid-tabs">
+                                <li class="nav-item">
+                                    <a href="{% url 'list_item_view' %}" class="nav-link" >
+                                        <svg class="scale5 primary-icon" width="14" height="14" viewBox="0 0 24 24"
+                                             fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M6 7.5H3C2.17275 7.5 1.5 6.82687 1.5 6V3C1.5 2.17313 2.17275 1.5 3 1.5H6C6.82725 1.5 7.5 2.17313 7.5 3V6C7.5 6.82687 6.82725 7.5 6 7.5ZM3 3V6H6.00113L6 3H3ZM22.5 4.5C22.5 4.08544 22.1642 3.75 21.75 3.75H9.75C9.33581 3.75 9 4.08544 9 4.5C9 4.91456 9.33581 5.25 9.75 5.25H21.75C22.1642 5.25 22.5 4.91456 22.5 4.5ZM6 15H3C2.17275 15 1.5 14.3269 1.5 13.5V10.5C1.5 9.67313 2.17275 9 3 9H6C6.82725 9 7.5 9.67313 7.5 10.5V13.5C7.5 14.3269 6.82725 15 6 15ZM3 10.5V13.5H6.00113L6 10.5H3ZM22.5 12C22.5 11.5854 22.1642 11.25 21.75 11.25H9.75C9.33581 11.25 9 11.5854 9 12C9 12.4146 9.33581 12.75 9.75 12.75H21.75C22.1642 12.75 22.5 12.4146 22.5 12ZM6 22.5H3C2.17275 22.5 1.5 21.8269 1.5 21V18C1.5 17.1731 2.17275 16.5 3 16.5H6C6.82725 16.5 7.5 17.1731 7.5 18V21C7.5 21.8269 6.82725 22.5 6 22.5ZM3 18V21H6.00113L6 18H3ZM22.5 19.5C22.5 19.0854 22.1642 18.75 21.75 18.75H9.75C9.33581 18.75 9 19.0854 9 19.5C9 19.9146 9.33581 20.25 9.75 20.25H21.75C22.1642 20.25 22.5 19.9146 22.5 19.5Z"
+                                                  fill="#40189D"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="{% url 'list_purchaseRequest' %}" class="nav-link active" >
+                                        <svg class="scale5" width="14" height="14" viewBox="0 0 24 24" fill="none"
+                                             xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M10 1H2C1.73478 1 1.48043 1.10536 1.29289 1.29289C1.10536 1.48043 1 1.73478 1 2V10C1 10.2652 1.10536 10.5196 1.29289 10.7071C1.48043 10.8946 1.73478 11 2 11H10C10.2652 11 10.5196 10.8946 10.7071 10.7071C10.8946 10.5196 11 10.2652 11 10V2C11 1.73478 10.8946 1.48043 10.7071 1.29289C10.5196 1.10536 10.2652 1 10 1ZM9 9H3V3H9V9Z"
+                                                  fill="white"/>
+                                            <path d="M22 1H14C13.7348 1 13.4804 1.10536 13.2929 1.29289C13.1054 1.48043 13 1.73478 13 2V10C13 10.2652 13.1054 10.5196 13.2929 10.7071C13.4804 10.8946 13.7348 11 14 11H22C22.2652 11 22.5196 10.8946 22.7071 10.7071C22.8946 10.5196 23 10.2652 23 10V2C23 1.73478 22.8946 1.48043 22.7071 1.29289C22.5196 1.10536 22.2652 1 22 1ZM21 9H15V3H21V9Z"
+                                                  fill="white"/>
+                                            <path d="M10 13H2C1.73478 13 1.48043 13.1054 1.29289 13.2929C1.10536 13.4804 1 13.7348 1 14V22C1 22.2652 1.10536 22.5196 1.29289 22.7071C1.48043 22.8946 1.73478 23 2 23H10C10.2652 23 10.5196 22.8946 10.7071 22.7071C10.8946 22.5196 11 22.2652 11 22V14C11 13.7348 10.8946 13.4804 10.7071 13.2929C10.5196 13.1054 10.2652 13 10 13ZM9 21H3V15H9V21Z"
+                                                  fill="white"/>
+                                            <path d="M22 13H14C13.7348 13 13.4804 13.1054 13.2929 13.2929C13.1054 13.4804 13 13.7348 13 14V22C13 22.2652 13.1054 22.5196 13.2929 22.7071C13.4804 22.8946 13.7348 23 14 23H22C22.2652 23 22.5196 22.8946 22.7071 22.7071C22.8946 22.5196 23 22.2652 23 22V14C23 13.7348 22.8946 13.4804 22.7071 13.2929C22.5196 13.1054 22.2652 13 22 13ZM21 21H15V15H21V21Z"
+                                                  fill="white"/>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+<div class="row">
+
+  <div class="col-lg-12">
+    <div class="card">
+                      <div class="card-body">
+                          <div class="table-responsive">
+                              <table class="table table-sm mb-0 table-responsive-lg text-black " id="purchaseRequest-table">
+                                  <thead>
+                                  <tr>
+                                      <th class="align-middle">
+                                          <div class="custom-control custom-checkbox ml-1">
+                                              <input type="checkbox" class="custom-control-input" id="checkAll">
+                                              <label class="custom-control-label" for="checkAll"></label>
+                                          </div>
+                                      </th>
+
+                                      <th class="align-middle pr-7">کد درخواست</th>
+                                      <th class="align-middle minw200">وضعیت</th>
+                                      <th class="align-middle">درخواست کننده</th>
+                                      <th class="align-middle">تاریخ درخواست</th>
+                                      <th class="align-middle">
+
+
+                                      </th>
+                                  </tr>
+                                  </thead>
+                                  <tbody id="orders">
+                                  {% include 'myapp/purchase_request/partialPurchaseRequestList.html' %}
+
+                                  </tbody>
+                              </table>
+                          </div>
+                          <div class="row mt-4">
+                              <div class="col-12 pl-3">
+                                  <nav>
+                                      <ul class="pagination pagination-gutter pagination-primary pagination-sm no-bg">
+                                          {% if rfq.has_previous %}
+                                        <li class="page-item page-indicator"><a class="page-link" href="?page={{ rfq.previous_page_number }}"><i class="la la-angle-left"></i></a></li>
+                                        {% endif %}
+                                          {% for i in rfq.paginator.page_range %}
+                                            {% if  rfq.number  ==  i %}
+                                          <li class="page-item active"><a class="page-link" href="javascript:void()">{{i}}</a></li>
+                                          {% else %}
+                                          <li class="page-item"><a class="page-link" href="?page={{ i }}"">{{i}}</a></li>
+                                          {% endif %}
+                                          {% endfor  %}
+                                            {% if rfq.has_next %}
+                                          <li class="page-item page-indicator"><a class="page-link" href="?page={{ rfq.next_page_number }}"><i class="la la-angle-right"></i></a></li>
+                                          {% endif %}
+                                      </ul>
+                                  </nav>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+  </div>
+</div>
+
+
+
+{% load static %}
+
+{% block javascript %}
+
+  <script src="{% static '/js/project/purchase.js' %}"></script>
+{% endblock %}
+{% endblock %}

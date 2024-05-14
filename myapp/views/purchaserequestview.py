@@ -50,7 +50,7 @@ def list_purchaseRequest(request,id=None):
     books=doPaging(request,books1)
     # print(Status)
     # assets=Asset.objects.filter(assetIsLocatedAt__isnull=True)
-    assets=Asset.objects.all()
+    assets=Asset.objects.filter(assetIsLocatedAt__isnull=True,assetTypes=1)
 
 
     return render(request, 'myapp/purchase_request/purchaseRequestList.html', {'rfq': books,'status':Status,'assets2':assets})
