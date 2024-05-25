@@ -403,6 +403,8 @@ var loadRelatedAsset=function(){
 
 }
 
+
+
 $('#modal-purchaseRequest').on('keyup', function (event) {
 
   var keycode = (event.keyCode ? event.keyCode : event.which);
@@ -410,6 +412,37 @@ $('#modal-purchaseRequest').on('keyup', function (event) {
     alert("AFTER ENTER clicked");
     // $('#getDataBt').click();
   }
+});
+$('#modal-purchaseRequest').on('click','.takepicture', function (event) {
+
+  const video = $("#video");
+  const snapBtn = $("#snap");
+  const photo = $("#photo");
+  
+  let constraints = { audio: false, video: true };
+
+  function takePicture() {
+    const canvas = document.createElement("canvas");
+    canvas.width = video[0].videoWidth;
+    canvas.height = video[0].videoHeight;
+    canvas.getContext("2d").drawImage(video[0], 0, 0);
+
+    const imgData = canvas.toDataURL("image/png");
+    photo.attr("src", imgData);
+    photo.css("display", "block");
+  }
+
+  video.on("loadeddata", function() {
+    snapBtn.on("click", async () => {
+      const stream = await navigator.mediaDevices.getUserMedia(constraints);
+      video[0].srcObject = stream;
+
+      snapBtn.prop("disabled", true);
+      takePicture();
+    });
+
+    
+  });
 });
 $("#p-status").on("change",filter);
 $(".js-create-purchaseRequest").click(myprLoader);
