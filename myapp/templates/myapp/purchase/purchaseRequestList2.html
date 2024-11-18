@@ -1,0 +1,57 @@
+<!--pip install django-widget-tweaks-->
+<!--pip install django-widget-tweaks-->
+
+{% load static %}
+<div class="row">
+  <div class="col-lg-12">
+      <div class="card">
+          <div class="card-body">
+
+              <div class=" ml-0 ml-sm-4 ml-sm-0">
+
+                  <div class="table-responsive example" style="height: 400px;overflow: scroll;">
+                    <style media="screen">
+                      .example::-webkit-scrollbar {
+                            display: none;
+                          }
+
+                          /* Hide scrollbar for IE, Edge and Firefox */
+                          .example {
+                            -ms-overflow-style: none;  /* IE and Edge */
+                            scrollbar-width: none;  /* Firefox */
+                          }
+                    </style>
+                     
+
+                      <!-- BUTTON TO TRIGGER THE ACTION -->
+
+
+                  </div>
+                  <button type="button" class="btn btn-rounded btn-primary btn-xs js-create-purchaseRequest" data-url="{% url 'purchase_item_create' %}?lid={{lid}}"><span class="btn-icon-left text-info"><i class="fa fa-plus color-info"></i>
+                                        </span>جدید
+                                </button>
+                  <div class="modal fade" id="modal-purchaseRequest" style="overflow-y: scroll">
+
+               <div class="modal-dialog  modal-lg ">
+
+
+                 <div class="modal-content ">
+                 </div>
+               </div>
+              </div>
+
+
+                  <!-- panel -->
+
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+{% load static %}
+
+{% block javascript %}
+
+
+  <script src="{% static '/js/project/purchaserequest.js' %}"></script>
+{% endblock %}

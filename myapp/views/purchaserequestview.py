@@ -53,7 +53,7 @@ def list_purchaseRequest(request,id=None):
     assets=Asset.objects.filter(assetIsLocatedAt__isnull=True,assetTypes=1)
 
 
-    return render(request, 'myapp/purchase_request/purchaseRequestList.html', {'rfq': books,'status':Status,'assets2':assets})
+    return render(request, 'myapp/purchase_request/purchaseRequestList2.html', {'rfq': books,'status':Status,'assets2':assets})
 
 def save_purchaseRequest_form(request, form, template_name,id=None):
 
